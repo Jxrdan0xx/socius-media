@@ -1,0 +1,43 @@
+[
+ {"id": "pin1_meet-socius", "slides": [
+  {"type": "cover", "eyebrow": "Meet Socius", "title": "Partners in building <span class='g'>the future.</span>",
+   "sub": "Specialist recruitment for the teams building Web3, crypto and AI."},
+  {"type": "statement", "title": "The right people <span class='g'>change everything.</span>",
+   "sub": "One hire can change a company's trajectory. We help you make the right one."},
+  {"type": "statement", "eyebrow": "What we do", "title": "Specialists, <span class='g'>not generalists.</span>",
+   "chips": ["Web3", "Blockchain", "Crypto", "AI", "DeFi", "Infrastructure"]},
+  {"type": "statement", "eyebrow": "Who we place", "title": "Every layer of <span class='g'>the team.</span>",
+   "rows": [["Protocol & infrastructure engineering"], ["Smart contracts & security"], ["Product & design"], ["Growth, sales & leadership"]]},
+  {"type": "statement", "title": "Long-term partners, <span class='g'>not CV senders.</span>",
+   "sub": "We learn your product, your market and your team, then find the people who actually move things forward."},
+  {"type": "cta", "title": "Building something <span class='g'>ambitious?</span>",
+   "sub": "Let's talk about the team behind it.", "buttons": ["Hiring → link in bio", "Or send us a DM"]}
+ ]},
+ {"id": "pin2_hiring-start-here", "slides": [
+  {"type": "cover", "eyebrow": "For founders & hiring managers", "title": "Hiring? <span class='g'>Start here.</span>",
+   "sub": "How Socius helps Web3, crypto and AI teams hire specialist talent."},
+  {"type": "statement", "title": "Generic searches <span class='g'>miss specialist builders.</span>",
+   "sub": "The best people in this space rarely show up on job boards, and keyword matching can't tell a protocol engineer from a dApp developer."},
+  {"type": "statement", "eyebrow": "Our approach", "title": "We hire for what you <span class='g'>actually need.</span>",
+   "rows": [["The right skills", "Deep technical and functional fit, not keyword matches"], ["Ecosystem experience", "People who already know the chains, tools and culture"], ["Real outcomes", "Hires who ship, scale and stay"]]},
+  {"type": "statement", "eyebrow": "Who we place", "title": "From first engineer <span class='g'>to exec team.</span>",
+   "chips": ["Founding engineers", "Senior technical hires", "Product & design", "Commercial & GTM", "Leadership"]},
+  {"type": "statement", "eyebrow": "How it works", "title": "Three steps <span class='g'>to your hire.</span>",
+   "rows": [["Browse curated profiles", "Explore the Socius talent marketplace"], ["Request candidates", "Tell us who caught your eye, or share your brief"], ["We run the search", "Shortlist, interviews and offer, handled end to end"]]},
+  {"type": "cta", "title": "Ready to <span class='g'>build your team?</span>",
+   "sub": "Browse the talent marketplace:<br><b style='color:#fff'>sociustalent.com/talent</b>", "buttons": ["Link in bio", "Or DM us your brief"]}
+ ]},
+ {"id": "pin3_your-next-move", "slides": [
+  {"type": "cover", "eyebrow": "For candidates", "title": "Your next move <span class='g'>starts here.</span>",
+   "sub": "Roles with the teams building Web3, crypto and AI."},
+  {"type": "statement", "title": "Your next move should <span class='g'>take you somewhere.</span>",
+   "sub": "Not just a new title. A team, a product and a mission worth your time."},
+  {"type": "statement", "eyebrow": "Where we hire", "title": "Roles across <span class='g'>the stack.</span>",
+   "chips": ["Engineering", "Product", "Design", "Growth", "Sales", "Leadership"],
+   "sub": "From early-stage startups to established players, remote and on-site."},
+  {"type": "statement", "eyebrow": "Before you apply", "title": "Apply with <span class='g'>intent.</span>",
+   "rows": [["Read the requirements", "Make sure your experience genuinely matches"], ["Check salary & location", "If it says on-site in NYC, it means it"], ["Quality over quantity", "A few strong applications beat dozens of guesses"]]},
+  {"type": "cta", "title": "Explore <span class='g'>live roles.</span>",
+   "sub": "Every open role, in one place:<br><b style='color:#fff'>sociustalent.com/jobs</b>", "buttons": ["Link in bio", "Or DM us your CV"]}
+ ]}
+]

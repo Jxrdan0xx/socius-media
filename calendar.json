@@ -1,0 +1,27 @@
+{
+  "config": {
+    "metricool_blog_id": "7429706",
+    "timezone": "Europe/London",
+    "network": "instagram",
+    "approval_until": "2026-10-25",
+    "approval_note": "Posts dated on or before approval_until are scheduled with autoPublish=false (Jordan taps publish in the Metricool app). After that date, autoPublish=true.",
+    "raw_base": "https://raw.githubusercontent.com/Jxrdan0xx/socius-media/main/"
+  },
+  "posts": [
+    {"n": 1,  "date": "2026-10-18", "time": "18:00", "pillar": "Hiring intelligence", "topic": "The hiring mistake costing Web3 startups", "format": "carousel", "goal": "Hiring leads", "status": "todo"},
+    {"n": 2,  "date": "2026-10-20", "time": "12:00", "pillar": "Candidate value", "topic": "What strong candidates look for in a startup", "format": "static", "goal": "Authority", "status": "todo"},
+    {"n": 3,  "date": "2026-10-22", "time": "20:00", "pillar": "Hiring intelligence", "topic": "Three signs you need a specialist recruiter", "format": "carousel", "goal": "Business leads", "status": "todo"},
+    {"n": 4,  "date": "2026-10-24", "time": "18:00", "pillar": "Live opportunities", "topic": "Roles worth knowing about (real live roles from sociustalent.com/jobs only)", "format": "carousel", "goal": "Applications", "status": "todo"},
+    {"n": 5,  "date": "2026-10-26", "time": "12:00", "pillar": "Hiring intelligence", "topic": "The perfect candidate doesn't exist", "format": "carousel", "goal": "Engagement", "status": "todo"},
+    {"n": 6,  "date": "2026-10-28", "time": "20:00", "pillar": "Industry insight", "topic": "Great talent isn't limited by geography", "format": "carousel", "goal": "Authority", "status": "todo"},
+    {"n": 7,  "date": "2026-10-30", "time": "18:00", "pillar": "Socius brand and proof", "topic": "Meet the Socius talent marketplace (sociustalent.com/talent)", "format": "carousel", "goal": "Website visits", "status": "todo"},
+    {"n": 8,  "date": "2026-11-01", "time": "12:00", "pillar": "Hiring intelligence", "topic": "What makes a strong founding engineer?", "format": "carousel", "goal": "Hiring leads", "status": "todo"},
+    {"n": 9,  "date": "2026-11-03", "time": "20:00", "pillar": "Candidate value", "topic": "CV mistakes that cost technical candidates interviews", "format": "carousel", "goal": "Candidate growth", "status": "todo"},
+    {"n": 10, "date": "2026-11-05", "time": "18:00", "pillar": "Socius brand and proof", "topic": "Candidate testimonial (reuse ONLY the published DevOps testimonial wording in BRAND.md)", "format": "static", "goal": "Trust", "status": "todo"},
+    {"n": 11, "date": "2026-11-07", "time": "12:00", "pillar": "Industry insight", "topic": "Web3 infrastructure vs product engineering: what's the difference?", "format": "carousel", "goal": "Authority", "status": "todo"},
+    {"n": 12, "date": "2026-11-09", "time": "20:00", "pillar": "Live opportunities", "topic": "Selected live roles and salary ranges (real live roles from sociustalent.com/jobs only)", "format": "carousel", "goal": "Applications", "status": "todo"},
+    {"n": 13, "date": "2026-11-11", "time": "18:00", "pillar": "Candidate value", "topic": "Five questions to ask before joining a startup", "format": "carousel", "goal": "Candidate growth", "status": "todo"},
+    {"n": 14, "date": "2026-11-13", "time": "12:00", "pillar": "Hiring intelligence", "topic": "When should a startup bring in a recruiter?", "format": "carousel", "goal": "Business leads", "status": "todo"},
+    {"n": 15, "date": "2026-11-15", "time": "20:00", "pillar": "Socius brand and proof", "topic": "Hiring or looking? Here's how to work with Socius (month wrap-up, evergreen CTA)", "format": "static", "goal": "Conversion", "status": "todo"}
+  ]
+}
