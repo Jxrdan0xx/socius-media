@@ -19,6 +19,14 @@
   "monthly_post_budget": {
    "limit": 20,
    "note": "Metricool free plan: about 20 scheduled posts per calendar month, each network counts as one post. So ~10 calendar posts a month (one every ~3 days), each on IG + LinkedIn. Before scheduling, count posts already scheduled/published in Metricool for that month; if the budget would be exceeded, move the post to next month and tell Jordan. Jordan is happy to upgrade (Starter) if this proves limiting."
+  },
+  "x": {
+   "enabled": true,
+   "tool": "Typefully (social_set_id 344798, account @socius_talent)",
+   "budget": "Typefully free plan: 10 published posts per calendar month (check get_social_set_details publishing_quota before scheduling). About one X post per calendar post.",
+   "format": "Adapt, don't copy. Carousels become a 3-6 post thread (hook first, one idea per post, CTA + https link last). Static posts become a single punchy post. Max ~260 chars per post. 0-2 hashtags. Crypto moments and conferences are X's strongest content.",
+   "media": "Image upload currently blocked from the workspace (typefully-user-uploads.s3.amazonaws.com not on the network allowlist). Post text-only until Jordan allows that host; then attach the cover slide (max 4 images) via create_media_upload + curl -T.",
+   "times": "Same day as Instagram, 16:30 or 17:30 Europe/London (EU evening + US East morning). Use publish_at with an explicit datetime."
   }
  },
  "posts": [
@@ -39,6 +47,11 @@
     "status": "scheduled",
     "metricool_id": 396264123,
     "date": "2026-10-19 08:45"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11257464,
+    "date": "2026-10-18 17:00"
    }
   },
   {

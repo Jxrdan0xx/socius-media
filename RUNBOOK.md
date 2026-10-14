@@ -1,4 +1,4 @@
-# Runbook: schedule the next Socius Instagram post
+# Runbook: schedule the next Socius post (Instagram + LinkedIn via Metricool, X via Typefully)
 
 Run this whenever the scheduled task fires. It is idempotent: safe to run daily.
 
@@ -18,6 +18,7 @@ Run this whenever the scheduled task fires. It is idempotent: safe to run daily.
 8b. LinkedIn: always also schedule a separate LinkedIn post (provider linkedin) following `config.linkedin` (times, PDF-document format, rewritten caption). Same autoPublish rule. Record it under the post's `linkedin` key.
    Budget: follow `config.monthly_post_budget` (count this month's Metricool posts first). If Metricool still returns a plan/quota error, keep Instagram, skip LinkedIn, and tell Jordan in the summary.
    LinkedIn may only be available on a Metricool trial. If LinkedIn scheduling fails because the network is disconnected or not on the plan, set `config.linkedin.enabled` to false, carry on with Instagram only (at most 20 Instagram posts/month), and tell Jordan once.
+8c. X: if `config.x.enabled`, schedule an X version in Typefully following `config.x` (thread for carousels, single post for statics; check publishing_quota first; if no quota left this month, skip X and say so). Record it under the post's `x` key. Never use publish_at="now".
 9. Set the post's `status` to `scheduled`, add `metricool_id` and `planner_url`, commit and push.
 10. Final message: one short summary for Jordan: post title, date/time, slide count, caption hook, planner link, and whether he needs to tap publish.
 
