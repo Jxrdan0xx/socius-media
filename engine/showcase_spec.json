@@ -1,0 +1,12 @@
+[
+ {"id":"t1-terminal","theme":"terminal","slides":[
+  {"type":"stat","eyebrow":"31.10.2008","stat":"18","unit":"years since bitcoin.pdf","sub":"A 9-page paper sent to a cryptography mailing list by Satoshi Nakamoto. Happy whitepaper day."}]},
+ {"id":"t2-gradient","theme":"gradient","slides":[
+  {"type":"event","eyebrow":"Coming to our doorstep","day":"15–17","month":"NOV 2026","title":"Solana Breakpoint lands in <span class='g'>London.</span>","place":"Olympia, London","sub":"Who's going? Let us know in the comments."}]},
+ {"id":"t3-light","theme":"light","slides":[
+  {"type":"question","eyebrow":"Settle this","title":"Founding engineers: <span class='g'>remote or in the room?</span>","options":["Fully remote, hire the best anywhere","In person, speed beats reach","Hybrid, a few days together"],"sub":"Comment A, B or C."}]},
+ {"id":"t4-photo","theme":"photo","slides":[
+  {"type":"cover","bg":"../posts/photos/example.jpg","eyebrow":"Behind Socius","title":"One year of <span class='g'>Socius.</span>","sub":"Your own photos make the best posts."}]},
+ {"id":"t5-midnight","theme":"midnight","slides":[
+  {"type":"quote","eyebrow":"Hiring managers say","quote":"When I'm hiring, he doesn't just send CVs. He identifies the exact culture fit and technical caliber needed to move the needle.","name":"Samuel Dare","role":"Founder and hiring manager"}]}
+]

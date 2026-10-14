@@ -1,0 +1,66 @@
+{
+ "note": "Key dates for culture & moments posts. Always re-verify event dates online before posting. Socius is NOT attending any event unless Jordan has said so.",
+ "dates": [
+  {
+   "date": "2026-10-31",
+   "name": "Bitcoin whitepaper anniversary (published 31 Oct 2008)",
+   "type": "crypto"
+  },
+  {
+   "date": "2026-11-03/06",
+   "name": "Devcon 8, Ethereum Foundation, Jio World Centre, Mumbai",
+   "type": "conference"
+  },
+  {
+   "date": "2026-11-15/17",
+   "name": "Solana Breakpoint 2026, Olympia, London",
+   "type": "conference",
+   "note": "Local to Socius. Big BD opportunity"
+  },
+  {
+   "date": "2026-11-18/20",
+   "name": "Singapore FinTech Festival",
+   "type": "conference"
+  },
+  {
+   "date": "2026-11-26",
+   "name": "US Thanksgiving",
+   "type": "holiday"
+  },
+  {
+   "date": "2026-12-01/02",
+   "name": "Blockchain Life 2026, Dubai",
+   "type": "conference"
+  },
+  {
+   "date": "2026-12-25",
+   "name": "Christmas",
+   "type": "holiday"
+  },
+  {
+   "date": "2027-01-01",
+   "name": "New Year",
+   "type": "holiday"
+  },
+  {
+   "date": "2027-01-03",
+   "name": "Bitcoin genesis block anniversary (mined 3 Jan 2009)",
+   "type": "crypto"
+  },
+  {
+   "date": "2027-05-22",
+   "name": "Bitcoin Pizza Day (22 May 2010)",
+   "type": "crypto"
+  },
+  {
+   "date": "2027-07-30",
+   "name": "Ethereum mainnet anniversary (30 Jul 2015)",
+   "type": "crypto"
+  },
+  {
+   "date": "recurring",
+   "name": "Eid al-Fitr, Easter, Diwali, Lunar New Year: check dates each year; Jordan has posted Eid and Easter before",
+   "type": "holiday"
+  }
+ ]
+}
