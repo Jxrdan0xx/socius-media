@@ -1,0 +1,14 @@
+[{"id": "hiring-mistake", "slides": [
+ {"type": "cover", "eyebrow": "For founders", "title": "The hiring mistake costing <span class='g'>Web3 startups.</span>",
+  "sub": "It's not salary. It's not location. It's what you're screening for."},
+ {"type": "statement", "title": "Hiring for the logo, <span class='g'>not the stage.</span>",
+  "sub": "A strong CV from a big exchange or L1 doesn't mean someone can build from zero with three people and no playbook."},
+ {"type": "statement", "eyebrow": "What it costs you", "title": "One wrong senior hire <span class='g'>sets you back.</span>",
+  "rows": [["Runway", "Salary, equity and months you can't get back"], ["Momentum", "The roadmap stalls while you rehire"], ["Team trust", "Your early team feels every wrong hire"]]},
+ {"type": "statement", "eyebrow": "Screen for this instead", "title": "Stage fit <span class='g'>beats pedigree.</span>",
+  "rows": [["Have they built at your stage?", "0→1 is a different job from scaling 10→100"], ["Do they ship without a playbook?", "Ask what they built and owned end to end"], ["Do they know the ecosystem?", "Chains, tooling and culture matter on day one"]]},
+ {"type": "statement", "title": "Specialists spot <span class='g'>the difference.</span>",
+  "sub": "We hire across Web3, crypto and AI every day. We know which backgrounds translate to your stage, and which don't."},
+ {"type": "cta", "title": "Hiring your next <span class='g'>key builder?</span>",
+  "sub": "Tell us the role. We'll tell you what to screen for.", "buttons": ["DM us your brief", "Browse talent → link in bio"]}
+]}]
