@@ -3,7 +3,9 @@
 Usage: python3 engine/build.py <spec.json> <out_dir>
 Spec: list of posts {"id": str, "slides": [slide, ...]}. One slide = static post.
 Slide fields: type (cover|statement|cta), eyebrow, title (wrap highlight words in
-<span class='g'>..</span>), sub, chips [str], rows [[title, desc?]], buttons [str].
+<span class='g'>..</span>), sub,
+  quote slides: quote, name, role (optional eyebrow, no title). Keep quotes <= 330 chars per slide.
+  chips [str], rows [[title, desc?]], buttons [str].
 See engine/example_spec.json.
 """
 import base64, json, sys, pathlib
@@ -58,6 +60,12 @@ h2{font:700 82px/1.08 'Poppins';letter-spacing:-.02em}
 .bar{display:flex;gap:8px}.bar i{width:26px;height:6px;border-radius:3px;background:rgba(255,255,255,.18)}
 .bar i.on{background:linear-gradient(90deg,#A21CF0,#14A0F8);width:52px}
 .bigmark{height:150px;margin-bottom:56px;align-self:flex-start}
+.qm{font:700 240px/0.75 'DejaVu Serif',serif;height:120px;background:linear-gradient(135deg,#B03BFF,#1BA6FF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.quote{font:500 50px/1.32 'Poppins';letter-spacing:-.01em;margin-top:20px}
+.quote.sm{font-size:42px}.quote.xs{font-size:36px;line-height:1.38}
+.who{margin-top:52px;display:flex;align-items:center;gap:22px}
+.who .bar2{width:6px;height:84px;border-radius:3px;background:linear-gradient(180deg,#A21CF0,#14A0F8)}
+.who .nm{font:600 34px 'Poppins'}.who .rl{font:400 28px 'Inter';color:rgba(255,255,255,.62);margin-top:4px}
 """
 
 def slide(s, i, n):
@@ -65,8 +73,14 @@ def slide(s, i, n):
     ghost = f'<img class="ghost" src="{MARK}">' if t in ("cover", "cta") else ""
     if s.get("eyebrow"): h += f'<div class="eyebrow">{s["eyebrow"]}</div>'
     if t == "cta": h = f'<img class="bigmark" src="{MARK}">' + h
-    tag = "h1" if t == "cover" else "h2"
-    h += f'<{tag}>{s["title"]}</{tag}>'
+    if t == "quote":
+        q = s["quote"]; size = "" if len(q) < 170 else ("sm" if len(q) < 260 else "xs")
+        h += f'<div class="qm">“</div><p class="quote {size}">{q}</p>'
+        h += (f'<div class="who"><div class="bar2"></div><div><div class="nm">{s["name"]}</div>'
+              f'<div class="rl">{s.get("role", "")}</div></div></div>')
+    else:
+        tag = "h1" if t == "cover" else "h2"
+        h += f'<{tag}>{s["title"]}</{tag}>'
     if s.get("sub"): h += f'<p class="sub">{s["sub"]}</p>'
     if s.get("chips"): h += '<div class="chips">' + "".join(f'<span class="chip">{c}</span>' for c in s["chips"]) + "</div>"
     if s.get("rows"):

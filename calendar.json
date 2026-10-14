@@ -106,10 +106,12 @@
    "date": "2026-11-05",
    "time": "18:00",
    "pillar": "Socius brand and proof",
-   "topic": "Candidate testimonial (reuse ONLY the published DevOps testimonial wording in BRAND.md)",
-   "format": "static",
+   "topic": "Candidate story: Kami Ho (Reya Labs), from TESTIMONIALS.md",
+   "format": "carousel",
    "goal": "Trust",
-   "status": "todo"
+   "status": "todo",
+   "folder": "posts/2026-11-05_kami-story",
+   "testimonial": "Kami Ho"
   },
   {
    "n": 11,
@@ -156,10 +158,22 @@
    "date": "2026-11-15",
    "time": "20:00",
    "pillar": "Socius brand and proof",
-   "topic": "Hiring or looking? Here's how to work with Socius (month wrap-up, evergreen CTA)",
-   "format": "static",
-   "goal": "Conversion",
-   "status": "todo"
+   "topic": "What hiring managers say: client testimonials carousel (Samuel Dare, Martin Hansen, Michael Brown from TESTIMONIALS.md) + CTA to sociustalent.com/talent",
+   "format": "carousel",
+   "goal": "Business leads",
+   "status": "todo",
+   "testimonial": "Samuel Dare; Martin Hansen; Michael Brown"
+  },
+  {
+   "n": 16,
+   "date": "2026-11-17",
+   "time": "18:00",
+   "pillar": "Socius brand and proof",
+   "topic": "Meet Josh: client testimonial from Borja Moll Calvo (Josh's, in TESTIMONIALS.md). Credit Joshua Moore, Blockchain Recruiter at Socius",
+   "format": "carousel",
+   "goal": "Business leads",
+   "status": "todo",
+   "testimonial": "Borja Moll Calvo"
   }
  ],
  "pinned": [
