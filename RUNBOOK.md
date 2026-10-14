@@ -15,6 +15,8 @@ Run this whenever the scheduled task fires. It is idempotent: safe to run daily.
    - `media`: raw GitHub URLs of the slides in order.
    - `autoPublish`: `false` if the post date ≤ `config.approval_until`, else `true`.
    - `text`: the caption.
+8b. LinkedIn: if the post qualifies under `config.linkedin.rule`, also schedule a separate LinkedIn post (provider linkedin) following `config.linkedin` (times, PDF-document format, rewritten caption). Same autoPublish rule. Record it under the post's `linkedin` key.
+   If Metricool returns a plan/quota limit error, skip LinkedIn (Instagram has priority) and tell Jordan in the summary.
 9. Set the post's `status` to `scheduled`, add `metricool_id` and `planner_url`, commit and push.
 10. Final message: one short summary for Jordan: post title, date/time, slide count, caption hook, planner link, and whether he needs to tap publish.
 
