@@ -25,7 +25,7 @@
    "tool": "Typefully (social_set_id 344798, account @socius_talent)",
    "budget": "Typefully free plan: 10 published posts per calendar month (check get_social_set_details publishing_quota before scheduling). About one X post per calendar post.",
    "format": "Adapt, don't copy. Carousels become a 3-6 post thread (hook first, one idea per post, CTA + https link last). Static posts become a single punchy post. Max ~260 chars per post. 0-2 hashtags. Crypto moments and conferences are X's strongest content.",
-   "media": "Image upload currently blocked from the workspace (typefully-user-uploads.s3.amazonaws.com not on the network allowlist). Post text-only until Jordan allows that host; then attach the cover slide (max 4 images) via create_media_upload + curl -T.",
+   "media": "Attach the cover slide to the first post of each thread (up to 4 images per post; for statics attach the image). Upload: create_media_upload, then `curl -T <file> '<upload_url>'` (no extra headers), then poll get_media_status until ready. Set alt_text. If upload fails, post text-only and say so.",
    "times": "Same day as Instagram, 16:30 or 17:30 Europe/London (EU evening + US East morning). Use publish_at with an explicit datetime."
   }
  },
