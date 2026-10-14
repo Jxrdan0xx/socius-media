@@ -5,7 +5,10 @@
   "network": "instagram",
   "approval_until": "2026-10-25",
   "approval_note": "Posts dated on or before approval_until are scheduled with autoPublish=false (Jordan taps publish in the Metricool app). After that date, autoPublish=true.",
-  "raw_base": "https://raw.githubusercontent.com/Jxrdan0xx/socius-media/main/"
+  "raw_base": "https://raw.githubusercontent.com/Jxrdan0xx/socius-media/main/",
+  "confirmed_events": [
+   "Solana Breakpoint 2026, London, 15\u201317 Nov: Jordan attending"
+  ]
  },
  "posts": [
   {
@@ -162,10 +165,11 @@
    "time": "18:00",
    "theme": "gradient",
    "pillar": "Culture & moments",
-   "topic": "Solana Breakpoint comes to London, 15\u201317 Nov 2026, Olympia. 'It's on our doorstep. Who's going?' Ask Jordan beforehand whether Socius is attending; if unknown, don't claim it",
+   "topic": "We'll be at Solana Breakpoint, London, 15\u201317 Nov 2026 (Olympia). Jordan is attending (confirmed). Event card + 'Hiring for your Solana team, or exploring your next move? Let's grab a coffee at Breakpoint. DM us.'",
    "format": "static",
-   "goal": "Engagement / BD",
-   "status": "todo"
+   "goal": "BD: in-person meetings",
+   "status": "todo",
+   "confirmed": "Jordan attending"
   },
   {
    "n": 15,
@@ -194,6 +198,17 @@
    "n": 17,
    "date": "2026-11-19",
    "time": "18:00",
+   "theme": "photo",
+   "pillar": "Culture & moments",
+   "topic": "Breakpoint London recap: what we heard from founders and builders. Use Jordan's Breakpoint photos from posts/photos/ if added; if none, use gradient theme and keep it to genuine, general takeaways (ask nothing invented). If Jordan hasn't shared anything about the event by 18 Nov, swap for a 'Thanks to everyone we met at Breakpoint' post without specifics.",
+   "format": "carousel",
+   "goal": "Engagement / BD",
+   "status": "todo"
+  },
+  {
+   "n": 18,
+   "date": "2026-11-21",
+   "time": "12:00",
    "pillar": "Socius brand and proof",
    "topic": "Meet Josh: client testimonial from Borja Moll Calvo (Josh's, in TESTIMONIALS.md). Credit Joshua Moore, Blockchain Recruiter at Socius",
    "format": "carousel",
@@ -202,17 +217,6 @@
    "testimonial": "Borja Moll Calvo",
    "theme": "gradient",
    "note": "Use photo theme instead if a photo of Josh is in posts/photos/"
-  },
-  {
-   "n": 18,
-   "date": "2026-11-21",
-   "time": "12:00",
-   "theme": "terminal",
-   "pillar": "Industry insight",
-   "topic": "Skills Web3 and AI startups are hiring for right now (keep general, no invented stats)",
-   "format": "carousel",
-   "goal": "Authority",
-   "status": "todo"
   },
   {
    "n": 19,
@@ -234,6 +238,17 @@
    "topic": "Happy Thanksgiving to our US network (clients, candidates, partners). Warm, short, on-brand palette, no stock harvest art",
    "format": "static",
    "goal": "Community",
+   "status": "todo"
+  },
+  {
+   "n": 21,
+   "date": "2026-11-28",
+   "time": "12:00",
+   "theme": "terminal",
+   "pillar": "Industry insight",
+   "topic": "Skills Web3 and AI startups are hiring for right now (keep general, no invented stats)",
+   "format": "carousel",
+   "goal": "Authority",
    "status": "todo"
   }
  ],

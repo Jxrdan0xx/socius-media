@@ -20,7 +20,7 @@ Both, with emphasis on business growth: founders, CTOs, heads of engineering and
 2. **Live roles**: only roles currently listed at sociustalent.com/jobs, with title, sector, location and salary exactly as listed. If the jobs page can't be read, swap the post for an evergreen hiring-intelligence topic instead.
 3. **Testimonials**: only from `TESTIMONIALS.md`, word for word (trim with "…", fix typos only). Use the `quote` slide type. Credit full name + role as listed. Never reuse one within 6 weeks.
 4. Holidays are welcome (Jordan's audience is global), but keep them on-brand and short. Never post generic stock-style holiday art.
-5. Events/conferences: never claim Socius is attending, speaking or hosting unless Jordan has said so in calendar.json or BRAND.md.
+5. Events/conferences: never claim Socius is attending, speaking or hosting unless Jordan has said so (see `config.confirmed_events` in calendar.json). Confirmed: Jordan is attending Solana Breakpoint 2026, London, 15–17 Nov.
 
 ## Content mix (rough targets)
 - Hiring intelligence (founders/CTOs): 25%
