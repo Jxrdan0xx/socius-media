@@ -15,11 +15,11 @@ Run this whenever the scheduled task fires. It is idempotent: safe to run daily.
    - `media`: raw GitHub URLs of the slides in order.
    - `autoPublish`: `false` if the post date ≤ `config.approval_until`, else `true`.
    - `text`: the caption.
-8b. LinkedIn: if the post qualifies under `config.linkedin.rule`, also schedule a separate LinkedIn post (provider linkedin) following `config.linkedin` (times, PDF-document format, rewritten caption). Same autoPublish rule. Record it under the post's `linkedin` key.
-   If Metricool returns a plan/quota limit error, skip LinkedIn (Instagram has priority) and tell Jordan in the summary.
+8b. LinkedIn: always also schedule a separate LinkedIn post (provider linkedin) following `config.linkedin` (times, PDF-document format, rewritten caption). Same autoPublish rule. Record it under the post's `linkedin` key.
+   Budget: follow `config.monthly_post_budget` (count this month's Metricool posts first). If Metricool still returns a plan/quota error, keep Instagram, skip LinkedIn, and tell Jordan in the summary.
 9. Set the post's `status` to `scheduled`, add `metricool_id` and `planner_url`, commit and push.
 10. Final message: one short summary for Jordan: post title, date/time, slide count, caption hook, planner link, and whether he needs to tap publish.
 
-When fewer than 5 `todo` posts remain, draft the next 15 using the content mix and theme rules in BRAND.md, slotting in every relevant date from `moments.json` (verify event dates online first; add new conferences you find). Roughly every other day, rotating 18:00 / 12:00 / 20:00. Append them as `todo` with a `theme`, and list the new topics in the summary so Jordan can veto any.
+When fewer than 5 `todo` posts remain, draft the next 15 using the content mix and theme rules in BRAND.md, slotting in every relevant date from `moments.json` (verify event dates online first; add new conferences you find). About 10 posts per calendar month (one every ~3 days, within `config.monthly_post_budget`), rotating Instagram times 18:00 / 12:00 / 20:00. Append them as `todo` with a `theme`, and list the new topics in the summary so Jordan can veto any.
 
 Photos: if Jordan has added new images to `posts/photos/`, plan a `photo` theme post around them within the next week.

@@ -11,10 +11,14 @@
   ],
   "linkedin": {
    "enabled": true,
-   "rule": "Cross-post to the Socius LinkedIn company page only for business-facing posts: pillars Hiring intelligence, Industry insight, client-side testimonials, Socius brand/marketplace, and events Jordan attends. Skip candidate tips, live-role lists, polls and holidays (except Christmas/New Year).",
-   "times": "Weekdays only, 08:45 or 12:15 Europe/London, on or after the Instagram date (weekend IG posts go to LinkedIn on Monday).",
-   "format": "Same images with linkedinData.publishImagesAsPDF=true and a documentTitle (swipeable document). Separate Metricool post with provider linkedin.",
-   "caption": "Rewrite for LinkedIn: first person from Jordan where natural, a bit longer and more considered, full https:// links (they're clickable), max 3 hashtags, no 'link in bio'."
+   "rule": "Every post goes to BOTH Instagram and the Socius LinkedIn company page, as two separate Metricool posts.",
+   "times": "LinkedIn: weekdays only, 08:45 or 12:15 Europe/London, on the Instagram date or the next weekday.",
+   "format": "Same images. Carousels: linkedinData.publishImagesAsPDF=true with a documentTitle (swipeable document). Single image: normal image post.",
+   "caption": "Rewrite for LinkedIn: first person from Jordan where natural, a little longer and more considered, full https:// links (clickable), max 3 hashtags, never 'link in bio'."
+  },
+  "monthly_post_budget": {
+   "limit": 20,
+   "note": "Metricool free plan: about 20 scheduled posts per calendar month, each network counts as one post. So ~10 calendar posts a month (one every ~3 days), each on IG + LinkedIn. Before scheduling, count posts already scheduled/published in Metricool for that month; if the budget would be exceeded, move the post to next month and tell Jordan. Jordan is happy to upgrade (Starter) if this proves limiting."
   }
  },
  "posts": [
@@ -139,21 +143,10 @@
    "theme": "midnight"
   },
   {
-   "n": 11,
-   "date": "2026-11-07",
-   "time": "12:00",
-   "theme": "terminal",
-   "pillar": "Industry insight",
-   "topic": "Web3 infrastructure vs product engineering: what's the difference?",
-   "format": "carousel",
-   "goal": "Authority",
-   "status": "todo"
-  },
-  {
    "n": 12,
    "date": "2026-11-09",
    "time": "20:00",
-   "theme": "midnight",
+   "theme": "terminal",
    "pillar": "Live opportunities",
    "topic": "Selected live roles and salary ranges (real live roles from sociustalent.com/jobs only)",
    "format": "carousel",
@@ -196,17 +189,6 @@
    "theme": "midnight"
   },
   {
-   "n": 16,
-   "date": "2026-11-17",
-   "time": "12:00",
-   "theme": "light",
-   "pillar": "Candidate value",
-   "topic": "CV mistakes that cost technical candidates interviews",
-   "format": "carousel",
-   "goal": "Candidate growth",
-   "status": "todo"
-  },
-  {
    "n": 17,
    "date": "2026-11-19",
    "time": "18:00",
@@ -231,17 +213,6 @@
    "note": "Use photo theme instead if a photo of Josh is in posts/photos/"
   },
   {
-   "n": 19,
-   "date": "2026-11-23",
-   "time": "20:00",
-   "theme": "midnight",
-   "pillar": "Hiring intelligence",
-   "topic": "When should a startup bring in a recruiter?",
-   "format": "carousel",
-   "goal": "Business leads",
-   "status": "todo"
-  },
-  {
    "n": 20,
    "date": "2026-11-26",
    "time": "18:00",
@@ -253,15 +224,52 @@
    "status": "todo"
   },
   {
-   "n": 21,
-   "date": "2026-11-28",
+   "n": 11,
+   "date": "2026-12-01",
    "time": "12:00",
    "theme": "terminal",
+   "pillar": "Industry insight",
+   "topic": "Web3 infrastructure vs product engineering: what's the difference?",
+   "format": "carousel",
+   "goal": "Authority",
+   "status": "todo",
+   "note": "Moved to December to stay within the 20 posts/month budget"
+  },
+  {
+   "n": 16,
+   "date": "2026-12-04",
+   "time": "18:00",
+   "theme": "light",
+   "pillar": "Candidate value",
+   "topic": "CV mistakes that cost technical candidates interviews",
+   "format": "carousel",
+   "goal": "Candidate growth",
+   "status": "todo",
+   "note": "Moved to December to stay within the 20 posts/month budget"
+  },
+  {
+   "n": 19,
+   "date": "2026-12-07",
+   "time": "12:00",
+   "theme": "midnight",
+   "pillar": "Hiring intelligence",
+   "topic": "When should a startup bring in a recruiter?",
+   "format": "carousel",
+   "goal": "Business leads",
+   "status": "todo",
+   "note": "Moved to December to stay within the 20 posts/month budget"
+  },
+  {
+   "n": 21,
+   "date": "2026-12-10",
+   "time": "20:00",
+   "theme": "gradient",
    "pillar": "Industry insight",
    "topic": "Skills Web3 and AI startups are hiring for right now (keep general, no invented stats)",
    "format": "carousel",
    "goal": "Authority",
-   "status": "todo"
+   "status": "todo",
+   "note": "Moved to December to stay within the 20 posts/month budget"
   }
  ],
  "pinned": [
