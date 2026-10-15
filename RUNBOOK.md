@@ -13,7 +13,7 @@ Run this whenever the scheduled task fires. It is idempotent: safe to run daily.
 8. Schedule in Metricool with `createScheduledPost`:
    - `blogId` 7429706, provider instagram, `instagramData.type` POST, date/time from the calendar, timezone Europe/London.
    - `media`: raw GitHub URLs of the slides in order.
-   - `autoPublish`: `false` if the post date ≤ `config.approval_until`, else `true`.
+   - `autoPublish`: always `true` (see config.approval_note; false means manual posting by Jordan).
    - `text`: the caption.
 8b. LinkedIn: always also schedule a separate LinkedIn post (provider linkedin) following `config.linkedin` (times, PDF-document format, rewritten caption). Same autoPublish rule. Record it under the post's `linkedin` key.
    Budget: follow `config.monthly_post_budget` (count this month's Metricool posts first). If Metricool still returns a plan/quota error, keep Instagram, skip LinkedIn, and tell Jordan in the summary.

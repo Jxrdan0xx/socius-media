@@ -3,8 +3,8 @@
   "metricool_blog_id": "7429706",
   "timezone": "Europe/London",
   "network": "instagram",
-  "approval_until": "2026-10-25",
-  "approval_note": "Posts dated on or before approval_until are scheduled with autoPublish=false (Jordan taps publish in the Metricool app). After that date, autoPublish=true.",
+  "approval_until": "2026-10-14",
+  "approval_note": "Always autoPublish=true. autoPublish=false in Metricool does NOT mean 'tap to approve': it emails Jordan the files to post by hand. Jordan reviews via the summary each run sends and can edit or delete in the Metricool planner before post time.",
   "raw_base": "https://raw.githubusercontent.com/Jxrdan0xx/socius-media/main/",
   "confirmed_events": [
    "Solana Breakpoint 2026, London, 15\u201317 Nov: Jordan attending"
@@ -39,13 +39,13 @@
    "format": "carousel",
    "goal": "Hiring leads",
    "status": "scheduled",
-   "metricool_id": 396238837,
+   "metricool_id": 396863167,
    "folder": "posts/2026-10-18_hiring-mistake",
    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=6432567660100011024",
    "theme": "midnight",
    "linkedin": {
     "status": "scheduled",
-    "metricool_id": 396264123,
+    "metricool_id": 396863374,
     "date": "2026-10-19 08:45"
    },
    "x": {
@@ -289,22 +289,23 @@
   {
    "date": "2026-10-15 12:00",
    "post": "Your next move",
-   "metricool_id": 396237278
+   "metricool_id": 396237278,
+   "status": "published manually by Jordan 15 Oct"
   },
   {
    "date": "2026-10-15 18:00",
    "post": "Hiring? Start here",
-   "metricool_id": 396237352,
+   "metricool_id": 396863067,
    "linkedin": {
     "status": "scheduled",
-    "metricool_id": 396264069,
+    "metricool_id": 396863248,
     "date": "2026-10-16 08:45"
    }
   },
   {
    "date": "2026-10-16 18:00",
    "post": "Meet Socius",
-   "metricool_id": 396237406
+   "metricool_id": 396863091
   }
  ]
 }
