@@ -11,7 +11,7 @@ Run this whenever the scheduled task fires. It is idempotent: safe to run daily.
 6. Render: `python3 engine/build.py posts/<date>_<slug>/spec.json posts/<date>_<slug>/`. Check every slide image visually. Fix and re-render if anything is clipped or wrong.
 7. Commit and push (`git config user.name Claude; git config user.email noreply@anthropic.com`). Confirm one image URL returns 200: `curl -sI <raw_base>posts/<date>_<slug>/<slug>_01.jpg`.
 8. Schedule in Metricool with `createScheduledPost`:
-   - `blogId` 7429706, provider instagram, `instagramData.type` POST, date/time from the calendar, timezone Europe/London.
+   - `blogId` 7429706, providers instagram + facebook (if `config.facebook.enabled`, same post; add `facebookData: {type: POST}`), `instagramData.type` POST, date/time from the calendar, timezone Europe/London.
    - `media`: raw GitHub URLs of the slides in order.
    - `autoPublish`: always `true` (see config.approval_note; false means manual posting by Jordan).
    - `text`: the caption.
