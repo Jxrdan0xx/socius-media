@@ -1,0 +1,30 @@
+[
+ {
+  "id": "before-they-say-yes",
+  "theme": "light",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "What strong candidates <span class='g'>check first.</span>",
+    "rows": [
+     [
+      "Runway",
+      "How long the money lasts, and what happens next"
+     ],
+     [
+      "The founders",
+      "Who they'll learn from, and how decisions get made"
+     ],
+     [
+      "Real ownership",
+      "What they'll build, not just what they'll maintain"
+     ],
+     [
+      "A clear offer",
+      "Equity they understand, and a fair process"
+     ]
+    ]
+   }
+  ]
+ }
+]
