@@ -7,7 +7,7 @@
   "approval_note": "Always autoPublish=true. autoPublish=false in Metricool does NOT mean 'tap to approve': it emails Jordan the files to post by hand. Jordan reviews via the summary each run sends and can edit or delete in the Metricool planner before post time.",
   "raw_base": "https://raw.githubusercontent.com/Jxrdan0xx/socius-media/main/",
   "confirmed_events": [
-   "Solana Breakpoint 2026, London, 15\u201317 Nov: Jordan attending"
+   "Solana Breakpoint 2026, London, 15–17 Nov: Jordan attending"
   ],
   "linkedin": {
    "enabled": true,
@@ -69,7 +69,21 @@
    "topic": "What strong candidates look for in a startup before they say yes",
    "format": "static",
    "goal": "Authority",
-   "status": "todo"
+   "status": "scheduled",
+   "folder": "posts/2026-10-20_before-they-say-yes",
+   "metricool_id": 398368760,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=982171591455952454",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 398368821,
+    "date": "2026-10-20 12:15"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11304773,
+    "date": "2026-10-20 16:30"
+   }
   },
   {
    "n": 3,
@@ -132,7 +146,7 @@
    "time": "12:00",
    "theme": "gradient",
    "pillar": "Culture & moments",
-   "topic": "Devcon 8, Mumbai, 3\u20136 Nov 2026 (Ethereum). Event card + 'Who's going? What are you most excited for?' Socius is not attending unless Jordan says so",
+   "topic": "Devcon 8, Mumbai, 3–6 Nov 2026 (Ethereum). Event card + 'Who's going? What are you most excited for?' Socius is not attending unless Jordan says so",
    "format": "static",
    "goal": "Engagement",
    "status": "todo"
@@ -189,7 +203,7 @@
    "time": "18:00",
    "theme": "gradient",
    "pillar": "Culture & moments",
-   "topic": "We'll be at Solana Breakpoint, London, 15\u201317 Nov 2026 (Olympia). Jordan is attending (confirmed). Event card + 'Hiring for your Solana team, or exploring your next move? Let's grab a coffee at Breakpoint. DM us.'",
+   "topic": "We'll be at Solana Breakpoint, London, 15–17 Nov 2026 (Olympia). Jordan is attending (confirmed). Event card + 'Hiring for your Solana team, or exploring your next move? Let's grab a coffee at Breakpoint. DM us.'",
    "format": "static",
    "goal": "BD: in-person meetings",
    "status": "todo",
