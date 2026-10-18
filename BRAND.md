@@ -46,3 +46,10 @@ Rendered by `engine/build.py` (1080×1350 JPEG). Write a spec JSON; don't hand-d
 
 ## Testimonial cadence
 About one post in five should be a testimonial post (alternate hiring-side and candidate-side; include Josh's at least once a month). When drafting new calendar topics, plan these in.
+
+## Competitor lessons (Jordan shared screenshots, 18 Oct 2026; never copy their content)
+- Biggest accounts are people-led: Block Recruit (~9.5k) is founder at booths, office, fun Reels. Odiin, Plexus, Impax are almost all real photos (team, events, socials).
+- Template-only accounts stall: Blockchain Staffing Ninja (190 posts, ~128 followers), The Crypto Recruiters (identical animated logo Reels, ~372). That is the copy-paste trap to avoid.
+- Socius position: boutique and founder-led (Jordan and Josh). Never fake scale. Graphics carry the expertise; photos carry the trust.
+- Once photos are available, target roughly half the feed as real photos/video, with graphics between them.
+- Ideas we can do our own way: conference vox-pop Reels (one question to builders), event recaps, the 'people behind Socius'.
