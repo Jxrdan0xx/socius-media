@@ -44,6 +44,10 @@ Rendered by `engine/build.py` (1080×1350 JPEG). Write a spec JSON; don't hand-d
 - Keep text short: title ≤ 9 words, sub ≤ 30 words, ≤ 4 rows, ≤ 6 chips, ≤ 4 options.
 - Always look at every rendered slide before scheduling: no overflow, clipping or typos.
 
+## Team
+- Jordan Edwards, Founder. Joshua Moore, Recruiter (DeFi, NFT, infrastructure). Tegan, Researcher (behind-the-scenes talent research). Illustrated portraits in posts/photos/team/.
+- Real photos of people: use the `raw` slide type so no text covers faces; put the words in the caption.
+
 ## Testimonial cadence
 About one post in five should be a testimonial post (alternate hiring-side and candidate-side; include Josh's at least once a month). When drafting new calendar topics, plan these in.
 

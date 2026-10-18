@@ -32,6 +32,18 @@
    "enabled": true,
    "rule": "Add facebook as a second provider on the SAME Metricool post as Instagram (providers [instagram, facebook], facebookData {type: POST}). Same caption and images. Meta does not auto-share API posts from Instagram to Facebook.",
    "budget_note": "Unclear whether Metricool counts a two-network post as 1 or 2 against the free 20/month. If a quota error appears, drop Facebook first (keep Instagram), and tell Jordan."
+  },
+  "photo_library": {
+   "unused": [
+    "coffee-linkedin-laptop.jpg (casual 'Monday coffee' / desk post)"
+   ],
+   "used_or_planned": [
+    "token2049-dubai-immunefi-vip-mixer-jordan.jpg",
+    "2025-workation-laptop-sea-view.jpg",
+    "laptop-socius-sunny-cafe.jpg",
+    "team/*"
+   ],
+   "note": "Only use photos from posts/photos/. Raw slide type for people photos so text never covers faces."
   }
  },
  "posts": [
@@ -119,15 +131,16 @@
    "status": "todo"
   },
   {
-   "n": 6,
+   "n": 22,
    "date": "2026-10-28",
    "time": "20:00",
-   "theme": "midnight",
-   "pillar": "Hiring intelligence",
-   "topic": "The perfect candidate doesn't exist (and what to hire for instead)",
+   "theme": "photo",
+   "pillar": "Socius brand and proof",
+   "topic": "On the ground at Token2049 Dubai (Immunefi VIP Mixer). Slide 1 = raw photo posts/photos/token2049-dubai-immunefi-vip-mixer-jordan.jpg with tag '\ud83d\udccd Token2049 Dubai'. Optional slide 2 (light or white theme override): why we go to events in person (meet builders and founders face to face). Caption: first person from Jordan, genuine, no invented details about who he met. Mention Breakpoint London next month.",
    "format": "carousel",
-   "goal": "Engagement",
-   "status": "todo"
+   "goal": "Trust",
+   "status": "todo",
+   "photo": "token2049-dubai-immunefi-vip-mixer-jordan.jpg"
   },
   {
    "n": 7,
@@ -152,15 +165,16 @@
    "status": "todo"
   },
   {
-   "n": 9,
+   "n": 23,
    "date": "2026-11-03",
    "time": "20:00",
-   "theme": "white",
-   "pillar": "Hiring intelligence",
-   "topic": "What makes a strong founding engineer?",
+   "theme": "photo",
+   "pillar": "Culture & moments",
+   "topic": "Work from anywhere: raw photo posts/photos/2025-workation-laptop-sea-view.jpg (optional 2nd photo laptop-socius-sunny-cafe.jpg). Theme: remote, global recruitment, our candidates and clients are everywhere. Light and human caption. Don't name the location unless known.",
    "format": "carousel",
-   "goal": "Hiring leads",
-   "status": "todo"
+   "goal": "Engagement",
+   "status": "todo",
+   "photo": "2025-workation-laptop-sea-view.jpg; laptop-socius-sunny-cafe.jpg"
   },
   {
    "n": 10,
@@ -304,6 +318,42 @@
    "goal": "Authority",
    "status": "todo",
    "note": "Moved to December to stay within the 20 posts/month budget"
+  },
+  {
+   "n": 6,
+   "date": "2026-12-13",
+   "time": "18:00",
+   "theme": "midnight",
+   "pillar": "Hiring intelligence",
+   "topic": "The perfect candidate doesn't exist (and what to hire for instead)",
+   "format": "carousel",
+   "goal": "Engagement",
+   "status": "todo",
+   "note": "Moved to make room for real photo posts"
+  },
+  {
+   "n": 9,
+   "date": "2026-12-16",
+   "time": "12:00",
+   "theme": "white",
+   "pillar": "Hiring intelligence",
+   "topic": "What makes a strong founding engineer?",
+   "format": "carousel",
+   "goal": "Hiring leads",
+   "status": "todo",
+   "note": "Moved to make room for real photo posts"
+  },
+  {
+   "n": 24,
+   "date": "2026-12-19",
+   "time": "12:00",
+   "theme": "photo",
+   "pillar": "Socius brand and proof",
+   "topic": "Meet the team: carousel of the illustrated portraits in posts/photos/team/ (Jordan, Founder; Joshua, Recruiter; Tegan, Researcher) using raw slides with name/role tags, ending with a cta slide. Bios as on sociustalent.com.",
+   "format": "carousel",
+   "goal": "Trust",
+   "status": "todo",
+   "photo": "team/*"
   }
  ],
  "pinned": [

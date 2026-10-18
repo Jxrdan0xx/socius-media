@@ -23,6 +23,7 @@ SLIDE TYPES ("type"):
   event      conference/date card. Fields: eyebrow, day ("15–17"), month ("NOV 2026"),
              title (event name), place, sub, chips
   question   conversation starter. Fields: eyebrow, title (the question), options [str], sub
+  raw        photo only (theme photo): full photo, small logo, optional 'tag' pill (e.g. 'Token2049 Dubai'). Use for real people photos.
   cta        closing slide. Fields: eyebrow, title, sub, buttons [str]
 
 Wrap 1-3 key words in titles with <span class='g'>..</span> for the accent treatment.
@@ -204,6 +205,8 @@ h2{font-family:var(--hf);font-weight:var(--hw);font-size:82px;line-height:1.08;l
 .t-photo .shade{position:absolute!important;inset:0;z-index:1!important;
   background:linear-gradient(180deg,rgba(8,10,28,.55) 0%,rgba(8,10,28,0) 22%,rgba(8,10,28,0) 40%,rgba(8,10,28,.88) 72%,rgba(8,10,28,.96) 100%)}
 .t-photo .body{justify-content:flex-end;padding-bottom:20px}
+.raw .shade{background:linear-gradient(180deg,rgba(8,10,28,.45) 0%,rgba(8,10,28,0) 16%,rgba(8,10,28,0) 84%,rgba(8,10,28,.45) 100%)!important}
+.raw .tag{align-self:flex-start;font:600 26px 'Inter';letter-spacing:.06em;padding:14px 24px;border-radius:999px;background:rgba(10,12,30,.6);backdrop-filter:blur(8px);color:#fff}
 .t-photo h1{font-size:96px}.t-photo h2{font-size:76px}
 """
 
@@ -260,7 +263,10 @@ def slide(s, i, n, theme, spec_dir):
     bar = ('<div class="bar">' + "".join(f'<i class="{"on" if k == i else ""}"></i>' for k in range(n)) + "</div>") if n > 1 else "<span>sociustalent.com</span>"
     right = '<span class="swipe">Swipe →</span>' if i < n - 1 else "<span>Partners in building the future</span>"
     count = f"{i+1:02d} / {n:02d}" if n > 1 else ""
-    return f'''<div class="s t-{th}" id="s{i}">{pre}
+    if t == "raw":
+        h = f'<div class="tag">{s["tag"]}</div>' if s.get("tag") else ""
+    raw = " raw" if t == "raw" else ""
+    return f'''<div class="s t-{th}{raw}" id="s{i}">{pre}
 <div class="top"><div class="brand"><img class="m" src="{MARK}"><img class="w" src="{WORD}"></div>
 <span class="count">{count}</span></div>
 <div class="body">{h}</div>
