@@ -57,3 +57,14 @@ About one post in five should be a testimonial post (alternate hiring-side and c
 - Socius position: boutique and founder-led (Jordan and Josh). Never fake scale. Graphics carry the expertise; photos carry the trust.
 - Once photos are available, target roughly half the feed as real photos/video, with graphics between them.
 - Ideas we can do our own way: conference vox-pop Reels (one question to builders), event recaps, the 'people behind Socius'.
+
+## Conferences and events method
+We only have ~10 posts a month, so events are tiered:
+- **Tier 1, Jordan/Josh attending** (listed in calendar.json `config.confirmed_events`): 3 touches.
+  1. 7–10 days before: "We'll be there, let's meet" event card (feed + LinkedIn + X). Goal: book coffees/DMs.
+  2. During: X posts from the event if Jordan shares photos or notes (X is cheap and live). Never invent who he met.
+  3. Within 2–4 days after: photo recap (raw photo slides), takeaways only if Jordan provides them.
+- **Tier 2, major global events we're not at** (Token2049 Dubai/Singapore, ETHDenver, Consensus, EthCC, Permissionless, Devcon, Breakpoint, Korea Blockchain Week, Blockchain Life): one "who's going?" event card 3–7 days before, framed as a conversation starter. Also a short X post on day one.
+- **Tier 3, everything else**: no individual posts. Covered by a **monthly "Events this month" carousel** (one slide per event: date card, city), posted in the first few days of each month. Plan it as the first post of every month.
+- Always verify dates on the official site before posting. Keep `moments.json` updated with new events found.
+- If Jordan says he's attending something new, upgrade it to Tier 1 and re-plan the calendar.

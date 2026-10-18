@@ -22,6 +22,8 @@ Run this whenever the scheduled task fires. It is idempotent: safe to run daily.
 9. Set the post's `status` to `scheduled`, add `metricool_id` and `planner_url`, commit and push.
 10. Final message: one short summary for Jordan: post title, date/time, slide count, caption hook, planner link, and whether he needs to tap publish.
 
+Events: follow 'Conferences and events method' in BRAND.md. When drafting a month, the first post is the 'Events this month' carousel, Tier 1 events get their 3 touches, Tier 2 events get one post.
+
 When fewer than 5 `todo` posts remain, draft the next 15 using the content mix and theme rules in BRAND.md, slotting in every relevant date from `moments.json` (verify event dates online first; add new conferences you find). About 10 posts per calendar month (one every ~3 days, within `config.monthly_post_budget`), rotating Instagram times 18:00 / 12:00 / 20:00. Append them as `todo` with a `theme`, and list the new topics in the summary so Jordan can veto any.
 
 Photos: if Jordan has added new images to `posts/photos/`, plan a `photo` theme post around them within the next week.
