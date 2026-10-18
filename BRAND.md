@@ -33,10 +33,12 @@ Never two posts of the same pillar back to back. Testimonials at most 1 in 6 pos
 
 ## Design: variety is a rule
 Rendered by `engine/build.py` (1080×1350 JPEG). Write a spec JSON; don't hand-design. See `engine/showcase_spec.json`.
-- **Themes**: `midnight` (house navy), `light` (editorial paper + serif), `gradient` (bold brand gradient), `terminal` (mono, crypto/tech), `photo` (Jordan's real photos from `posts/photos/`).
-- **Never use the same theme as the previous post.** Over any 6 posts use at least 4 themes. If photos exist in `posts/photos/` that haven't been used (track in calendar.json `photo`), prefer a `photo` post at least every 2 weeks: real faces outperform graphics on this account.
+- **Themes (7)**: `midnight` (house navy glow), `light` (cream editorial + serif), `gradient` (bold brand gradient), `terminal` (black mono, crypto/tech), `white` (Swiss poster: white, huge black type, purple accent), `frame` (gradient border + white card), `photo` (Jordan's real photos from `posts/photos/`). Samples: `engine/showcase_spec.json`.
+- **THE VARIETY RULE (Jordan's top priority, never break):** the feed must never look copy-and-pasted. A post's theme must differ from ALL of the previous 3 posts (on a 3-column grid that covers the posts beside it and above/below it). No theme more than twice in any 6 posts. The 3 pinned posts are the only exception.
+- Also vary the layout inside a theme: don't repeat the same cover slide type or the same slide-type sequence as the last post in that theme (mix cover / stat / question / quote / event / rows / chips).
+- If photos exist in `posts/photos/` that haven't been used (track in calendar.json `photo`), do a `photo` post at least every 2 weeks: real faces outperform graphics on this account. If a post is planned as `photo` but no photo exists, use its `theme_fallback`.
 - **Slide types**: cover, statement, quote, stat, event, question, cta. Mix them; a carousel shouldn't be all the same type.
-- Match theme to content: terminal for crypto history/tech; gradient for moments, events, announcements; light for opinion, advice and polls; midnight for hiring intelligence and testimonials; photo for anything personal.
+- Match theme to content where you can (terminal: crypto history/tech; gradient: moments, events; light/white: opinion, polls, hot takes; frame: tips and checklists; midnight: testimonials, hiring intelligence; photo: anything personal), but the variety rule wins over content fit.
 - Carousel 4–7 slides, cover hook first, cta last. Static = 1 slide.
 - Highlight 1–3 words per title with `<span class='g'>…</span>`.
 - Keep text short: title ≤ 9 words, sub ≤ 30 words, ≤ 4 rows, ≤ 6 chips, ≤ 4 options.

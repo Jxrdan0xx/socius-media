@@ -10,6 +10,8 @@ THEMES (set per post with "theme"; a slide can override with its own "theme"):
   light     warm paper background, navy text, Instrument Serif headlines. Editorial.
   gradient  full brand gradient background, white Space Grotesk type. Announcements, moments.
   terminal  black, JetBrains Mono, command-line feel. Crypto history, tech moments.
+  white     bright white, huge black Space Grotesk, purple accent, gradient circle. Swiss-poster look.
+  frame     brand-gradient border with a white card in the middle. Clean, bright, friendly.
   photo     a real photo fills the slide (slide field "bg": path relative to the spec, or URL),
             dark fade at the bottom, text sits low. Needs Jordan's own photos.
 
@@ -167,6 +169,35 @@ h2{font-family:var(--hf);font-weight:var(--hw);font-size:82px;line-height:1.08;l
 .t-terminal .chip,.t-terminal .opt{border-radius:10px}.t-terminal .row{border-radius:14px}
 .t-terminal .date{border-radius:14px}.t-terminal .date .d1{font-family:'JBMono'}
 .t-terminal .stat{font-size:300px}
+
+.t-white{--bg:#FFFFFF;--fg:#0B0B14;--mut:#4B4D5E;--dim:#9A9CAB;--line:rgba(11,11,20,.18);--eb:#0B0B14;
+  --card:#F3F2F7;--cardb:rgba(11,11,20,.06);--hf:'Grotesk';--hw:700;--grad:linear-gradient(90deg,#6B2CF5,#6B2CF5)}
+.t-white::before{content:"";position:absolute;z-index:0;width:620px;height:620px;border-radius:50%;right:-250px;top:-250px;
+  background:linear-gradient(135deg,#A21CF0,#3C5BFF 55%,#14A0F8)}
+.t-white::after{content:"";position:absolute;z-index:0;left:88px;top:176px;width:120px;height:14px;background:#0B0B14}
+.t-white h1{font-size:132px;line-height:.92;letter-spacing:-.05em}.t-white h2{font-size:100px;line-height:.95;letter-spacing:-.045em}
+.t-white .g{-webkit-text-fill-color:#6B2CF5;color:#6B2CF5;background:none}
+.t-white .brand .w{filter:brightness(0)}.t-white .count{color:#fff}
+.t-white .eyebrow::before{background:#0B0B14}
+.t-white .chip{border-radius:8px;background:#F3F2F7;border-color:transparent}
+.t-white .row{border-radius:10px}.t-white .opt{border-radius:10px;background:#F3F2F7;border-color:transparent}
+.t-white .opt b{background:#0B0B14}.t-white .btn{background:#0B0B14;box-shadow:none;border-radius:10px}
+.t-white .btn.o{border-color:#0B0B14;color:#0B0B14}
+.t-white .stat{font-size:400px;letter-spacing:-.07em;-webkit-text-fill-color:#0B0B14}
+.t-white .date{background:#0B0B14;border-radius:10px}.t-white .ghost{display:none}
+
+.t-frame{--bg:#3A2FE0;--fg:#0E1126;--mut:#4A4E66;--dim:rgba(255,255,255,.85);--line:rgba(14,17,38,.18);--eb:#5B3BE0;
+  --card:#F4F3FA;--cardb:rgba(14,17,38,.06);--hf:'Poppins';--hw:700;--grad:linear-gradient(100deg,#8E1CF0 0%,#4F55F5 50%,#0E8CF0 100%);
+  padding:70px 64px 64px}
+.t-frame::before{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(150deg,#9B1EEB,#4250F2 55%,#0F96F2)}
+.t-frame .top{padding:0 14px 28px}.t-frame .foot{padding:28px 14px 0}
+.t-frame .brand .m{filter:brightness(0) invert(1)}.t-frame .count{color:rgba(255,255,255,.8)}
+.t-frame .body{background:#FFFFFF;border-radius:44px;padding:80px 72px;box-shadow:0 30px 80px rgba(20,10,80,.35)}
+.t-frame h1{font-size:96px}.t-frame h2{font-size:76px}
+.t-frame .bar i{background:rgba(255,255,255,.35)}.t-frame .bar i.on{background:#fff}
+.t-frame .swipe,.t-frame .foot span{color:rgba(255,255,255,.9)}
+.t-frame .ghost{display:none}.t-frame .chip{background:#F4F3FA}
+.t-frame .sub{font-size:34px}.t-frame .row{padding:28px 32px}
 
 .t-photo{--fg:#fff;--mut:rgba(255,255,255,.85);--dim:rgba(255,255,255,.7);--line:rgba(255,255,255,.5);--eb:#fff;--card:rgba(10,12,30,.55);--cardb:rgba(255,255,255,.2)}
 .t-photo .bgimg{position:absolute!important;inset:0;z-index:0!important;background-size:cover;background-position:center}

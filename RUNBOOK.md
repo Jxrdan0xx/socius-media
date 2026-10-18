@@ -7,7 +7,7 @@ Run this whenever the scheduled task fires. It is idempotent: safe to run daily.
    - If a `todo` post's date/time is already in the past, mark it `"status": "skipped"` with a `note`, commit, and move to the next one.
 3. Double-check Metricool (`getScheduledPosts`, brand 7429706) that nothing is already scheduled at that date/time. If something is, set status to `scheduled` and stop.
 4. Research if needed (WebSearch/WebFetch), following the hard rules in BRAND.md. For live-role posts, read sociustalent.com/jobs.
-5. If the post already has a `folder` with spec.json and caption.md (pre-built), skip to step 6 using those. Otherwise write `posts/<date>_<slug>/spec.json` (one post, id = `<slug>`, `theme` from the calendar entry, and never the same theme as the previous scheduled post) and `posts/<date>_<slug>/caption.md`.
+5. If the post already has a `folder` with spec.json and caption.md (pre-built), skip to step 6 using those. Otherwise write `posts/<date>_<slug>/spec.json` (one post, id = `<slug>`, `theme` from the calendar entry; before rendering, re-check THE VARIETY RULE in BRAND.md against the last 3 scheduled/published posts and change the theme if it would clash) and `posts/<date>_<slug>/caption.md`.
 6. Render: `python3 engine/build.py posts/<date>_<slug>/spec.json posts/<date>_<slug>/`. Check every slide image visually. Fix and re-render if anything is clipped or wrong.
 7. Commit and push (`git config user.name Claude; git config user.email noreply@anthropic.com`). Confirm one image URL returns 200: `curl -sI <raw_base>posts/<date>_<slug>/<slug>_01.jpg`.
 8. Schedule in Metricool with `createScheduledPost`:
