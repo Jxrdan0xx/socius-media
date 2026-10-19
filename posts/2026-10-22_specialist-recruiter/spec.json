@@ -1,0 +1,28 @@
+[
+ {
+  "id": "specialist-recruiter",
+  "theme": "gradient",
+  "slides": [
+   {"type": "cover", "eyebrow": "For founders and CTOs",
+    "title": "Three signs you need a <span class='g'>specialist recruiter.</span>",
+    "sub": "If two of these sound familiar, your hiring process needs a different approach."},
+   {"type": "statement", "eyebrow": "Sign 01",
+    "title": "Your best candidates <span class='g'>keep saying no.</span>",
+    "sub": "Strong people drop out after the first call, or offers fall through at the last step. Usually the pitch, the package or the process doesn't match this market."},
+   {"type": "statement", "eyebrow": "Sign 02",
+    "title": "You can't tell <span class='g'>good from great.</span>",
+    "sub": "If you're not sure which CVs are strong in these areas, you're guessing on your most important hires.",
+    "chips": ["Solidity", "Rust", "ZK proofs", "MEV", "Protocol security", "LLM infra"]},
+   {"type": "statement", "eyebrow": "Sign 03",
+    "title": "The role has been open <span class='g'>for months.</span>",
+    "rows": [["Inbound is noise", "Plenty of applicants, few who've shipped on-chain"], ["Your team is screening", "Engineers interviewing instead of building"], ["The roadmap waits", "Every month the seat is empty, delivery slips"]]},
+   {"type": "question", "eyebrow": "Be honest",
+    "title": "How many of these <span class='g'>sound familiar?</span>",
+    "options": ["One: keep an eye on it", "Two: worth a conversation", "All three: let's talk this week"],
+    "sub": "Tell us in the comments."},
+   {"type": "cta", "title": "Hiring in Web3, crypto <span class='g'>or AI?</span>",
+    "sub": "Send us the role. We'll tell you straight whether you need us.",
+    "buttons": ["DM us your brief", "Browse talent → link in bio"]}
+  ]
+ }
+]
