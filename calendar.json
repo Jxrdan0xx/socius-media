@@ -7,7 +7,7 @@
   "approval_note": "Always autoPublish=true. autoPublish=false in Metricool does NOT mean 'tap to approve': it emails Jordan the files to post by hand. Jordan reviews via the summary each run sends and can edit or delete in the Metricool planner before post time.",
   "raw_base": "https://raw.githubusercontent.com/Jxrdan0xx/socius-media/main/",
   "confirmed_events": [
-   "Solana Breakpoint 2026, London, 15\u201317 Nov: Jordan attending"
+   "Solana Breakpoint 2026, London, 15–17 Nov: Jordan attending"
   ],
   "linkedin": {
    "enabled": true,
@@ -106,7 +106,21 @@
    "topic": "Three signs you need a specialist recruiter",
    "format": "carousel",
    "goal": "Business leads",
-   "status": "todo"
+   "status": "scheduled",
+   "folder": "posts/2026-10-22_specialist-recruiter",
+   "metricool_id": 399730164,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-3555858035179501938",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 399730239,
+    "date": "2026-10-22 12:15"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11339502,
+    "date": "2026-10-22 17:30"
+   }
   },
   {
    "n": 4,
@@ -136,7 +150,7 @@
    "time": "20:00",
    "theme": "photo",
    "pillar": "Socius brand and proof",
-   "topic": "On the ground at Token2049 Dubai (Immunefi VIP Mixer). Slide 1 = raw photo posts/photos/token2049-dubai-immunefi-vip-mixer-jordan.jpg with tag '\ud83d\udccd Token2049 Dubai'. Optional slide 2 (light or white theme override): why we go to events in person (meet builders and founders face to face). Caption: first person from Jordan, genuine, no invented details about who he met. Mention Breakpoint London next month.",
+   "topic": "On the ground at Token2049 Dubai (Immunefi VIP Mixer). Slide 1 = raw photo posts/photos/token2049-dubai-immunefi-vip-mixer-jordan.jpg with tag '📍 Token2049 Dubai'. Optional slide 2 (light or white theme override): why we go to events in person (meet builders and founders face to face). Caption: first person from Jordan, genuine, no invented details about who he met. Mention Breakpoint London next month.",
    "format": "carousel",
    "goal": "Trust",
    "status": "todo",
@@ -159,7 +173,7 @@
    "time": "12:00",
    "theme": "gradient",
    "pillar": "Culture & moments",
-   "topic": "Events in November carousel (first post of the month): Devcon 8 Mumbai 3\u20136 Nov, Solana Breakpoint London 15\u201317 Nov (Jordan attending: say so and invite DMs to meet), Singapore FinTech Festival 18\u201320 Nov, AusCryptoCon Sydney 28\u201329 Nov, plus Blockchain Life Dubai 1\u20132 Dec as a heads-up. Verify every date first. Ask: which are you going to?",
+   "topic": "Events in November carousel (first post of the month): Devcon 8 Mumbai 3–6 Nov, Solana Breakpoint London 15–17 Nov (Jordan attending: say so and invite DMs to meet), Singapore FinTech Festival 18–20 Nov, AusCryptoCon Sydney 28–29 Nov, plus Blockchain Life Dubai 1–2 Dec as a heads-up. Verify every date first. Ask: which are you going to?",
    "format": "carousel",
    "goal": "Engagement",
    "status": "todo"
@@ -217,7 +231,7 @@
    "time": "18:00",
    "theme": "gradient",
    "pillar": "Culture & moments",
-   "topic": "We'll be at Solana Breakpoint, London, 15\u201317 Nov 2026 (Olympia). Jordan is attending (confirmed). Event card + 'Hiring for your Solana team, or exploring your next move? Let's grab a coffee at Breakpoint. DM us.' During the event (15\u201317 Nov): if Jordan sends photos or notes, post short live X updates.",
+   "topic": "We'll be at Solana Breakpoint, London, 15–17 Nov 2026 (Olympia). Jordan is attending (confirmed). Event card + 'Hiring for your Solana team, or exploring your next move? Let's grab a coffee at Breakpoint. DM us.' During the event (15–17 Nov): if Jordan sends photos or notes, post short live X updates.",
    "format": "static",
    "goal": "BD: in-person meetings",
    "status": "todo",

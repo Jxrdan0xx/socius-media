@@ -34,14 +34,22 @@ Hiring in Web3, crypto or AI? Send me the role and I'll tell you straight whethe
 
 # X (thread)
 
-1/ Three signs you need a specialist recruiter (and when you don't):
+Three signs you need a specialist recruiter (and when you don't):  [cover image]
+---
+1. Your best candidates keep saying no.
 
-2/ Your best candidates keep saying no. Offers fall through late, strong people drop after call one. Usually the pitch, package or process doesn't fit this market.
+Offers fall through late, strong people drop after the first call. Usually the pitch, the package or the process doesn't fit this market.
+---
+2. You can't tell good from great.
 
-3/ You can't tell good from great. Solidity, Rust, ZK, MEV, LLM infra. If you can't read those CVs with confidence, you're guessing on your most important hires.
+Solidity, Rust, ZK, MEV, LLM infra. If you can't read those CVs with confidence, you're guessing on your most important hires.
+---
+3. The role has been open for months.
 
-4/ The role has been open for months. Inbound brings volume, not fit, and your engineers are interviewing instead of building.
-
-5/ One sign: keep an eye on it. Two: worth a conversation. All three: let's talk.
+Inbound brings volume, not fit. Your engineers end up interviewing instead of building.
+---
+One sign: keep an eye on it.
+Two: worth a conversation.
+All three: let's talk.
 
 Hiring in Web3, crypto or AI? https://sociustalent.com/talent
