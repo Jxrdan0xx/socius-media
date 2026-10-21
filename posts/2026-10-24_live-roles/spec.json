@@ -1,0 +1,81 @@
+[
+ {
+  "id": "live-roles",
+  "theme": "white",
+  "slides": [
+   {
+    "type": "cover",
+    "eyebrow": "Live roles · October",
+    "title": "Roles worth <span class='g'>knowing about.</span>",
+    "sub": "A cross-section of what's live on our jobs board right now. Salary and location upfront, as always."
+   },
+   {
+    "type": "stat",
+    "eyebrow": "On the board today",
+    "stat": "25",
+    "unit": "live roles at Socius",
+    "sub": "Engineering, security, product, legal, sales and leadership, across the US, Europe, APAC, Dubai and remote."
+   },
+   {
+    "type": "statement",
+    "eyebrow": "Engineering & security",
+    "title": "Build <span class='g'>the core.</span>",
+    "rows": [
+     [
+      "Lead Architect – Digital Assets",
+      "Europe · £100k – £120k"
+     ],
+     [
+      "Senior Security Engineer, Product & Infrastructure",
+      "US or Europe · $175k – $220k"
+     ],
+     [
+      "Founding Engineer",
+      "New York, United States (Office) · $180k – $250k"
+     ]
+    ]
+   },
+   {
+    "type": "statement",
+    "eyebrow": "Commercial & leadership",
+    "title": "Grow <span class='g'>the business.</span>",
+    "rows": [
+     [
+      "VP of Sales",
+      "Remote · $180k – $250k"
+     ],
+     [
+      "Business Development Manager, APAC",
+      "APAC · $150k – $200k"
+     ],
+     [
+      "Institutional Sales & Web3 Partnerships Director",
+      "Dubai, United Arab Emirates (Office) · $130k – $195k"
+     ]
+    ]
+   },
+   {
+    "type": "statement",
+    "eyebrow": "And more",
+    "title": "Not your lane? <span class='g'>Keep looking.</span>",
+    "sub": "We're also hiring across:",
+    "chips": [
+     "Frontend",
+     "Product design",
+     "Legal",
+     "Compliance",
+     "Quant risk",
+     "SRE"
+    ]
+   },
+   {
+    "type": "cta",
+    "title": "Found <span class='g'>your fit?</span>",
+    "sub": "Full details for every role at sociustalent.com/jobs. Or DM us your CV.",
+    "buttons": [
+     "Browse roles → link in bio"
+    ]
+   }
+  ]
+ }
+]
