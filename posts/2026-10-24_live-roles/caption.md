@@ -42,7 +42,7 @@ Or message me directly and I'll talk you through it.
 
 # X (thread)
 
-Live Web3 roles worth knowing about this week (all with salary upfront) 🧵  [cover image]
+Live Web3 roles worth knowing about, all with salary upfront:  [cover image]
 ---
 Engineering & security:
 

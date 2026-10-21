@@ -131,7 +131,22 @@
    "topic": "Roles worth knowing about (real live roles from sociustalent.com/jobs only)",
    "format": "carousel",
    "goal": "Applications",
-   "status": "todo"
+   "status": "scheduled",
+   "folder": "posts/2026-10-24_live-roles",
+   "metricool_id": 401867747,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=7892859683488811837",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 401867789,
+    "date": "2026-10-26 08:45"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11382808,
+    "date": "2026-10-24 17:30"
+   },
+   "note": "Roles taken from sociustalent.com/jobs on 21 Oct (25 live). LinkedIn on Mon 26 Oct as 24 Oct is a Saturday."
   },
   {
    "n": 5,
