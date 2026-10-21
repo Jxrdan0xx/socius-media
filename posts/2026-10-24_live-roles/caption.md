@@ -36,7 +36,7 @@ There's more across frontend, product design, legal, compliance, quant risk and 
 
 If one of these is you, or someone you'd recommend, have a look here: https://sociustalent.com/jobs
 
-Or message me directly and I'll talk you through it.
+Or send us a message and we'll talk you through it.
 
 #Web3Jobs #Hiring #Careers
 

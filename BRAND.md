@@ -12,6 +12,7 @@ Both, with emphasis on business growth: founders, CTOs, heads of engineering and
 ## Voice
 - UK English. Confident, direct, specialist. A peer to founders, not a salesman.
 - Short sentences. No hype words ("revolutionary", "game-changing"), no engagement bait.
+- Company voice on every channel ("we", never "I"). We post from business accounts only.
 - Captions: hook line first, 3–6 short paragraphs, one clear CTA, 4–6 relevant hashtags at the end.
 - Avoid em dashes in captions; use commas, colons or full stops.
 

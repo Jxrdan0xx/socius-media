@@ -11,10 +11,10 @@
   ],
   "linkedin": {
    "enabled": true,
-   "rule": "Every post goes to BOTH Instagram and the Socius LinkedIn company page, as two separate Metricool posts.",
+   "rule": "Every calendar post goes to the Socius LinkedIn company page first, then Instagram (+Facebook) as a separate Metricool post. LinkedIn has budget priority.",
    "times": "LinkedIn: weekdays only, 08:45 or 12:15 Europe/London, on the Instagram date or the next weekday.",
    "format": "Same images. Carousels: linkedinData.publishImagesAsPDF=true with a documentTitle (swipeable document). Single image: normal image post.",
-   "caption": "Rewrite for LinkedIn: first person from Jordan where natural, a little longer and more considered, full https:// links (clickable), max 3 hashtags, never 'link in bio'."
+   "caption": "Rewrite for LinkedIn in the company voice ('we'), a little longer and more considered, full https:// links (clickable), max 3 hashtags, never 'link in bio'."
   },
   "monthly_post_budget": {
    "limit": 20,
@@ -23,7 +23,7 @@
   "x": {
    "enabled": true,
    "tool": "Typefully (social_set_id 344798, account @socius_talent)",
-   "budget": "Typefully free plan: 10 published posts per calendar month (check get_social_set_details publishing_quota before scheduling). About one X post per calendar post.",
+   "budget": "Typefully free plan: 10 published posts per calendar month. Use all 10 every month (see channel_strategy.x_credits). Check get_social_set_details publishing_quota before scheduling.",
    "format": "Adapt, don't copy. Carousels become a 3-6 post thread (hook first, one idea per post, CTA + https link last). Static posts become a single punchy post. Max ~260 chars per post. 0-2 hashtags. Crypto moments and conferences are X's strongest content.",
    "media": "Attach the cover slide to the first post of each thread (up to 4 images per post; for statics attach the image). Upload: create_media_upload, then `curl -T <file> '<upload_url>'` (no extra headers), then poll get_media_status until ready. Set alt_text. If upload fails, post text-only and say so.",
    "times": "Same day as Instagram, 16:30 or 17:30 Europe/London (EU evening + US East morning). Use publish_at with an explicit datetime."
@@ -44,6 +44,15 @@
     "team/*"
    ],
    "note": "Only use photos from posts/photos/. Raw slide type for people photos so text never covers faces."
+  },
+  "channel_strategy": {
+   "decided": "2026-10-21 by Jordan",
+   "accounts": "Business accounts ONLY: Socius LinkedIn company page, @sociustalent Instagram, Socius Facebook page, @socius_talent on X. Never post to or write as Jordan's personal profiles. Jordan's personal LinkedIn already posts a Friday weekly round-up with live roles from a separate project; personal set-up may be added later.",
+   "voice": "Company voice everywhere: 'we' / 'us' / 'the Socius team'. Never 'I' or 'me'. Refer to Jordan in the third person ('our founder Jordan') when needed.",
+   "priority": "1) LinkedIn company page (business leads), 2) X (Web3 community, use every Typefully credit), 3) Instagram, 4) Facebook (follows Instagram). Instagram/Facebook are for presence and trust, not leads.",
+   "metricool_budget_order": "Schedule LinkedIn first. If the monthly Metricool budget is tight, drop Facebook first, then Instagram. Never drop LinkedIn for Instagram/Facebook.",
+   "x_credits": "Use all 10 Typefully posts each calendar month (we need a full month of data). Calendar posts get an X version first; any spare credits go to X-only posts (entries with channels ['x']). On the last run of each month, if credits remain, schedule X-only posts to use them.",
+   "linkedin_live_roles": "Avoid putting company-page live-roles posts on Fridays, so they don't clash with Jordan's personal Friday round-up."
   }
  },
  "posts": [
@@ -113,7 +122,7 @@
    "facebook": "same post as Instagram",
    "linkedin": {
     "status": "scheduled",
-    "metricool_id": 399730239,
+    "metricool_id": 401876542,
     "date": "2026-10-22 12:15"
    },
    "x": {
@@ -121,6 +130,17 @@
     "typefully_draft_id": 11339502,
     "date": "2026-10-22 17:30"
    }
+  },
+  {
+   "date": "2026-10-23",
+   "time": "17:30",
+   "channels": [
+    "x"
+   ],
+   "pillar": "Conversation",
+   "topic": "X-only hot take: job specs with ten must-haves and no salary scare off the best engineers. Single post, no stats, ask what people skip past.",
+   "format": "x-single",
+   "status": "todo"
   },
   {
    "n": 4,
@@ -138,7 +158,7 @@
    "facebook": "same post as Instagram",
    "linkedin": {
     "status": "scheduled",
-    "metricool_id": 401867789,
+    "metricool_id": 401876497,
     "date": "2026-10-26 08:45"
    },
    "x": {
@@ -160,16 +180,38 @@
    "status": "todo"
   },
   {
+   "date": "2026-10-27",
+   "time": "16:30",
+   "channels": [
+    "x"
+   ],
+   "pillar": "Hiring intelligence",
+   "topic": "X-only short thread (3 posts): what founders get wrong when hiring their first protocol/smart-contract engineer. Evergreen, no stats; CTA https://sociustalent.com/talent",
+   "format": "x-thread",
+   "status": "todo"
+  },
+  {
    "n": 22,
    "date": "2026-10-28",
    "time": "20:00",
    "theme": "photo",
    "pillar": "Socius brand and proof",
-   "topic": "On the ground at Token2049 Dubai (Immunefi VIP Mixer). Slide 1 = raw photo posts/photos/token2049-dubai-immunefi-vip-mixer-jordan.jpg with tag '📍 Token2049 Dubai'. Optional slide 2 (light or white theme override): why we go to events in person (meet builders and founders face to face). Caption: first person from Jordan, genuine, no invented details about who he met. Mention Breakpoint London next month.",
+   "topic": "On the ground at Token2049 Dubai (Immunefi VIP Mixer). Slide 1 = raw photo posts/photos/token2049-dubai-immunefi-vip-mixer-jordan.jpg with tag '📍 Token2049 Dubai'. Optional slide 2 (light or white theme override): why we go to events in person (meet builders and founders face to face). Caption: company voice ('our founder Jordan was at…'), genuine, no invented details about who he met. Mention Breakpoint London next month.",
    "format": "carousel",
    "goal": "Trust",
    "status": "todo",
    "photo": "token2049-dubai-immunefi-vip-mixer-jordan.jpg"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "16:30",
+   "channels": [
+    "x"
+   ],
+   "pillar": "Culture & moments",
+   "topic": "X-only Tier 2 event post: Devcon 8 starts Tue 3 Nov in Mumbai. Who's going? Verify dates on devcon.org first. Never imply Socius is attending.",
+   "format": "x-single",
+   "status": "todo"
   },
   {
    "n": 7,

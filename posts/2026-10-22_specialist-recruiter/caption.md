@@ -18,7 +18,7 @@ Hiring in Web3, crypto or AI? DM us your brief, or browse talent via the link in
 
 Not every hire needs a specialist recruiter. Plenty of founders hire well on their own.
 
-But there are three signs I look for that usually mean the process needs a different approach:
+But there are three signs we look for that usually mean the process needs a different approach:
 
 1. Your best candidates keep saying no. Strong people drop out after the first call, or offers fall through at the final step. That's rarely bad luck. Usually the pitch, the package or the process doesn't match how this market works.
 
@@ -28,7 +28,7 @@ But there are three signs I look for that usually mean the process needs a diffe
 
 One of these is worth watching. Two is worth a conversation. If it's all three, let's talk this week.
 
-Hiring in Web3, crypto or AI? Send me the role and I'll tell you straight whether you need us: https://sociustalent.com/talent
+Hiring in Web3, crypto or AI? Send us the role and we'll tell you straight whether you need us: https://sociustalent.com/talent
 
 #Web3 #StartupHiring #Founders
 
