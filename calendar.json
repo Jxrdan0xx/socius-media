@@ -140,7 +140,13 @@
    "pillar": "Conversation",
    "topic": "X-only hot take: job specs with ten must-haves and no salary scare off the best engineers. Single post, no stats, ask what people skip past.",
    "format": "x-single",
-   "status": "todo"
+   "status": "scheduled",
+   "folder": "posts/2026-10-23_x-job-spec-hot-take",
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11403870,
+    "date": "2026-10-23 17:30"
+   }
   },
   {
    "n": 4,
@@ -425,6 +431,17 @@
    "goal": "Trust",
    "status": "todo",
    "photo": "team/*"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "17:30",
+   "channels": [
+    "x"
+   ],
+   "pillar": "Candidate value",
+   "topic": "X-only question post: what's the one thing a recruiter should tell you on the first call? Single post, no stats, invite replies. Added 22 Oct to use the spare October Typefully credit.",
+   "format": "x-single",
+   "status": "todo"
   }
  ],
  "pinned": [
