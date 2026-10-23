@@ -1,0 +1,12 @@
+[
+ {
+  "id": "settle-this-remote",
+  "theme": "frame",
+  "slides": [
+   {"type": "question", "eyebrow": "Settle this",
+    "title": "Founding engineers: <span class='g'>remote or in the room?</span>",
+    "options": ["Fully remote: hire the best, anywhere", "In person: speed beats reach", "Hybrid: a few days a week together"],
+    "sub": "Comment A, B or C. Founders and engineers, we want both sides."}
+  ]
+ }
+]
