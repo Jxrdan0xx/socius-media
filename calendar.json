@@ -183,7 +183,22 @@
    "topic": "'Settle this' poll: founding engineers, remote or in the room? (question slide, ask people to comment A/B/C)",
    "format": "static",
    "goal": "Engagement",
-   "status": "todo"
+   "status": "scheduled",
+   "folder": "posts/2026-10-26_settle-this-remote",
+   "metricool_id": 403899208,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-2742054100547254076",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 403899138,
+    "date": "2026-10-27 08:45"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11424736,
+    "date": "2026-10-26 16:30"
+   },
+   "note": "LinkedIn moved to Tue 27 Oct 08:45 because Mon 26 08:45 already has the live-roles LinkedIn post."
   },
   {
    "date": "2026-10-27",
