@@ -209,7 +209,14 @@
    "pillar": "Hiring intelligence",
    "topic": "X-only short thread (3 posts): what founders get wrong when hiring their first protocol/smart-contract engineer. Evergreen, no stats; CTA https://sociustalent.com/talent",
    "format": "x-thread",
-   "status": "todo"
+   "status": "scheduled",
+   "folder": "posts/2026-10-27_x-first-protocol-engineer",
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11445837,
+    "date": "2026-10-27 16:30"
+   },
+   "note": "Scheduled 24 Oct. October X quota check: 6 credits left vs 7 X posts still planned (24, 26, 27, 28, 29, 30, 31 Oct); one needs moving to November."
   },
   {
    "n": 22,
