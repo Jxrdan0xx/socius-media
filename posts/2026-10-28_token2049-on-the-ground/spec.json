@@ -1,0 +1,43 @@
+[
+ {
+  "id": "token2049-on-the-ground",
+  "theme": "photo",
+  "slides": [
+   {
+    "type": "raw",
+    "bg": "../photos/token2049-dubai-immunefi-vip-mixer-jordan.jpg",
+    "tag": "📍 Token2049 Dubai"
+   },
+   {
+    "type": "statement",
+    "theme": "light",
+    "eyebrow": "Why we show up in person",
+    "title": "Hiring is still a <span class='g'>people business.</span>",
+    "sub": "A coffee beats a cold inbox. Events are where we meet builders and founders face to face, and hear what teams actually need."
+   },
+   {
+    "type": "question",
+    "theme": "light",
+    "title": "Which event would you <span class='g'>never miss?</span>",
+    "options": [
+     "Token2049",
+     "Solana Breakpoint",
+     "EthCC",
+     "Devcon"
+    ],
+    "sub": "Tell us in the comments, or name your own."
+   },
+   {
+    "type": "cta",
+    "theme": "light",
+    "eyebrow": "Next stop: London",
+    "title": "See you at <span class='g'>Breakpoint.</span>",
+    "sub": "Our founder Jordan will be at Solana Breakpoint, 15–17 Nov. Hiring, or weighing your next move? Let's grab a coffee.",
+    "buttons": [
+     "DM us to meet",
+     "sociustalent.com"
+    ]
+   }
+  ]
+ }
+]
