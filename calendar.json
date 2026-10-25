@@ -227,8 +227,24 @@
    "topic": "On the ground at Token2049 Dubai (Immunefi VIP Mixer). Slide 1 = raw photo posts/photos/token2049-dubai-immunefi-vip-mixer-jordan.jpg with tag '📍 Token2049 Dubai'. Optional slide 2 (light or white theme override): why we go to events in person (meet builders and founders face to face). Caption: company voice ('our founder Jordan was at…'), genuine, no invented details about who he met. Mention Breakpoint London next month.",
    "format": "carousel",
    "goal": "Trust",
-   "status": "todo",
-   "photo": "token2049-dubai-immunefi-vip-mixer-jordan.jpg"
+   "status": "scheduled",
+   "photo": "token2049-dubai-immunefi-vip-mixer-jordan.jpg",
+   "folder": "posts/2026-10-28_token2049-on-the-ground",
+   "title": "On the ground at Token2049 Dubai",
+   "metricool_id": 405527743,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=4603062479726267102",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 405527679,
+    "date": "2026-10-28 12:15"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11464794,
+    "date": "2026-10-28 17:30"
+   },
+   "note": "Scheduled 25 Oct. 4 slides: raw photo, light statement, light question, light cta. October X quota at scheduling: 5 remaining vs 6 X posts still planned (26, 27, 28, 29, 30, 31 Oct). Metricool October total now 16 posts (22 counting each network)."
   },
   {
    "date": "2026-10-30",
