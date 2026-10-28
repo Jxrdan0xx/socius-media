@@ -1,0 +1,49 @@
+[
+ {
+  "id": "bitcoin-whitepaper",
+  "theme": "terminal",
+  "slides": [
+   {
+    "type": "cover",
+    "eyebrow": "31.10.2008",
+    "title": "Nine pages.<br>One <span class='g'>industry.</span>",
+    "sub": "18 years ago today, Satoshi Nakamoto published the Bitcoin whitepaper."
+   },
+   {
+    "type": "stat",
+    "eyebrow": "cat bitcoin.pdf",
+    "stat": "9",
+    "unit": "pages",
+    "sub": "“Bitcoin: A Peer-to-Peer Electronic Cash System.” Shared on a cryptography mailing list on 31 October 2008."
+   },
+   {
+    "type": "statement",
+    "eyebrow": "git log --since=2008",
+    "title": "From a PDF to <span class='g'>a profession.</span>",
+    "rows": [
+     ["2008", "The whitepaper is published"],
+     ["2009", "The genesis block is mined, 3 January"],
+     ["Today", "Whole careers in protocols, security, DeFi and infrastructure"]
+    ]
+   },
+   {
+    "type": "question",
+    "eyebrow": "poll",
+    "title": "Have you read it <span class='g'>end to end?</span>",
+    "options": [
+     "Yes, more than once",
+     "I've skimmed the abstract",
+     "It's been on my list for years"
+    ],
+    "sub": "Comment A, B or C. Honesty welcome."
+   },
+   {
+    "type": "cta",
+    "eyebrow": "./whats-next",
+    "title": "Building on what <span class='g'>came next?</span>",
+    "sub": "We help Web3, crypto and AI teams hire the people who build. Exploring your next move? Talk to us.",
+    "buttons": ["Link in bio", "sociustalent.com"]
+   }
+  ]
+ }
+]
