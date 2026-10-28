@@ -236,7 +236,7 @@
    "facebook": "same post as Instagram",
    "linkedin": {
     "status": "scheduled",
-    "metricool_id": 407562877,
+    "metricool_id": 408690350,
     "date": "2026-10-28 12:15"
    },
    "x": {
@@ -244,7 +244,7 @@
     "typefully_draft_id": 11464794,
     "date": "2026-10-28 17:30"
    },
-   "note": "Scheduled 25 Oct. 4 slides: raw photo, light statement, light question, light cta. October X quota at scheduling: 5 remaining vs 6 X posts still planned (26, 27, 28, 29, 30, 31 Oct). Metricool October total now 16 posts (22 counting each network)."
+   "note": "Scheduled 25 Oct. 4 slides: raw photo, light statement, light question, light cta. October X quota at scheduling: 5 remaining vs 6 X posts still planned (26, 27, 28, 29, 30, 31 Oct). Metricool October total now 16 posts (22 counting each network). 28 Oct clean-up: LinkedIn post (was id 407566411) had picked up an extra Instagram provider and moved to 13:15 after the 27 Oct update; fixed to LinkedIn-only at 12:15 (new id 408690350)."
   },
   {
    "date": "2026-10-29",
@@ -273,7 +273,24 @@
    "topic": "Bitcoin whitepaper day: 18 years since Satoshi published bitcoin.pdf (31 Oct 2008). Optional Halloween nod. Tie to: the builders who turned 9 pages into an industry",
    "format": "carousel",
    "goal": "Engagement",
-   "status": "todo"
+   "status": "scheduled",
+   "folder": "posts/2026-10-31_bitcoin-whitepaper",
+   "title": "Nine pages. One industry.",
+   "metricool_id": 408691701,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=16809294545702795",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 408691578,
+    "date": "2026-11-02 08:45",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=1356485253784748986"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11532015,
+    "date": "2026-10-31 16:30"
+   },
+   "note": "Scheduled 28 Oct. 5 slides terminal: cover, stat, statement+rows, question, cta. LinkedIn on Mon 2 Nov 08:45 (31 Oct is a Saturday), so the 2 Nov Events carousel LinkedIn should use 12:15 that day or Tue 3 Nov. X thread (4 posts) uses the last October Typefully credit (3 remaining at scheduling, 28 and 29 Oct already queued)."
   },
   {
    "n": 8,
