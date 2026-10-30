@@ -1,0 +1,34 @@
+[
+ {
+  "id": "events-november",
+  "theme": "gradient",
+  "slides": [
+   {"type": "cover", "eyebrow": "Events this month",
+    "title": "Where Web3 meets in <span class='g'>November.</span>",
+    "sub": "Four conferences from Mumbai to Sydney, plus one early-December heads-up. Swipe for the dates."},
+   {"type": "event", "eyebrow": "Ethereum", "day": "3–6", "month": "NOV 2026",
+    "title": "Devcon 8 brings Ethereum to <span class='g'>Mumbai.</span>",
+    "place": "Jio World Centre, Mumbai",
+    "sub": "The Ethereum Foundation's conference for builders, researchers and the wider community."},
+   {"type": "event", "eyebrow": "We'll be there", "day": "15–17", "month": "NOV 2026",
+    "title": "Solana Breakpoint, right on <span class='g'>our doorstep.</span>",
+    "place": "Olympia, London",
+    "sub": "Our founder Jordan is attending. Hiring for your Solana team, or exploring your next move? DM us and let's grab a coffee."},
+   {"type": "event", "eyebrow": "Fintech", "day": "18–20", "month": "NOV 2026",
+    "title": "Singapore FinTech <span class='g'>Festival.</span>",
+    "place": "Singapore EXPO",
+    "sub": "Policy, finance and technology in one place."},
+   {"type": "event", "eyebrow": "Weekend", "day": "28–29", "month": "NOV 2026",
+    "title": "AusCryptoCon heads to <span class='g'>Sydney.</span>",
+    "place": "ICC Sydney",
+    "sub": "Heads-up: Blockchain Life follows in Dubai on 1–2 December."},
+   {"type": "question", "eyebrow": "Your turn",
+    "title": "Which one are <span class='g'>you going to?</span>",
+    "options": ["Devcon 8, Mumbai", "Breakpoint, London", "FinTech Festival, Singapore", "AusCryptoCon, Sydney"],
+    "sub": "Tell us in the comments."},
+   {"type": "cta", "title": "Heading to <span class='g'>Breakpoint?</span>",
+    "sub": "Whether you're hiring or exploring your next move, we'd love to meet in London.",
+    "buttons": ["DM us to meet", "Roles → link in bio"]}
+  ]
+ }
+]
