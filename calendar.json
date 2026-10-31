@@ -1,556 +1,556 @@
 {
-  "config": {
-    "metricool_blog_id": "7429706",
-    "timezone": "Europe/London",
-    "network": "instagram",
-    "approval_until": "2026-10-14",
-    "approval_note": "Always autoPublish=true. autoPublish=false in Metricool does NOT mean 'tap to approve': it emails Jordan the files to post by hand. Jordan reviews via the summary each run sends and can edit or delete in the Metricool planner before post time.",
-    "raw_base": "https://raw.githubusercontent.com/Jxrdan0xx/socius-media/main/",
-    "confirmed_events": [
-      "Solana Breakpoint 2026, London, 15–17 Nov: Jordan attending"
-    ],
-    "linkedin": {
-      "enabled": true,
-      "rule": "Every calendar post goes to the Socius LinkedIn company page first, then Instagram (+Facebook) as a separate Metricool post. LinkedIn has budget priority.",
-      "times": "LinkedIn: weekdays only, 08:45 or 12:15 Europe/London, on the Instagram date or the next weekday.",
-      "format": "Same images. Carousels: linkedinData.publishImagesAsPDF=true with a documentTitle (swipeable document). Single image: normal image post.",
-      "caption": "Rewrite for LinkedIn: first person from Jordan where natural, a little longer and more considered, max 3 hashtags. NO links in the post body (hurts reach): end with a soft CTA like 'Link in the comments' and put the https link in firstCommentText. Never 'link in bio'. Never mention how many roles we have."
-    },
-    "monthly_post_budget": {
-      "limit": 20,
-      "note": "Metricool free plan: about 20 scheduled posts per calendar month, each network counts as one post. So ~10 calendar posts a month (one every ~3 days), each on IG + LinkedIn. Before scheduling, count posts already scheduled/published in Metricool for that month; if the budget would be exceeded, move the post to next month and tell Jordan. Jordan is happy to upgrade (Starter) if this proves limiting."
-    },
-    "x": {
-      "enabled": true,
-      "tool": "Typefully (social_set_id 344798, account @socius_talent)",
-      "budget": "Typefully free plan: 10 published posts per calendar month. Use all 10 every month (see channel_strategy.x_credits). Check get_social_set_details publishing_quota before scheduling.",
-      "format": "Adapt, don't copy. Carousels become a 3-6 post thread (hook first, one idea per post, CTA + https link last). Static posts become a single punchy post. Max ~260 chars per post. 0-2 hashtags. Crypto moments and conferences are X's strongest content.",
-      "media": "Attach the cover slide to the first post of each thread (up to 4 images per post; for statics attach the image). Upload: create_media_upload, then `curl -T <file> '<upload_url>'` (no extra headers), then poll get_media_status until ready. Set alt_text. If upload fails, post text-only and say so.",
-      "times": "Same day as Instagram, 16:30 or 17:30 Europe/London (EU evening + US East morning). Use publish_at with an explicit datetime."
-    },
-    "facebook": {
-      "enabled": true,
-      "rule": "Add facebook as a second provider on the SAME Metricool post as Instagram (providers [instagram, facebook], facebookData {type: POST}). Same caption and images. Meta does not auto-share API posts from Instagram to Facebook.",
-      "budget_note": "Unclear whether Metricool counts a two-network post as 1 or 2 against the free 20/month. If a quota error appears, drop Facebook first (keep Instagram), and tell Jordan."
-    },
-    "photo_library": {
-      "unused": [
-        "coffee-linkedin-laptop.jpg (casual 'Monday coffee' / desk post)"
-      ],
-      "used_or_planned": [
-        "token2049-dubai-immunefi-vip-mixer-jordan.jpg",
-        "2025-workation-laptop-sea-view.jpg",
-        "laptop-socius-sunny-cafe.jpg",
-        "team/*"
-      ],
-      "note": "Only use photos from posts/photos/. Raw slide type for people photos so text never covers faces."
-    },
-    "channel_strategy": {
-      "decided": "2026-10-21 by Jordan",
-      "accounts": "Business accounts ONLY: Socius LinkedIn company page, @sociustalent Instagram, Socius Facebook page, @socius_talent on X. Never post to or write as Jordan's personal profiles. Jordan's personal LinkedIn already posts a Friday weekly round-up with live roles from a separate project; personal set-up may be added later.",
-      "voice": "Company voice everywhere: 'we' / 'us' / 'the Socius team'. Never 'I' or 'me'. Refer to Jordan in the third person ('our founder Jordan') when needed.",
-      "priority": "1) LinkedIn company page (business leads), 2) X (Web3 community, use every Typefully credit), 3) Instagram, 4) Facebook (follows Instagram). Instagram/Facebook are for presence and trust, not leads.",
-      "metricool_budget_order": "Schedule LinkedIn first. If the monthly Metricool budget is tight, drop Facebook first, then Instagram. Never drop LinkedIn for Instagram/Facebook.",
-      "x_credits": "Use all 10 Typefully posts each calendar month (we need a full month of data). Calendar posts get an X version first; any spare credits go to X-only posts (entries with channels ['x']). On the last run of each month, if credits remain, schedule X-only posts to use them.",
-      "linkedin_live_roles": "Avoid putting company-page live-roles posts on Fridays, so they don't clash with Jordan's personal Friday round-up."
-    }
-  },
-  "posts": [
-    {
-      "n": 1,
-      "date": "2026-10-18",
-      "time": "18:00",
-      "pillar": "Hiring intelligence",
-      "topic": "The hiring mistake costing Web3 startups",
-      "format": "carousel",
-      "goal": "Hiring leads",
-      "status": "scheduled",
-      "metricool_id": 396878298,
-      "folder": "posts/2026-10-18_hiring-mistake",
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=6432567660100011024",
-      "theme": "midnight",
-      "linkedin": {
-        "status": "scheduled",
-        "metricool_id": 396863374,
-        "date": "2026-10-19 08:45"
-      },
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11257464,
-        "date": "2026-10-18 17:00"
-      },
-      "facebook": "same post as Instagram"
-    },
-    {
-      "n": 2,
-      "date": "2026-10-20",
-      "time": "12:00",
-      "theme": "light",
-      "pillar": "Candidate value",
-      "topic": "What strong candidates look for in a startup before they say yes",
-      "format": "static",
-      "goal": "Authority",
-      "status": "scheduled",
-      "folder": "posts/2026-10-20_before-they-say-yes",
-      "metricool_id": 398368760,
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=982171591455952454",
-      "facebook": "same post as Instagram",
-      "linkedin": {
-        "status": "scheduled",
-        "metricool_id": 398368821,
-        "date": "2026-10-20 12:15"
-      },
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11304773,
-        "date": "2026-10-20 16:30"
-      }
-    },
-    {
-      "n": 3,
-      "date": "2026-10-22",
-      "time": "20:00",
-      "theme": "gradient",
-      "pillar": "Hiring intelligence",
-      "topic": "Three signs you need a specialist recruiter",
-      "format": "carousel",
-      "goal": "Business leads",
-      "status": "scheduled",
-      "folder": "posts/2026-10-22_specialist-recruiter",
-      "metricool_id": 399730164,
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-3555858035179501938",
-      "facebook": "same post as Instagram",
-      "linkedin": {
-        "status": "scheduled",
-        "metricool_id": 401876542,
-        "date": "2026-10-22 12:15"
-      },
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11339502,
-        "date": "2026-10-22 17:30"
-      }
-    },
-    {
-      "date": "2026-10-23",
-      "time": "17:30",
-      "channels": [
-        "x"
-      ],
-      "pillar": "Conversation",
-      "topic": "X-only hot take: job specs with ten must-haves and no salary scare off the best engineers. Single post, no stats, ask what people skip past.",
-      "format": "x-single",
-      "status": "scheduled",
-      "folder": "posts/2026-10-23_x-job-spec-hot-take",
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11403870,
-        "date": "2026-10-23 17:30"
-      }
-    },
-    {
-      "n": 4,
-      "date": "2026-10-24",
-      "time": "18:00",
-      "theme": "white",
-      "pillar": "Live opportunities",
-      "topic": "Roles worth knowing about (real live roles from sociustalent.com/jobs only)",
-      "format": "carousel",
-      "goal": "Applications",
-      "status": "scheduled",
-      "folder": "posts/2026-10-24_live-roles",
-      "metricool_id": 401867747,
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=7892859683488811837",
-      "facebook": "same post as Instagram",
-      "linkedin": {
-        "status": "scheduled",
-        "metricool_id": 401876497,
-        "date": "2026-10-26 08:45"
-      },
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11382808,
-        "date": "2026-10-24 17:30"
-      },
-      "note": "Roles taken from sociustalent.com/jobs on 21 Oct (25 live). LinkedIn on Mon 26 Oct as 24 Oct is a Saturday."
-    },
-    {
-      "n": 5,
-      "date": "2026-10-26",
-      "time": "12:00",
-      "theme": "frame",
-      "pillar": "Conversation",
-      "topic": "'Settle this' poll: founding engineers, remote or in the room? (question slide, ask people to comment A/B/C)",
-      "format": "static",
-      "goal": "Engagement",
-      "status": "scheduled",
-      "folder": "posts/2026-10-26_settle-this-remote",
-      "metricool_id": 403899208,
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-2742054100547254076",
-      "facebook": "same post as Instagram",
-      "linkedin": {
-        "status": "scheduled",
-        "metricool_id": 403899138,
-        "date": "2026-10-27 08:45"
-      },
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11424736,
-        "date": "2026-10-26 16:30"
-      },
-      "note": "LinkedIn moved to Tue 27 Oct 08:45 because Mon 26 08:45 already has the live-roles LinkedIn post."
-    },
-    {
-      "date": "2026-10-27",
-      "time": "16:30",
-      "channels": [
-        "x"
-      ],
-      "pillar": "Hiring intelligence",
-      "topic": "X-only short thread (3 posts): what founders get wrong when hiring their first protocol/smart-contract engineer. Evergreen, no stats; CTA https://sociustalent.com/talent",
-      "format": "x-thread",
-      "status": "scheduled",
-      "folder": "posts/2026-10-27_x-first-protocol-engineer",
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11445837,
-        "date": "2026-10-27 16:30"
-      },
-      "note": "Scheduled 24 Oct. October X quota check: 6 credits left vs 7 X posts still planned (24, 26, 27, 28, 29, 30, 31 Oct); one needs moving to November."
-    },
-    {
-      "n": 22,
-      "date": "2026-10-28",
-      "time": "20:00",
-      "theme": "photo",
-      "pillar": "Socius brand and proof",
-      "topic": "On the ground at Token2049 Dubai (Immunefi VIP Mixer). Slide 1 = raw photo posts/photos/token2049-dubai-immunefi-vip-mixer-jordan.jpg with tag '📍 Token2049 Dubai'. Optional slide 2 (light or white theme override): why we go to events in person (meet builders and founders face to face). Caption: company voice ('our founder Jordan was at…'), genuine, no invented details about who he met. Mention Breakpoint London next month.",
-      "format": "carousel",
-      "goal": "Trust",
-      "status": "scheduled",
-      "photo": "token2049-dubai-immunefi-vip-mixer-jordan.jpg",
-      "folder": "posts/2026-10-28_token2049-on-the-ground",
-      "title": "On the ground at Token2049 Dubai",
-      "metricool_id": 405527743,
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=4603062479726267102",
-      "facebook": "same post as Instagram",
-      "linkedin": {
-        "status": "scheduled",
-        "metricool_id": 408690350,
-        "date": "2026-10-28 12:15"
-      },
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11464794,
-        "date": "2026-10-28 17:30"
-      },
-      "note": "Scheduled 25 Oct. 4 slides: raw photo, light statement, light question, light cta. October X quota at scheduling: 5 remaining vs 6 X posts still planned (26, 27, 28, 29, 30, 31 Oct). Metricool October total now 16 posts (22 counting each network). 28 Oct clean-up: LinkedIn post (was id 407566411) had picked up an extra Instagram provider and moved to 13:15 after the 27 Oct update; fixed to LinkedIn-only at 12:15 (new id 408690350)."
-    },
-    {
-      "date": "2026-10-29",
-      "time": "17:30",
-      "channels": [
-        "x"
-      ],
-      "pillar": "Candidate value",
-      "topic": "X-only question post: what's the one thing a recruiter should tell you on the first call? Single post, no stats, invite replies. Added 22 Oct to use the spare October Typefully credit.",
-      "format": "x-single",
-      "status": "scheduled",
-      "folder": "posts/2026-10-29_x-recruiter-first-call",
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11485334,
-        "date": "2026-10-29 17:30"
-      },
-      "note": "Scheduled 26 Oct, text only. October X quota at scheduling: 5 remaining with 3 already queued (26, 27, 28), so 1 left after this, kept for the 31 Oct Bitcoin whitepaper X version."
-    },
-    {
-      "n": 7,
-      "date": "2026-10-31",
-      "time": "18:00",
-      "theme": "terminal",
-      "pillar": "Culture & moments",
-      "topic": "Bitcoin whitepaper day: 18 years since Satoshi published bitcoin.pdf (31 Oct 2008). Optional Halloween nod. Tie to: the builders who turned 9 pages into an industry",
-      "format": "carousel",
-      "goal": "Engagement",
-      "status": "scheduled",
-      "folder": "posts/2026-10-31_bitcoin-whitepaper",
-      "title": "Nine pages. One industry.",
-      "metricool_id": 408691701,
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=16809294545702795",
-      "facebook": "same post as Instagram",
-      "linkedin": {
-        "status": "scheduled",
-        "metricool_id": 408691578,
-        "date": "2026-11-02 08:45",
-        "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=1356485253784748986"
-      },
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11532015,
-        "date": "2026-10-31 16:30"
-      },
-      "note": "Scheduled 28 Oct. 5 slides terminal: cover, stat, statement+rows, question, cta. LinkedIn on Mon 2 Nov 08:45 (31 Oct is a Saturday), so the 2 Nov Events carousel LinkedIn should use 12:15 that day or Tue 3 Nov. X thread (4 posts) uses the last October Typefully credit (3 remaining at scheduling, 28 and 29 Oct already queued)."
-    },
-    {
-      "n": 8,
-      "date": "2026-11-02",
-      "time": "12:00",
-      "theme": "gradient",
-      "pillar": "Culture & moments",
-      "topic": "Events in November carousel (first post of the month): Devcon 8 Mumbai 3–6 Nov, Solana Breakpoint London 15–17 Nov (Jordan attending: say so and invite DMs to meet), Singapore FinTech Festival 18–20 Nov, AusCryptoCon Sydney 28–29 Nov, plus Blockchain Life Dubai 1–2 Dec as a heads-up. Verify every date first. Ask: which are you going to?",
-      "format": "carousel",
-      "goal": "Engagement",
-      "status": "scheduled",
-      "folder": "posts/2026-11-02_events-november",
-      "title": "Where Web3 meets in November",
-      "metricool_id": 410950542,
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-4907917658416070262",
-      "facebook": "same post as Instagram",
-      "linkedin": {
-        "status": "scheduled",
-        "metricool_id": 410950412,
-        "date": "2026-11-02 12:15",
-        "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=6264544147664225250"
-      },
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11577867,
-        "date": "2026-11-02 17:30"
-      },
-      "note": "Scheduled 30 Oct. 7 slides gradient: cover, 4 event cards (Devcon 8, Breakpoint, SFF, AusCryptoCon with Blockchain Life heads-up), question, cta. Dates verified online 30 Oct. Previous gradient post (22 Oct) used cover/statement/question/cta, so this one leads on event cards. X thread (4 posts) is the first November Typefully credit. LinkedIn 12:15 because the Bitcoin post takes 08:45 the same day."
-    },
-    {
-      "date": "2026-11-03",
-      "time": "16:30",
-      "channels": [
-        "x"
-      ],
-      "pillar": "Culture & moments",
-      "topic": "X-only Tier 2 event post: Day one of Devcon 8, Mumbai (Tue 3 Nov). Who's there? Verify dates on devcon.org first. Never imply Socius is attending.",
-      "format": "x-single",
-      "status": "scheduled",
-      "note": "Moved 26 Oct from 30 Oct to Devcon day one (Tier 2 day-one X post) because October Typefully credits run out; uses a November credit. Scheduled 31 Oct, text only. Devcon 8 dates (3–6 Nov, Mumbai) re-verified online 31 Oct. Typefully: October quota 9 used/1 left (held by the 31 Oct Bitcoin thread); this is the 2nd November X post after the 2 Nov Events thread. 31 Oct clean-up: LinkedIn posts for 31 Oct–3 Nov checked, no links in body or role counts, nothing to fix.",
-      "folder": "posts/2026-11-03_x-devcon-day-one",
-      "x": {
-        "status": "scheduled",
-        "typefully_draft_id": 11599065,
-        "date": "2026-11-03 16:30"
-      }
-    },
-    {
-      "n": 23,
-      "date": "2026-11-03",
-      "time": "20:00",
-      "theme": "photo",
-      "pillar": "Culture & moments",
-      "topic": "Work from anywhere: raw photo posts/photos/2025-workation-laptop-sea-view.jpg (optional 2nd photo laptop-socius-sunny-cafe.jpg). Theme: remote, global recruitment, our candidates and clients are everywhere. Light and human caption. Don't name the location unless known.",
-      "format": "carousel",
-      "goal": "Engagement",
-      "status": "todo",
-      "photo": "2025-workation-laptop-sea-view.jpg; laptop-socius-sunny-cafe.jpg"
-    },
-    {
-      "n": 10,
-      "date": "2026-11-05",
-      "time": "18:00",
-      "pillar": "Socius brand and proof",
-      "topic": "Candidate story: Kami Ho (Reya Labs), from TESTIMONIALS.md",
-      "format": "carousel",
-      "goal": "Trust",
-      "status": "todo",
-      "folder": "posts/2026-11-05_kami-story",
-      "testimonial": "Kami Ho",
-      "theme": "midnight"
-    },
-    {
-      "n": 12,
-      "date": "2026-11-09",
-      "time": "20:00",
-      "theme": "terminal",
-      "pillar": "Live opportunities",
-      "topic": "Selected live roles and salary ranges (real live roles from sociustalent.com/jobs only)",
-      "format": "carousel",
-      "goal": "Applications",
-      "status": "todo"
-    },
-    {
-      "n": 13,
-      "date": "2026-11-11",
-      "time": "18:00",
-      "theme": "frame",
-      "pillar": "Candidate value",
-      "topic": "Five questions to ask before joining a startup",
-      "format": "carousel",
-      "goal": "Candidate growth",
-      "status": "todo"
-    },
-    {
-      "n": 14,
-      "date": "2026-11-13",
-      "time": "18:00",
-      "theme": "gradient",
-      "pillar": "Culture & moments",
-      "topic": "We'll be at Solana Breakpoint, London, 15–17 Nov 2026 (Olympia). Jordan is attending (confirmed). Event card + 'Hiring for your Solana team, or exploring your next move? Let's grab a coffee at Breakpoint. DM us.' During the event (15–17 Nov): if Jordan sends photos or notes, post short live X updates.",
-      "format": "static",
-      "goal": "BD: in-person meetings",
-      "status": "todo",
-      "confirmed": "Jordan attending"
-    },
-    {
-      "n": 15,
-      "date": "2026-11-15",
-      "time": "20:00",
-      "pillar": "Socius brand and proof",
-      "topic": "What hiring managers say: client testimonials carousel (Samuel Dare, Martin Hansen, Michael Brown from TESTIMONIALS.md) + CTA to sociustalent.com/talent",
-      "format": "carousel",
-      "goal": "Business leads",
-      "status": "todo",
-      "testimonial": "Samuel Dare; Martin Hansen; Michael Brown",
-      "theme": "midnight"
-    },
-    {
-      "n": 17,
-      "date": "2026-11-19",
-      "time": "18:00",
-      "theme": "photo",
-      "pillar": "Culture & moments",
-      "topic": "Breakpoint London recap: what we heard from founders and builders. Use Jordan's Breakpoint photos from posts/photos/ if added; if none, use gradient theme and keep it to genuine, general takeaways (ask nothing invented). If Jordan hasn't shared anything about the event by 18 Nov, swap for a 'Thanks to everyone we met at Breakpoint' post without specifics.",
-      "format": "carousel",
-      "goal": "Engagement / BD",
-      "status": "todo",
-      "theme_fallback": "light"
-    },
-    {
-      "n": 18,
-      "date": "2026-11-21",
-      "time": "12:00",
-      "pillar": "Socius brand and proof",
-      "topic": "Meet Josh: client testimonial from Borja Moll Calvo (Josh's, in TESTIMONIALS.md). Credit Joshua Moore, Blockchain Recruiter at Socius",
-      "format": "carousel",
-      "goal": "Business leads",
-      "status": "todo",
-      "testimonial": "Borja Moll Calvo",
-      "theme": "white",
-      "note": "Use photo theme instead if a photo of Josh is in posts/photos/"
-    },
-    {
-      "n": 20,
-      "date": "2026-11-26",
-      "time": "18:00",
-      "theme": "gradient",
-      "pillar": "Culture & moments",
-      "topic": "Happy Thanksgiving to our US network (clients, candidates, partners). Warm, short, on-brand palette, no stock harvest art",
-      "format": "static",
-      "goal": "Community",
-      "status": "todo"
-    },
-    {
-      "n": 11,
-      "date": "2026-12-01",
-      "time": "12:00",
-      "theme": "terminal",
-      "pillar": "Industry insight",
-      "topic": "Web3 infrastructure vs product engineering: what's the difference?",
-      "format": "carousel",
-      "goal": "Authority",
-      "status": "todo",
-      "note": "Moved to December to stay within the 20 posts/month budget"
-    },
-    {
-      "n": 16,
-      "date": "2026-12-04",
-      "time": "18:00",
-      "theme": "frame",
-      "pillar": "Candidate value",
-      "topic": "CV mistakes that cost technical candidates interviews",
-      "format": "carousel",
-      "goal": "Candidate growth",
-      "status": "todo",
-      "note": "Moved to December to stay within the 20 posts/month budget"
-    },
-    {
-      "n": 19,
-      "date": "2026-12-07",
-      "time": "12:00",
-      "theme": "white",
-      "pillar": "Hiring intelligence",
-      "topic": "When should a startup bring in a recruiter?",
-      "format": "carousel",
-      "goal": "Business leads",
-      "status": "todo",
-      "note": "Moved to December to stay within the 20 posts/month budget"
-    },
-    {
-      "n": 21,
-      "date": "2026-12-10",
-      "time": "20:00",
-      "theme": "light",
-      "pillar": "Industry insight",
-      "topic": "Skills Web3 and AI startups are hiring for right now (keep general, no invented stats)",
-      "format": "carousel",
-      "goal": "Authority",
-      "status": "todo",
-      "note": "Moved to December to stay within the 20 posts/month budget"
-    },
-    {
-      "n": 6,
-      "date": "2026-12-13",
-      "time": "18:00",
-      "theme": "midnight",
-      "pillar": "Hiring intelligence",
-      "topic": "The perfect candidate doesn't exist (and what to hire for instead)",
-      "format": "carousel",
-      "goal": "Engagement",
-      "status": "todo",
-      "note": "Moved to make room for real photo posts"
-    },
-    {
-      "n": 9,
-      "date": "2026-12-16",
-      "time": "12:00",
-      "theme": "white",
-      "pillar": "Hiring intelligence",
-      "topic": "What makes a strong founding engineer?",
-      "format": "carousel",
-      "goal": "Hiring leads",
-      "status": "todo",
-      "note": "Moved to make room for real photo posts"
-    },
-    {
-      "n": 24,
-      "date": "2026-12-19",
-      "time": "12:00",
-      "theme": "photo",
-      "pillar": "Socius brand and proof",
-      "topic": "Meet the team: carousel of the illustrated portraits in posts/photos/team/ (Jordan, Founder; Joshua, Recruiter; Tegan, Researcher) using raw slides with name/role tags, ending with a cta slide. Bios as on sociustalent.com.",
-      "format": "carousel",
-      "goal": "Trust",
-      "status": "todo",
-      "photo": "team/*"
-    }
+ "config": {
+  "metricool_blog_id": "7429706",
+  "timezone": "Europe/London",
+  "network": "instagram",
+  "approval_until": "2026-10-14",
+  "approval_note": "Always autoPublish=true. autoPublish=false in Metricool does NOT mean 'tap to approve': it emails Jordan the files to post by hand. Jordan reviews via the summary each run sends and can edit or delete in the Metricool planner before post time.",
+  "raw_base": "https://raw.githubusercontent.com/Jxrdan0xx/socius-media/main/",
+  "confirmed_events": [
+   "Solana Breakpoint 2026, London, 15–17 Nov: Jordan attending"
   ],
-  "pinned": [
-    {
-      "date": "2026-10-15 12:00",
-      "post": "Your next move",
-      "metricool_id": 396237278,
-      "status": "published manually by Jordan 15 Oct"
-    },
-    {
-      "date": "2026-10-15 18:00",
-      "post": "Hiring? Start here",
-      "metricool_id": 396878086,
-      "linkedin": {
-        "status": "scheduled",
-        "metricool_id": 396863248,
-        "date": "2026-10-16 08:45"
-      }
-    },
-    {
-      "date": "2026-10-16 18:00",
-      "post": "Meet Socius",
-      "metricool_id": 396878216
-    }
-  ]
+  "linkedin": {
+   "enabled": true,
+   "rule": "Every calendar post goes to the Socius LinkedIn company page first, then Instagram (+Facebook) as a separate Metricool post. LinkedIn has budget priority.",
+   "times": "LinkedIn: weekdays only, 08:45 or 12:15 Europe/London, on the Instagram date or the next weekday.",
+   "format": "Same images. Carousels: linkedinData.publishImagesAsPDF=true with a documentTitle (swipeable document). Single image: normal image post.",
+   "caption": "Rewrite for LinkedIn: first person from Jordan where natural, a little longer and more considered, max 3 hashtags. NO links in the post body (hurts reach): end with a soft CTA like 'Link in the comments' and put the https link in firstCommentText. Never 'link in bio'. Never mention how many roles we have."
+  },
+  "monthly_post_budget": {
+   "limit": 20,
+   "note": "Metricool free plan: about 20 scheduled posts per calendar month, each network counts as one post. So ~10 calendar posts a month (one every ~3 days), each on IG + LinkedIn. Before scheduling, count posts already scheduled/published in Metricool for that month; if the budget would be exceeded, move the post to next month and tell Jordan. Jordan is happy to upgrade (Starter) if this proves limiting."
+  },
+  "x": {
+   "enabled": true,
+   "tool": "Typefully (social_set_id 344798, account @socius_talent)",
+   "budget": "Typefully free plan: 10 published posts per calendar month. Use all 10 every month (see channel_strategy.x_credits). Check get_social_set_details publishing_quota before scheduling.",
+   "format": "Adapt, don't copy. Carousels become a 3-6 post thread (hook first, one idea per post, CTA + https link last). Static posts become a single punchy post. Max ~260 chars per post. 0-2 hashtags. Crypto moments and conferences are X's strongest content.",
+   "media": "Attach the cover slide to the first post of each thread (up to 4 images per post; for statics attach the image). Upload: create_media_upload, then `curl -T <file> '<upload_url>'` (no extra headers), then poll get_media_status until ready. Set alt_text. If upload fails, post text-only and say so.",
+   "times": "Same day as Instagram, 16:30 or 17:30 Europe/London (EU evening + US East morning). Use publish_at with an explicit datetime."
+  },
+  "facebook": {
+   "enabled": true,
+   "rule": "Add facebook as a second provider on the SAME Metricool post as Instagram (providers [instagram, facebook], facebookData {type: POST}). Same caption and images. Meta does not auto-share API posts from Instagram to Facebook.",
+   "budget_note": "Unclear whether Metricool counts a two-network post as 1 or 2 against the free 20/month. If a quota error appears, drop Facebook first (keep Instagram), and tell Jordan."
+  },
+  "photo_library": {
+   "unused": [
+    "coffee-linkedin-laptop.jpg (casual 'Monday coffee' / desk post)"
+   ],
+   "used_or_planned": [
+    "token2049-dubai-immunefi-vip-mixer-jordan.jpg",
+    "2025-workation-laptop-sea-view.jpg",
+    "laptop-socius-sunny-cafe.jpg",
+    "team/*"
+   ],
+   "note": "Only use photos from posts/photos/. Raw slide type for people photos so text never covers faces."
+  },
+  "channel_strategy": {
+   "decided": "2026-10-21 by Jordan",
+   "accounts": "Business accounts ONLY: Socius LinkedIn company page, @sociustalent Instagram, Socius Facebook page, @socius_talent on X. Never post to or write as Jordan's personal profiles. Jordan's personal LinkedIn already posts a Friday weekly round-up with live roles from a separate project; personal set-up may be added later.",
+   "voice": "Company voice everywhere: 'we' / 'us' / 'the Socius team'. Never 'I' or 'me'. Refer to Jordan in the third person ('our founder Jordan') when needed.",
+   "priority": "1) LinkedIn company page (business leads), 2) X (Web3 community, use every Typefully credit), 3) Instagram, 4) Facebook (follows Instagram). Instagram/Facebook are for presence and trust, not leads.",
+   "metricool_budget_order": "Schedule LinkedIn first. If the monthly Metricool budget is tight, drop Facebook first, then Instagram. Never drop LinkedIn for Instagram/Facebook.",
+   "x_credits": "Use all 10 Typefully posts each calendar month (we need a full month of data). Calendar posts get an X version first; any spare credits go to X-only posts (entries with channels ['x']). On the last run of each month, if credits remain, schedule X-only posts to use them.",
+   "linkedin_live_roles": "Avoid putting company-page live-roles posts on Fridays, so they don't clash with Jordan's personal Friday round-up."
+  }
+ },
+ "posts": [
+  {
+   "n": 1,
+   "date": "2026-10-18",
+   "time": "18:00",
+   "pillar": "Hiring intelligence",
+   "topic": "The hiring mistake costing Web3 startups",
+   "format": "carousel",
+   "goal": "Hiring leads",
+   "status": "scheduled",
+   "metricool_id": 396878298,
+   "folder": "posts/2026-10-18_hiring-mistake",
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=6432567660100011024",
+   "theme": "midnight",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 396863374,
+    "date": "2026-10-19 08:45"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11257464,
+    "date": "2026-10-18 17:00"
+   },
+   "facebook": "same post as Instagram"
+  },
+  {
+   "n": 2,
+   "date": "2026-10-20",
+   "time": "12:00",
+   "theme": "light",
+   "pillar": "Candidate value",
+   "topic": "What strong candidates look for in a startup before they say yes",
+   "format": "static",
+   "goal": "Authority",
+   "status": "scheduled",
+   "folder": "posts/2026-10-20_before-they-say-yes",
+   "metricool_id": 398368760,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=982171591455952454",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 398368821,
+    "date": "2026-10-20 12:15"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11304773,
+    "date": "2026-10-20 16:30"
+   }
+  },
+  {
+   "n": 3,
+   "date": "2026-10-22",
+   "time": "20:00",
+   "theme": "gradient",
+   "pillar": "Hiring intelligence",
+   "topic": "Three signs you need a specialist recruiter",
+   "format": "carousel",
+   "goal": "Business leads",
+   "status": "scheduled",
+   "folder": "posts/2026-10-22_specialist-recruiter",
+   "metricool_id": 399730164,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-3555858035179501938",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 401876542,
+    "date": "2026-10-22 12:15"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11339502,
+    "date": "2026-10-22 17:30"
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "time": "17:30",
+   "channels": [
+    "x"
+   ],
+   "pillar": "Conversation",
+   "topic": "X-only hot take: job specs with ten must-haves and no salary scare off the best engineers. Single post, no stats, ask what people skip past.",
+   "format": "x-single",
+   "status": "scheduled",
+   "folder": "posts/2026-10-23_x-job-spec-hot-take",
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11403870,
+    "date": "2026-10-23 17:30"
+   }
+  },
+  {
+   "n": 4,
+   "date": "2026-10-24",
+   "time": "18:00",
+   "theme": "white",
+   "pillar": "Live opportunities",
+   "topic": "Roles worth knowing about (real live roles from sociustalent.com/jobs only)",
+   "format": "carousel",
+   "goal": "Applications",
+   "status": "scheduled",
+   "folder": "posts/2026-10-24_live-roles",
+   "metricool_id": 401867747,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=7892859683488811837",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 401876497,
+    "date": "2026-10-26 08:45"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11382808,
+    "date": "2026-10-24 17:30"
+   },
+   "note": "Roles taken from sociustalent.com/jobs on 21 Oct (25 live). LinkedIn on Mon 26 Oct as 24 Oct is a Saturday."
+  },
+  {
+   "n": 5,
+   "date": "2026-10-26",
+   "time": "12:00",
+   "theme": "frame",
+   "pillar": "Conversation",
+   "topic": "'Settle this' poll: founding engineers, remote or in the room? (question slide, ask people to comment A/B/C)",
+   "format": "static",
+   "goal": "Engagement",
+   "status": "scheduled",
+   "folder": "posts/2026-10-26_settle-this-remote",
+   "metricool_id": 403899208,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-2742054100547254076",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 403899138,
+    "date": "2026-10-27 08:45"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11424736,
+    "date": "2026-10-26 16:30"
+   },
+   "note": "LinkedIn moved to Tue 27 Oct 08:45 because Mon 26 08:45 already has the live-roles LinkedIn post."
+  },
+  {
+   "date": "2026-10-27",
+   "time": "16:30",
+   "channels": [
+    "x"
+   ],
+   "pillar": "Hiring intelligence",
+   "topic": "X-only short thread (3 posts): what founders get wrong when hiring their first protocol/smart-contract engineer. Evergreen, no stats; CTA https://sociustalent.com/talent",
+   "format": "x-thread",
+   "status": "scheduled",
+   "folder": "posts/2026-10-27_x-first-protocol-engineer",
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11445837,
+    "date": "2026-10-27 16:30"
+   },
+   "note": "Scheduled 24 Oct. October X quota check: 6 credits left vs 7 X posts still planned (24, 26, 27, 28, 29, 30, 31 Oct); one needs moving to November."
+  },
+  {
+   "n": 22,
+   "date": "2026-10-28",
+   "time": "20:00",
+   "theme": "photo",
+   "pillar": "Socius brand and proof",
+   "topic": "On the ground at Token2049 Dubai (Immunefi VIP Mixer). Slide 1 = raw photo posts/photos/token2049-dubai-immunefi-vip-mixer-jordan.jpg with tag '📍 Token2049 Dubai'. Optional slide 2 (light or white theme override): why we go to events in person (meet builders and founders face to face). Caption: company voice ('our founder Jordan was at…'), genuine, no invented details about who he met. Mention Breakpoint London next month.",
+   "format": "carousel",
+   "goal": "Trust",
+   "status": "scheduled",
+   "photo": "token2049-dubai-immunefi-vip-mixer-jordan.jpg",
+   "folder": "posts/2026-10-28_token2049-on-the-ground",
+   "title": "On the ground at Token2049 Dubai",
+   "metricool_id": 405527743,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=4603062479726267102",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 408690350,
+    "date": "2026-10-28 12:15"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11464794,
+    "date": "2026-10-28 17:30"
+   },
+   "note": "Scheduled 25 Oct. 4 slides: raw photo, light statement, light question, light cta. October X quota at scheduling: 5 remaining vs 6 X posts still planned (26, 27, 28, 29, 30, 31 Oct). Metricool October total now 16 posts (22 counting each network). 28 Oct clean-up: LinkedIn post (was id 407566411) had picked up an extra Instagram provider and moved to 13:15 after the 27 Oct update; fixed to LinkedIn-only at 12:15 (new id 408690350)."
+  },
+  {
+   "date": "2026-10-29",
+   "time": "17:30",
+   "channels": [
+    "x"
+   ],
+   "pillar": "Candidate value",
+   "topic": "X-only question post: what's the one thing a recruiter should tell you on the first call? Single post, no stats, invite replies. Added 22 Oct to use the spare October Typefully credit.",
+   "format": "x-single",
+   "status": "scheduled",
+   "folder": "posts/2026-10-29_x-recruiter-first-call",
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11485334,
+    "date": "2026-10-29 17:30"
+   },
+   "note": "Scheduled 26 Oct, text only. October X quota at scheduling: 5 remaining with 3 already queued (26, 27, 28), so 1 left after this, kept for the 31 Oct Bitcoin whitepaper X version."
+  },
+  {
+   "n": 7,
+   "date": "2026-10-31",
+   "time": "18:00",
+   "theme": "terminal",
+   "pillar": "Culture & moments",
+   "topic": "Bitcoin whitepaper day: 18 years since Satoshi published bitcoin.pdf (31 Oct 2008). Optional Halloween nod. Tie to: the builders who turned 9 pages into an industry",
+   "format": "carousel",
+   "goal": "Engagement",
+   "status": "scheduled",
+   "folder": "posts/2026-10-31_bitcoin-whitepaper",
+   "title": "Nine pages. One industry.",
+   "metricool_id": 408691701,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=16809294545702795",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 408691578,
+    "date": "2026-11-02 08:45",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=1356485253784748986"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11532015,
+    "date": "2026-10-31 16:30"
+   },
+   "note": "Scheduled 28 Oct. 5 slides terminal: cover, stat, statement+rows, question, cta. LinkedIn on Mon 2 Nov 08:45 (31 Oct is a Saturday), so the 2 Nov Events carousel LinkedIn should use 12:15 that day or Tue 3 Nov. X thread (4 posts) uses the last October Typefully credit (3 remaining at scheduling, 28 and 29 Oct already queued)."
+  },
+  {
+   "n": 8,
+   "date": "2026-11-02",
+   "time": "12:00",
+   "theme": "gradient",
+   "pillar": "Culture & moments",
+   "topic": "Events in November carousel (first post of the month): Devcon 8 Mumbai 3–6 Nov, Solana Breakpoint London 15–17 Nov (Jordan attending: say so and invite DMs to meet), Singapore FinTech Festival 18–20 Nov, AusCryptoCon Sydney 28–29 Nov, plus Blockchain Life Dubai 1–2 Dec as a heads-up. Verify every date first. Ask: which are you going to?",
+   "format": "carousel",
+   "goal": "Engagement",
+   "status": "scheduled",
+   "folder": "posts/2026-11-02_events-november",
+   "title": "Where Web3 meets in November",
+   "metricool_id": 410950542,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-4907917658416070262",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 410950412,
+    "date": "2026-11-02 12:15",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=6264544147664225250"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11577867,
+    "date": "2026-11-02 17:30"
+   },
+   "note": "Scheduled 30 Oct. 7 slides gradient: cover, 4 event cards (Devcon 8, Breakpoint, SFF, AusCryptoCon with Blockchain Life heads-up), question, cta. Dates verified online 30 Oct. Previous gradient post (22 Oct) used cover/statement/question/cta, so this one leads on event cards. X thread (4 posts) is the first November Typefully credit. LinkedIn 12:15 because the Bitcoin post takes 08:45 the same day."
+  },
+  {
+   "date": "2026-11-03",
+   "time": "16:30",
+   "channels": [
+    "x"
+   ],
+   "pillar": "Culture & moments",
+   "topic": "X-only Tier 2 event post: Day one of Devcon 8, Mumbai (Tue 3 Nov). Who's there? Verify dates on devcon.org first. Never imply Socius is attending.",
+   "format": "x-single",
+   "status": "scheduled",
+   "note": "Moved 26 Oct from 30 Oct to Devcon day one (Tier 2 day-one X post) because October Typefully credits run out; uses a November credit. Scheduled 31 Oct, text only. Devcon 8 dates (3–6 Nov, Mumbai) re-verified online 31 Oct. Typefully: October quota 9 used/1 left (held by the 31 Oct Bitcoin thread); this is the 2nd November X post after the 2 Nov Events thread. 31 Oct clean-up: LinkedIn posts for 31 Oct–3 Nov checked, no links in body or role counts, nothing to fix.",
+   "folder": "posts/2026-11-03_x-devcon-day-one",
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11599065,
+    "date": "2026-11-03 16:30"
+   }
+  },
+  {
+   "n": 23,
+   "date": "2026-11-03",
+   "time": "20:00",
+   "theme": "photo",
+   "pillar": "Culture & moments",
+   "topic": "Work from anywhere: raw photo posts/photos/2025-workation-laptop-sea-view.jpg (optional 2nd photo laptop-socius-sunny-cafe.jpg). Theme: remote, global recruitment, our candidates and clients are everywhere. Light and human caption. Don't name the location unless known.",
+   "format": "carousel",
+   "goal": "Engagement",
+   "status": "todo",
+   "photo": "2025-workation-laptop-sea-view.jpg; laptop-socius-sunny-cafe.jpg"
+  },
+  {
+   "n": 10,
+   "date": "2026-11-05",
+   "time": "18:00",
+   "pillar": "Socius brand and proof",
+   "topic": "Candidate story: Kami Ho (Reya Labs), from TESTIMONIALS.md",
+   "format": "carousel",
+   "goal": "Trust",
+   "status": "todo",
+   "folder": "posts/2026-11-05_kami-story",
+   "testimonial": "Kami Ho",
+   "theme": "midnight"
+  },
+  {
+   "n": 12,
+   "date": "2026-11-09",
+   "time": "20:00",
+   "theme": "terminal",
+   "pillar": "Live opportunities",
+   "topic": "Selected live roles and salary ranges (real live roles from sociustalent.com/jobs only)",
+   "format": "carousel",
+   "goal": "Applications",
+   "status": "todo"
+  },
+  {
+   "n": 13,
+   "date": "2026-11-11",
+   "time": "18:00",
+   "theme": "frame",
+   "pillar": "Candidate value",
+   "topic": "Five questions to ask before joining a startup",
+   "format": "carousel",
+   "goal": "Candidate growth",
+   "status": "todo"
+  },
+  {
+   "n": 14,
+   "date": "2026-11-13",
+   "time": "18:00",
+   "theme": "gradient",
+   "pillar": "Culture & moments",
+   "topic": "We'll be at Solana Breakpoint, London, 15–17 Nov 2026 (Olympia). Jordan is attending (confirmed). Event card + 'Hiring for your Solana team, or exploring your next move? Let's grab a coffee at Breakpoint. DM us.' During the event (15–17 Nov): if Jordan sends photos or notes, post short live X updates.",
+   "format": "static",
+   "goal": "BD: in-person meetings",
+   "status": "todo",
+   "confirmed": "Jordan attending"
+  },
+  {
+   "n": 15,
+   "date": "2026-11-15",
+   "time": "20:00",
+   "pillar": "Socius brand and proof",
+   "topic": "What hiring managers say: client testimonials carousel (Samuel Dare, Martin Hansen, Michael Brown from TESTIMONIALS.md) + CTA to sociustalent.com/talent",
+   "format": "carousel",
+   "goal": "Business leads",
+   "status": "todo",
+   "testimonial": "Samuel Dare; Martin Hansen; Michael Brown",
+   "theme": "midnight"
+  },
+  {
+   "n": 17,
+   "date": "2026-11-19",
+   "time": "18:00",
+   "theme": "photo",
+   "pillar": "Culture & moments",
+   "topic": "Breakpoint London recap: what we heard from founders and builders. Use Jordan's Breakpoint photos from posts/photos/ if added; if none, use gradient theme and keep it to genuine, general takeaways (ask nothing invented). If Jordan hasn't shared anything about the event by 18 Nov, swap for a 'Thanks to everyone we met at Breakpoint' post without specifics.",
+   "format": "carousel",
+   "goal": "Engagement / BD",
+   "status": "todo",
+   "theme_fallback": "light"
+  },
+  {
+   "n": 18,
+   "date": "2026-11-21",
+   "time": "12:00",
+   "pillar": "Socius brand and proof",
+   "topic": "Meet Josh: client testimonial from Borja Moll Calvo (Josh's, in TESTIMONIALS.md). Credit Joshua Moore, Blockchain Recruiter at Socius",
+   "format": "carousel",
+   "goal": "Business leads",
+   "status": "todo",
+   "testimonial": "Borja Moll Calvo",
+   "theme": "white",
+   "note": "Use photo theme instead if a photo of Josh is in posts/photos/"
+  },
+  {
+   "n": 20,
+   "date": "2026-11-26",
+   "time": "18:00",
+   "theme": "gradient",
+   "pillar": "Culture & moments",
+   "topic": "Happy Thanksgiving to our US network (clients, candidates, partners). Warm, short, on-brand palette, no stock harvest art",
+   "format": "static",
+   "goal": "Community",
+   "status": "todo"
+  },
+  {
+   "n": 11,
+   "date": "2026-12-01",
+   "time": "12:00",
+   "theme": "terminal",
+   "pillar": "Industry insight",
+   "topic": "Web3 infrastructure vs product engineering: what's the difference?",
+   "format": "carousel",
+   "goal": "Authority",
+   "status": "todo",
+   "note": "Moved to December to stay within the 20 posts/month budget"
+  },
+  {
+   "n": 16,
+   "date": "2026-12-04",
+   "time": "18:00",
+   "theme": "frame",
+   "pillar": "Candidate value",
+   "topic": "CV mistakes that cost technical candidates interviews",
+   "format": "carousel",
+   "goal": "Candidate growth",
+   "status": "todo",
+   "note": "Moved to December to stay within the 20 posts/month budget"
+  },
+  {
+   "n": 19,
+   "date": "2026-12-07",
+   "time": "12:00",
+   "theme": "white",
+   "pillar": "Hiring intelligence",
+   "topic": "When should a startup bring in a recruiter?",
+   "format": "carousel",
+   "goal": "Business leads",
+   "status": "todo",
+   "note": "Moved to December to stay within the 20 posts/month budget"
+  },
+  {
+   "n": 21,
+   "date": "2026-12-10",
+   "time": "20:00",
+   "theme": "light",
+   "pillar": "Industry insight",
+   "topic": "Skills Web3 and AI startups are hiring for right now (keep general, no invented stats)",
+   "format": "carousel",
+   "goal": "Authority",
+   "status": "todo",
+   "note": "Moved to December to stay within the 20 posts/month budget"
+  },
+  {
+   "n": 6,
+   "date": "2026-12-13",
+   "time": "18:00",
+   "theme": "midnight",
+   "pillar": "Hiring intelligence",
+   "topic": "The perfect candidate doesn't exist (and what to hire for instead)",
+   "format": "carousel",
+   "goal": "Engagement",
+   "status": "todo",
+   "note": "Moved to make room for real photo posts"
+  },
+  {
+   "n": 9,
+   "date": "2026-12-16",
+   "time": "12:00",
+   "theme": "white",
+   "pillar": "Hiring intelligence",
+   "topic": "What makes a strong founding engineer?",
+   "format": "carousel",
+   "goal": "Hiring leads",
+   "status": "todo",
+   "note": "Moved to make room for real photo posts"
+  },
+  {
+   "n": 24,
+   "date": "2026-12-19",
+   "time": "12:00",
+   "theme": "photo",
+   "pillar": "Socius brand and proof",
+   "topic": "Meet the team: carousel of the illustrated portraits in posts/photos/team/ (Jordan, Founder; Joshua, Recruiter; Tegan, Researcher) using raw slides with name/role tags, ending with a cta slide. Bios as on sociustalent.com.",
+   "format": "carousel",
+   "goal": "Trust",
+   "status": "todo",
+   "photo": "team/*"
+  }
+ ],
+ "pinned": [
+  {
+   "date": "2026-10-15 12:00",
+   "post": "Your next move",
+   "metricool_id": 396237278,
+   "status": "published manually by Jordan 15 Oct"
+  },
+  {
+   "date": "2026-10-15 18:00",
+   "post": "Hiring? Start here",
+   "metricool_id": 396878086,
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 396863248,
+    "date": "2026-10-16 08:45"
+   }
+  },
+  {
+   "date": "2026-10-16 18:00",
+   "post": "Meet Socius",
+   "metricool_id": 396878216
+  }
+ ]
 }
