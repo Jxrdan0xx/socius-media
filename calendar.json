@@ -344,8 +344,38 @@
    }
   },
   {
-   "n": 23,
+   "n": 10,
    "date": "2026-11-03",
+   "time": "18:00",
+   "pillar": "Socius brand and proof",
+   "topic": "Candidate story: Kami Ho (Reya Labs), from TESTIMONIALS.md",
+   "format": "carousel",
+   "goal": "Trust",
+   "status": "scheduled",
+   "folder": "posts/2026-11-03_kami-story",
+   "testimonial": "Kami Ho",
+   "theme": "midnight",
+   "note": "Review 1 Nov: pre-built, keep. LinkedIn version as a document carousel (doc posts got ~21–22% engagement vs 2–5% for single images). 1 Nov run: swapped with the photo post (n23). Running the photo post on 3 Nov would have broken THE VARIETY RULE (28 Oct photo is within the previous 3 feed posts) and put two Culture & moments posts back to back after the 2 Nov Events carousel. Kami moved to 3 Nov 18:00, folder renamed to posts/2026-11-03_kami-story, slides re-rendered and checked. 5 slides midnight: cover, quote x3, cta (last midnight post 18 Oct was cover/statements/cta). LinkedIn Tue 3 Nov 08:45 document carousel, links in first comment. X thread 4 posts 17:30 with cover image (3rd November X post queued; Typefully quota 0 used/10 remaining at scheduling as the 2 and 3 Nov posts haven't published yet). Metricool November: 5 posts after this (7 counting each network). Clean-up: LinkedIn posts 1–4 Nov checked, no links in body or role counts.",
+   "title": "Most applications ended after round one",
+   "metricool_id": 412757170,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-8226553780815770540",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 412757092,
+    "date": "2026-11-03 08:45",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=4377522255879881961"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11618912,
+    "date": "2026-11-03 17:30"
+   },
+   "testimonial_used": "2026-11-03"
+  },
+  {
+   "n": 23,
+   "date": "2026-11-05",
    "time": "20:00",
    "theme": "photo",
    "pillar": "Culture & moments",
@@ -354,21 +384,7 @@
    "goal": "Engagement",
    "status": "todo",
    "photo": "2025-workation-laptop-sea-view.jpg; laptop-socius-sunny-cafe.jpg",
-   "note": "Review 1 Nov: the Token2049 photo post was October's best by far (IG reach 89 vs 16–24 for graphics, only post to win a follower). Keep as photo at 20:00. LinkedIn as a document carousel, not a single image."
-  },
-  {
-   "n": 10,
-   "date": "2026-11-05",
-   "time": "18:00",
-   "pillar": "Socius brand and proof",
-   "topic": "Candidate story: Kami Ho (Reya Labs), from TESTIMONIALS.md",
-   "format": "carousel",
-   "goal": "Trust",
-   "status": "todo",
-   "folder": "posts/2026-11-05_kami-story",
-   "testimonial": "Kami Ho",
-   "theme": "midnight",
-   "note": "Review 1 Nov: pre-built, keep. LinkedIn version as a document carousel (doc posts got ~21–22% engagement vs 2–5% for single images)."
+   "note": "Review 1 Nov: the Token2049 photo post was October's best by far (IG reach 89 vs 16–24 for graphics, only post to win a follower). Keep as photo at 20:00. LinkedIn as a document carousel, not a single image. 1 Nov run: moved from 3 Nov to 5 Nov 20:00 (swapped with the Kami story) to satisfy THE VARIETY RULE: on 5 Nov the previous 3 feed posts are midnight, gradient, terminal."
   },
   {
    "n": 12,
