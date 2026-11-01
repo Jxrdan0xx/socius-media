@@ -14,7 +14,8 @@
    "rule": "Every calendar post goes to the Socius LinkedIn company page first, then Instagram (+Facebook) as a separate Metricool post. LinkedIn has budget priority.",
    "times": "LinkedIn: weekdays only, 08:45 or 12:15 Europe/London, on the Instagram date or the next weekday.",
    "format": "Same images. Carousels: linkedinData.publishImagesAsPDF=true with a documentTitle (swipeable document). Single image: normal image post.",
-   "caption": "Rewrite for LinkedIn: first person from Jordan where natural, a little longer and more considered, max 3 hashtags. NO links in the post body (hurts reach): end with a soft CTA like 'Link in the comments' and put the https link in firstCommentText. Never 'link in bio'. Never mention how many roles we have."
+   "caption": "Rewrite for LinkedIn: first person from Jordan where natural, a little longer and more considered, max 3 hashtags. NO links in the post body (hurts reach): end with a soft CTA like 'Link in the comments' and put the https link in firstCommentText. Never 'link in bio'. Never mention how many roles we have.",
+   "format_review": "Oct 2026 review (early read, 5 posts): document carousels (19 Oct, 22 Oct) got 54 and 75 clicks and ~21–22% engagement; single-image posts (20 Oct, 27 Oct) got more impressions but 2–5% engagement and 15–18 clicks. Default every LinkedIn version to a multi-slide document carousel; use a single image only for short holiday posts."
   },
   "monthly_post_budget": {
    "limit": 20,
@@ -31,7 +32,8 @@
   "facebook": {
    "enabled": true,
    "rule": "Add facebook as a second provider on the SAME Metricool post as Instagram (providers [instagram, facebook], facebookData {type: POST}). Same caption and images. Meta does not auto-share API posts from Instagram to Facebook.",
-   "budget_note": "Unclear whether Metricool counts a two-network post as 1 or 2 against the free 20/month. If a quota error appears, drop Facebook first (keep Instagram), and tell Jordan."
+   "budget_note": "Unclear whether Metricool counts a two-network post as 1 or 2 against the free 20/month. If a quota error appears, drop Facebook first (keep Instagram), and tell Jordan.",
+   "status_note": "1 Nov 2026: Metricool reports 'No Facebook page connected' on the 26, 28 and 31 Oct posts (Instagram still published). Facebook needs reconnecting in Metricool by Jordan; until then the Facebook leg of each post fails harmlessly."
   },
   "photo_library": {
    "unused": [
@@ -53,7 +55,10 @@
    "metricool_budget_order": "Schedule LinkedIn first. If the monthly Metricool budget is tight, drop Facebook first, then Instagram. Never drop LinkedIn for Instagram/Facebook.",
    "x_credits": "Use all 10 Typefully posts each calendar month (we need a full month of data). Calendar posts get an X version first; any spare credits go to X-only posts (entries with channels ['x']). On the last run of each month, if credits remain, schedule X-only posts to use them.",
    "linkedin_live_roles": "Avoid putting company-page live-roles posts on Fridays, so they don't clash with Jordan's personal Friday round-up."
-  }
+  },
+  "performance_reviews": [
+   "reports/2026-10.md"
+  ]
  },
  "posts": [
   {
@@ -348,7 +353,8 @@
    "format": "carousel",
    "goal": "Engagement",
    "status": "todo",
-   "photo": "2025-workation-laptop-sea-view.jpg; laptop-socius-sunny-cafe.jpg"
+   "photo": "2025-workation-laptop-sea-view.jpg; laptop-socius-sunny-cafe.jpg",
+   "note": "Review 1 Nov: the Token2049 photo post was October's best by far (IG reach 89 vs 16–24 for graphics, only post to win a follower). Keep as photo at 20:00. LinkedIn as a document carousel, not a single image."
   },
   {
    "n": 10,
@@ -361,7 +367,8 @@
    "status": "todo",
    "folder": "posts/2026-11-05_kami-story",
    "testimonial": "Kami Ho",
-   "theme": "midnight"
+   "theme": "midnight",
+   "note": "Review 1 Nov: pre-built, keep. LinkedIn version as a document carousel (doc posts got ~21–22% engagement vs 2–5% for single images)."
   },
   {
    "n": 12,
@@ -372,7 +379,8 @@
    "topic": "Selected live roles and salary ranges (real live roles from sociustalent.com/jobs only)",
    "format": "carousel",
    "goal": "Applications",
-   "status": "todo"
+   "status": "todo",
+   "note": "Review 1 Nov: the 24 Oct roles post underperformed (IG reach 23, 0 saves; LinkedIn post logged only 3 impressions). New approach: 3–4 roles max, one role per slide (title, sector, location, salary as listed), no counts anywhere. LinkedIn on Mon 9 Nov 08:45 as a document carousel with links in the first comment only."
   },
   {
    "n": 13,
@@ -383,7 +391,8 @@
    "topic": "Five questions to ask before joining a startup",
    "format": "carousel",
    "goal": "Candidate growth",
-   "status": "todo"
+   "status": "todo",
+   "note": "Review 1 Nov: no October post earned a single IG save or share. Build this as a keepable checklist (one question per slide, a summary slide before the cta) to test saves. LinkedIn as a document carousel."
   },
   {
    "n": 14,
@@ -392,10 +401,11 @@
    "theme": "gradient",
    "pillar": "Culture & moments",
    "topic": "We'll be at Solana Breakpoint, London, 15–17 Nov 2026 (Olympia). Jordan is attending (confirmed). Event card + 'Hiring for your Solana team, or exploring your next move? Let's grab a coffee at Breakpoint. DM us.' During the event (15–17 Nov): if Jordan sends photos or notes, post short live X updates.",
-   "format": "static",
+   "format": "carousel",
    "goal": "BD: in-person meetings",
    "status": "todo",
-   "confirmed": "Jordan attending"
+   "confirmed": "Jordan attending",
+   "note": "Review 1 Nov: changed static to carousel (4 slides: event card, why we meet in person, who we'd like to meet: Solana teams hiring and engineers exploring a move, cta) because LinkedIn document carousels clearly beat single images in October. Tier 1 touch 1, keep 18:00."
   },
   {
    "n": 15,
@@ -424,7 +434,7 @@
   {
    "n": 18,
    "date": "2026-11-21",
-   "time": "12:00",
+   "time": "18:00",
    "pillar": "Socius brand and proof",
    "topic": "Meet Josh: client testimonial from Borja Moll Calvo (Josh's, in TESTIMONIALS.md). Credit Joshua Moore, Blockchain Recruiter at Socius",
    "format": "carousel",
@@ -432,7 +442,7 @@
    "status": "todo",
    "testimonial": "Borja Moll Calvo",
    "theme": "white",
-   "note": "Use photo theme instead if a photo of Josh is in posts/photos/"
+   "note": "Use photo theme instead if a photo of Josh is in posts/photos/. Review 1 Nov: moved from 12:00 to 18:00; both noon IG posts in October had the lowest reach (16 and 21)."
   },
   {
    "n": 20,
@@ -448,14 +458,14 @@
   {
    "n": 11,
    "date": "2026-12-01",
-   "time": "12:00",
+   "time": "18:00",
    "theme": "terminal",
    "pillar": "Industry insight",
    "topic": "Web3 infrastructure vs product engineering: what's the difference?",
    "format": "carousel",
    "goal": "Authority",
    "status": "todo",
-   "note": "Moved to December to stay within the 20 posts/month budget"
+   "note": "Moved to December to stay within the 20 posts/month budget. Review 1 Nov: moved from 12:00 to 18:00 (noon IG slots weakest in October)."
   },
   {
    "n": 16,
@@ -472,14 +482,14 @@
   {
    "n": 19,
    "date": "2026-12-07",
-   "time": "12:00",
+   "time": "20:00",
    "theme": "white",
    "pillar": "Hiring intelligence",
    "topic": "When should a startup bring in a recruiter?",
    "format": "carousel",
    "goal": "Business leads",
    "status": "todo",
-   "note": "Moved to December to stay within the 20 posts/month budget"
+   "note": "Moved to December to stay within the 20 posts/month budget. Review 1 Nov: moved from 12:00 to 20:00 (noon IG slots weakest in October)."
   },
   {
    "n": 21,
@@ -508,26 +518,27 @@
   {
    "n": 9,
    "date": "2026-12-16",
-   "time": "12:00",
+   "time": "18:00",
    "theme": "white",
    "pillar": "Hiring intelligence",
    "topic": "What makes a strong founding engineer?",
    "format": "carousel",
    "goal": "Hiring leads",
    "status": "todo",
-   "note": "Moved to make room for real photo posts"
+   "note": "Moved to make room for real photo posts. Review 1 Nov: moved from 12:00 to 18:00 (noon IG slots weakest in October)."
   },
   {
    "n": 24,
    "date": "2026-12-19",
-   "time": "12:00",
+   "time": "20:00",
    "theme": "photo",
    "pillar": "Socius brand and proof",
    "topic": "Meet the team: carousel of the illustrated portraits in posts/photos/team/ (Jordan, Founder; Joshua, Recruiter; Tegan, Researcher) using raw slides with name/role tags, ending with a cta slide. Bios as on sociustalent.com.",
    "format": "carousel",
    "goal": "Trust",
    "status": "todo",
-   "photo": "team/*"
+   "photo": "team/*",
+   "note": "Review 1 Nov: moved from 12:00 to 20:00 (noon IG slots weakest in October)."
   }
  ],
  "pinned": [

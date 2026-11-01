@@ -34,6 +34,11 @@ Both, with emphasis on business growth: founders, CTOs, heads of engineering and
 - Proof (testimonials, Socius story, behind the scenes): 15%
 Never two posts of the same pillar back to back. Testimonials at most 1 in 6 posts.
 
+## Performance learnings (monthly reviews in `reports/`)
+Early reads, not laws. Update each month; the hard rules above always win.
+- **Oct 2026 (early read, ~6 posts per channel):** real photos beat graphics on Instagram by ~4x reach (Token2049 photo: 89 vs 16–24). On LinkedIn, document carousels (hiring intelligence) drove the clicks, comments and shares; single images got impressions but almost no interaction. No Instagram post has earned a save or share yet, and the A/B/C poll got no votes on any channel. Noon Instagram slots were weakest. Content mix percentages unchanged until there's more data.
+- Implications: LinkedIn versions default to document carousels; keep photo posts at least every 2 weeks; build candidate/tips carousels as keepable checklists; Instagram at 18:00 or 20:00.
+
 ## Design: variety is a rule
 Rendered by `engine/build.py` (1080×1350 JPEG). Write a spec JSON; don't hand-design. See `engine/showcase_spec.json`.
 - **Themes (7)**: `midnight` (house navy glow), `light` (cream editorial + serif), `gradient` (bold brand gradient), `terminal` (black mono, crypto/tech), `white` (Swiss poster: white, huge black type, purple accent), `frame` (gradient border + white card), `photo` (Jordan's real photos from `posts/photos/`). Samples: `engine/showcase_spec.json`.
