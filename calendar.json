@@ -11,6 +11,8 @@
   ],
   "linkedin": {
    "enabled": true,
+   "delivery": "email",
+   "delivery_note": "2 Nov 2026 (Jordan): Metricool's LinkedIn free trial has ended, so Metricool can no longer post to LinkedIn. Until Jordan says he has paid for it, do NOT schedule LinkedIn in Metricool. Instead email the LinkedIn version to jordan@sociustalent.com (Gmail send_message) for him to post by hand on the company page: subject 'LinkedIn to post: <weekday date> <time>: <title>', with post time, document title, caption ready to copy, the first comment (links), a link to posts/<folder>/linkedin.pdf (all slides as one PDF, built with PIL from the slide JPGs and pushed to the repo) and the raw slide image links. One email per post, sent when the post is prepared. Record under the post's linkedin key as status 'emailed' with the date sent. Doesn't count against the Metricool monthly budget.",
    "rule": "Every calendar post goes to the Socius LinkedIn company page first, then Instagram (+Facebook) as a separate Metricool post. LinkedIn has budget priority.",
    "times": "LinkedIn: weekdays only, 08:45 or 12:15 Europe/London, on the Instagram date or the next weekday.",
    "format": "Same images. Carousels: linkedinData.publishImagesAsPDF=true with a documentTitle (swipeable document). Single image: normal image post.",
@@ -285,10 +287,12 @@
    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=16809294545702795",
    "facebook": "same post as Instagram",
    "linkedin": {
-    "status": "scheduled",
+    "status": "emailed",
     "metricool_id": 408691578,
     "date": "2026-11-02 08:45",
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=1356485253784748986"
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=1356485253784748986",
+    "emailed": "2026-11-02",
+    "note": "Metricool LinkedIn trial ended; emailed to Jordan to post by hand. The Metricool LinkedIn post will fail, so delete it in the planner."
    },
    "x": {
     "status": "scheduled",
@@ -313,10 +317,12 @@
    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-4907917658416070262",
    "facebook": "same post as Instagram",
    "linkedin": {
-    "status": "scheduled",
+    "status": "emailed",
     "metricool_id": 410950412,
     "date": "2026-11-02 12:15",
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=6264544147664225250"
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=6264544147664225250",
+    "emailed": "2026-11-02",
+    "note": "Metricool LinkedIn trial ended; emailed to Jordan to post by hand. The Metricool LinkedIn post will fail, so delete it in the planner."
    },
    "x": {
     "status": "scheduled",
@@ -361,10 +367,12 @@
    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-8226553780815770540",
    "facebook": "same post as Instagram",
    "linkedin": {
-    "status": "scheduled",
+    "status": "emailed",
     "metricool_id": 412757092,
     "date": "2026-11-03 08:45",
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=4377522255879881961"
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=4377522255879881961",
+    "emailed": "2026-11-02",
+    "note": "Metricool LinkedIn trial ended; emailed to Jordan to post by hand. The Metricool LinkedIn post will fail, so delete it in the planner."
    },
    "x": {
     "status": "scheduled",
@@ -391,10 +399,12 @@
    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-3469209130717983882",
    "facebook": "same post as Instagram",
    "linkedin": {
-    "status": "scheduled",
+    "status": "emailed",
     "metricool_id": 413693718,
     "date": "2026-11-05 12:15",
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=3234252653188499114"
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=3234252653188499114",
+    "emailed": "2026-11-02",
+    "note": "Metricool LinkedIn trial ended; emailed to Jordan to post by hand. The Metricool LinkedIn post will fail, so delete it in the planner."
    },
    "x": {
     "status": "scheduled",
