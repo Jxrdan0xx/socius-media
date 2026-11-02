@@ -382,9 +382,25 @@
    "topic": "Work from anywhere: raw photo posts/photos/2025-workation-laptop-sea-view.jpg (optional 2nd photo laptop-socius-sunny-cafe.jpg). Theme: remote, global recruitment, our candidates and clients are everywhere. Light and human caption. Don't name the location unless known.",
    "format": "carousel",
    "goal": "Engagement",
-   "status": "todo",
+   "status": "scheduled",
    "photo": "2025-workation-laptop-sea-view.jpg; laptop-socius-sunny-cafe.jpg",
-   "note": "Review 1 Nov: the Token2049 photo post was October's best by far (IG reach 89 vs 16–24 for graphics, only post to win a follower). Keep as photo at 20:00. LinkedIn as a document carousel, not a single image. 1 Nov run: moved from 3 Nov to 5 Nov 20:00 (swapped with the Kami story) to satisfy THE VARIETY RULE: on 5 Nov the previous 3 feed posts are midnight, gradient, terminal."
+   "note": "Review 1 Nov: the Token2049 photo post was October's best by far (IG reach 89 vs 16–24 for graphics, only post to win a follower). Keep as photo at 20:00. LinkedIn as a document carousel, not a single image. 1 Nov run: moved from 3 Nov to 5 Nov 20:00 (swapped with the Kami story) to satisfy THE VARIETY RULE: on 5 Nov the previous 3 feed posts are midnight, gradient, terminal. 2 Nov run: scheduled. 4 slides: photo cover with text (sunny café), raw sea-view photo, white statement (chips), white cta. Last photo post (28 Oct) was raw/light statement/light question/light cta, so this one leads with a text cover and uses white for the text slides. Variety: previous 3 feed posts midnight, gradient, terminal; photo is 2 of the last 6. Engine fix: white-theme outline button had a black fill (text invisible); now transparent. LinkedIn Thu 5 Nov 12:15 document carousel, links in first comment. X thread (3 posts, both photos on post 1, link in final post) 17:30; Typefully quota 0 used/10 remaining at scheduling. Metricool November: 7 posts (9 counting each network). Clean-up: LinkedIn posts 2 to 5 Nov checked, no links in body or role counts. WARNING: 2 Nov 08:45 LinkedIn Bitcoin post failed with 'authentication failure'; LinkedIn needs reconnecting in Metricool (Jordan notified).",
+   "folder": "posts/2026-11-05_work-from-anywhere",
+   "title": "Some days, the office looks like this",
+   "metricool_id": 413693866,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-3469209130717983882",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "metricool_id": 413693718,
+    "date": "2026-11-05 12:15",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=3234252653188499114"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11642007,
+    "date": "2026-11-05 17:30"
+   }
   },
   {
    "n": 12,
