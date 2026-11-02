@@ -1,0 +1,35 @@
+[
+ {
+  "id": "work-from-anywhere",
+  "theme": "photo",
+  "slides": [
+   {
+    "type": "cover",
+    "bg": "../photos/laptop-socius-sunny-cafe.jpg",
+    "eyebrow": "Work from anywhere",
+    "title": "Some days, the office <span class='g'>looks like this.</span>"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/2025-workation-laptop-sea-view.jpg",
+    "tag": "☀️ Office with a view"
+   },
+   {
+    "type": "statement",
+    "theme": "white",
+    "eyebrow": "How we work",
+    "title": "Talent isn't in <span class='g'>one city.</span>",
+    "sub": "Web3 and AI teams hire across borders and time zones. So we work the same way: remote, async, and wherever the best conversations are.",
+    "chips": ["Remote", "Async", "Across time zones"]
+   },
+   {
+    "type": "cta",
+    "theme": "white",
+    "eyebrow": "Hiring or looking?",
+    "title": "Let's talk, <span class='g'>wherever you are.</span>",
+    "sub": "Building a remote-first team, or looking for your next move from anywhere? DM us.",
+    "buttons": ["DM us", "sociustalent.com"]
+   }
+  ]
+ }
+]
