@@ -1,6 +1,6 @@
-# Runbook: schedule the next Socius post (LinkedIn + Instagram/Facebook via Metricool, X via Typefully)
+# Runbook: schedule the next Socius post (LinkedIn via Buffer, Instagram/Facebook via Metricool, X via Typefully)
 
-**Channel strategy (Jordan, 21 Oct 2026; details in `config.channel_strategy`):** business accounts only, never Jordan's personal profiles. Company voice ('we'), never 'I'. Priority: LinkedIn company page first, then X (use all 10 Typefully credits a month), then Instagram, with Facebook following Instagram.
+**Channel strategy (Jordan, 21 Oct 2026, updated 4 Nov; details in `config.channel_strategy`):** this runbook covers business accounts only. Jordan's personal LinkedIn and personal X get only the Wednesday candidate spotlight and Friday roles round-up, which have their own scheduled tasks. Company voice ('we'), never 'I'. Priority: LinkedIn company page first, then X (use all 10 Typefully credits a month), then Instagram, with Facebook following Instagram.
 
 Run this whenever the scheduled task fires. It is idempotent: safe to run daily.
 
@@ -18,10 +18,14 @@ Run this whenever the scheduled task fires. It is idempotent: safe to run daily.
    - `media`: raw GitHub URLs of the slides in order.
    - `autoPublish`: always `true` (see config.approval_note; false means manual posting by Jordan).
    - `text`: the caption.
-8b. **LinkedIn is currently sent by email, not Metricool (since 2 Nov 2026: the Metricool LinkedIn trial ended).** While `config.linkedin.delivery` is `email`, follow `config.linkedin.delivery_note`: build `linkedin.pdf`, push it, and email the LinkedIn version to Jordan to post by hand. Skip the Metricool LinkedIn post and the LinkedIn clean-up check. Go back to the Metricool flow below only when Jordan says he has paid and the config is changed back to `metricool`.
-   Metricool flow: always also schedule a separate LinkedIn post (provider linkedin) following `config.linkedin` (times, PDF-document format, rewritten caption). Same autoPublish rule. Record it under the post's `linkedin` key.
-   Budget: follow `config.monthly_post_budget` (count this month's Metricool posts first). LinkedIn has priority: if the budget is tight or Metricool returns a plan/quota error, drop Facebook first, then Instagram, and keep LinkedIn. Tell Jordan in the summary.
-   If LinkedIn scheduling fails because the network is disconnected or not on the plan, still schedule Instagram/Facebook and X, do NOT change config, and send Jordan a push notification straight away: LinkedIn is the top-priority channel and needs reconnecting.
+8b. **LinkedIn company page goes via Buffer (since 4 Nov 2026)**, following `config.linkedin` and `config.buffer`. Do it FIRST, before Instagram/Facebook.
+   - Build `linkedin.pdf` from the slide JPGs (PIL) if missing, push it, then run (BUFFER_API_KEY comes from the scheduled-task prompt; never write it to the repo):
+     `python3 engine/buffer_post.py create --channel socius_li --text-file <linkedin caption file> --due "YYYY-MM-DD HH:MM" --document <raw>/linkedin.pdf --doc-title "<title>" --thumb <raw>/<slug>_01.jpg`
+     (single image: `--image <raw>/<slug>_01.jpg` instead of the document flags).
+   - The caption must contain NO URL and no 'link in the comments' (Buffer free has no first comment). End with a soft CTA ('Send us a message', 'DM us').
+   - Record under the post's `linkedin` key: status scheduled, buffer_id, date. Before creating, `list --channel socius_li` to make sure the slot isn't already taken.
+   - If Buffer errors (limit reached, channel disconnected), still schedule Instagram/Facebook and X, and tell Jordan in a push notification straight away.
+   Metricool budget: follow `config.monthly_post_budget` (count this month's Metricool posts first; LinkedIn no longer uses it). If tight, drop Facebook first. Never schedule LinkedIn in Metricool.
 8c. X: if `config.x.enabled`, schedule an X version in Typefully following `config.x` (thread for carousels, single post for statics; check publishing_quota first; if no quota left this month, skip X and say so). Record it under the post's `x` key. Never use publish_at="now". Goal is all 10 credits used every month: if remaining credits exceed the X posts still planned this month, add X-only entries to the calendar to use them.
 9. Set the post's `status` to `scheduled`, add `metricool_id` and `planner_url`, commit and push.
 9b. When using `updateScheduledPost` (clean-up fixes), always send `providers` exactly as they were (a LinkedIn post stays `[linkedin]` only) and `publicationDate.dateTime` in Europe/London local time. Re-read with `getScheduledPosts` afterwards and confirm providers and time are unchanged. (27 Oct update added an Instagram provider and shifted the time by an hour.)

@@ -11,12 +11,12 @@
   ],
   "linkedin": {
    "enabled": true,
-   "delivery": "email",
-   "delivery_note": "2 Nov 2026 (Jordan): Metricool's LinkedIn free trial has ended, so Metricool can no longer post to LinkedIn. Until Jordan says he has paid for it, do NOT schedule LinkedIn in Metricool. Instead email the LinkedIn version to jordan@sociustalent.com (Gmail send_message) for him to post by hand on the company page: subject 'LinkedIn to post: <weekday date> <time>: <title>', with post time, document title, caption ready to copy, the first comment (links), a link to posts/<folder>/linkedin.pdf (all slides as one PDF, built with PIL from the slide JPGs and pushed to the repo) and the raw slide image links. One email per post, sent when the post is prepared. Record under the post's linkedin key as status 'emailed' with the date sent. Doesn't count against the Metricool monthly budget. If the Gmail tools aren't available in the run, put the same content (time, document title, caption, first comment, PDF link) in the run's PushNotification instead: the routine summary is emailed to Jordan.",
+   "delivery": "buffer",
+   "delivery_note": "4 Nov 2026 (Jordan): Socius LinkedIn company page now posts via Buffer (free plan), replacing Metricool and the email hand-off. Use engine/buffer_post.py (channel socius_li) with BUFFER_API_KEY from the scheduled-task prompt (never commit the key). Carousels: --document <raw url of linkedin.pdf> --doc-title <title> --thumb <raw url of slide 01>. Single image: --image <raw url>. Buffer free has NO first comment, so the LinkedIn caption has no link and no 'link in the comments': end with a soft CTA such as 'Send us a message', 'DM us' or 'Find us at Socius Talent'. Never put a URL in the body. Free plan: max 10 scheduled posts per channel. Record under the post's linkedin key: status 'scheduled', buffer_id, date.",
    "rule": "Every calendar post goes to the Socius LinkedIn company page first, then Instagram (+Facebook) as a separate Metricool post. LinkedIn has budget priority.",
    "times": "LinkedIn: weekdays only, 08:45 or 12:15 Europe/London, on the Instagram date or the next weekday.",
-   "format": "Same images. Carousels: linkedinData.publishImagesAsPDF=true with a documentTitle (swipeable document). Single image: normal image post.",
-   "caption": "Rewrite for LinkedIn: first person from Jordan where natural, a little longer and more considered, max 3 hashtags. NO links in the post body (hurts reach): end with a soft CTA like 'Link in the comments' and put the https link in firstCommentText. Never 'link in bio'. Never mention how many roles we have.",
+   "format": "Same images. Carousels: Buffer document (linkedin.pdf, swipeable). Single image: normal image post.",
+   "caption": "Rewrite for LinkedIn: company voice ('we'), a little longer and more considered, max 3 hashtags. NO links anywhere (Buffer free has no first comment): end with a soft CTA like 'Send us a message'. Never 'link in bio'. Never mention how many roles we have.",
    "format_review": "Oct 2026 review (early read, 5 posts): document carousels (19 Oct, 22 Oct) got 54 and 75 clicks and ~21–22% engagement; single-image posts (20 Oct, 27 Oct) got more impressions but 2–5% engagement and 15–18 clicks. Default every LinkedIn version to a multi-slide document carousel; use a single image only for short holiday posts."
   },
   "monthly_post_budget": {
@@ -51,7 +51,7 @@
   },
   "channel_strategy": {
    "decided": "2026-10-21 by Jordan",
-   "accounts": "Business accounts ONLY: Socius LinkedIn company page, @sociustalent Instagram, Socius Facebook page, @socius_talent on X. Never post to or write as Jordan's personal profiles. Jordan's personal LinkedIn already posts a Friday weekly round-up with live roles from a separate project; personal set-up may be added later.",
+   "accounts": "Socius business accounts for this calendar: LinkedIn company page (Buffer), @sociustalent Instagram + Facebook page (Metricool), @socius_talent X (Typefully). Jordan's personal LinkedIn and personal X (@jxrdan0x) only carry the Wednesday candidate spotlight and Friday roles round-up, from their own scheduled tasks (4 Nov 2026).",
    "voice": "Company voice everywhere: 'we' / 'us' / 'the Socius team'. Never 'I' or 'me'. Refer to Jordan in the third person ('our founder Jordan') when needed.",
    "priority": "1) LinkedIn company page (business leads), 2) X (Web3 community, use every Typefully credit), 3) Instagram, 4) Facebook (follows Instagram). Instagram/Facebook are for presence and trust, not leads.",
    "metricool_budget_order": "Schedule LinkedIn first. If the monthly Metricool budget is tight, drop Facebook first, then Instagram. Never drop LinkedIn for Instagram/Facebook.",
@@ -60,7 +60,12 @@
   },
   "performance_reviews": [
    "reports/2026-10.md"
-  ]
+  ],
+  "buffer": {
+   "what": "Buffer free plan, org 6aeae05bbc5e44aae22f8da8. Channels: socius_li (Socius LinkedIn page), jordan_li (Jordan Edwards personal LinkedIn), jordan_x (@jxrdan0x personal X). Script: engine/buffer_post.py. Key only in private scheduled-task prompts.",
+   "limits": "Free plan: no LinkedIn first comment, 10 scheduled posts per channel, 1 scheduled X thread at a time.",
+   "personal": "Jordan's personal LinkedIn + X posts (Wanted Wednesday candidate spotlight, Friday roles round-up) are run by their own scheduled tasks, not this runbook. Don't schedule anything else on jordan_li or jordan_x."
+  }
  },
  "posts": [
   {
@@ -399,12 +404,10 @@
    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-3469209130717983882",
    "facebook": "same post as Instagram",
    "linkedin": {
-    "status": "emailed",
-    "metricool_id": 413693718,
+    "status": "scheduled",
+    "buffer_id": "6aeb000a961fae078ac6eda5",
     "date": "2026-11-05 12:15",
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=3234252653188499114",
-    "emailed": "2026-11-02",
-    "note": "Metricool LinkedIn trial ended; emailed to Jordan to post by hand. The Metricool LinkedIn post will fail, so delete it in the planner."
+    "note": "4 Nov: moved from the email hand-off to Buffer (document carousel). CTA changed to 'Send us a message' as Buffer free has no first comment. Old Metricool LinkedIn post 413693718 will fail; delete it in the planner."
    },
    "x": {
     "status": "scheduled",

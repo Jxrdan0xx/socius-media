@@ -12,7 +12,7 @@ Both, with emphasis on business growth: founders, CTOs, heads of engineering and
 ## Voice
 - UK English. Confident, direct, specialist. A peer to founders, not a salesman.
 - Short sentences. No hype words ("revolutionary", "game-changing"), no engagement bait.
-- Company voice on every channel ("we", never "I"). We post from business accounts only.
+- Company voice on every business channel ("we", never "I"). Exception: Jordan's personal LinkedIn/X spotlight and roles posts are in his own voice (separate scheduled tasks).
 - Captions: hook line first, 3–6 short paragraphs, one clear CTA, 4–6 relevant hashtags at the end.
 - Avoid em dashes in captions; use commas, colons or full stops.
 
@@ -21,7 +21,7 @@ Both, with emphasis on business growth: founders, CTOs, heads of engineering and
 2. **Live roles**: only roles currently listed at sociustalent.com/jobs, with title, sector, location and salary exactly as listed. If the jobs page can't be read, swap the post for an evergreen hiring-intelligence topic instead.
 3. **Testimonials**: only from `TESTIMONIALS.md`, word for word (trim with "…", fix typos only). Use the `quote` slide type. Credit full name + role as listed. Never reuse one within 6 weeks.
 4. **Never state how many roles we have** (no '25 live roles', 'six of 25', counts on slides or in captions). Showcase individual roles only. Socius is a boutique; totals look made up.
-5. **No links in the body of LinkedIn or X posts** (they cut reach). LinkedIn: put the link in the first comment (Metricool `firstCommentText`). X: put the link in the final reply of the thread only, never in the first post. Instagram: 'link in bio'.
+5. **No links in the body of LinkedIn or X posts** (they cut reach). LinkedIn company page (Buffer free, no first comment): no link at all, soft CTA instead ('Send us a message'). X: put the link in the final reply of the thread only, never in the first post. Instagram: 'link in bio'.
 6. Holidays are welcome (Jordan's audience is global), but keep them on-brand and short. Never post generic stock-style holiday art.
 7. Events/conferences: never claim Socius is attending, speaking or hosting unless Jordan has said so (see `config.confirmed_events` in calendar.json). Confirmed: Jordan is attending Solana Breakpoint 2026, London, 15–17 Nov.
 
