@@ -424,8 +424,29 @@
    "topic": "Selected live roles and salary ranges (real live roles from sociustalent.com/jobs only)",
    "format": "carousel",
    "goal": "Applications",
-   "status": "todo",
-   "note": "Review 1 Nov: the 24 Oct roles post underperformed (IG reach 23, 0 saves; LinkedIn post logged only 3 impressions). New approach: 3–4 roles max, one role per slide (title, sector, location, salary as listed), no counts anywhere. LinkedIn on Mon 9 Nov 08:45 as a document carousel with links in the first comment only."
+   "status": "scheduled",
+   "note": "Review 1 Nov: the 24 Oct roles post underperformed (IG reach 23, 0 saves; LinkedIn post logged only 3 impressions). New approach: 3–4 roles max, one role per slide (title, sector, location, salary as listed), no counts anywhere. LinkedIn on Mon 9 Nov 08:45 as a document carousel with links in the first comment only. 6 Nov run: scheduled. 6 slides terminal: cover, one role per slide (statement with location/salary chips, no rows), cta. Last terminal post (31 Oct) was cover/stat/statement rows/question/cta. Variety: previous 3 feed posts photo, midnight, gradient; terminal is 2 of the last 6. Roles and salaries taken from sociustalent.com/jobs on 6 Nov, no counts anywhere. LinkedIn Mon 9 Nov 08:45 via Buffer as a document carousel, no URL, CTA 'Send us a message'. X thread 4 posts 17:30, cover on post 1, link in final post only; Typefully quota 4 used/6 remaining before this. Metricool November: 4 IG/FB posts after this. Clean-up: Buffer socius_li had nothing scheduled in the next 3 days before this post, nothing to fix.",
+   "folder": "posts/2026-11-09_open-roles",
+   "title": "Open roles. Salary upfront.",
+   "metricool_id": 418672430,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-8765475924177763952",
+   "facebook": "same post as Instagram",
+   "linkedin": {
+    "status": "scheduled",
+    "buffer_id": "6aed957e7b7e47e8f41bceb0",
+    "date": "2026-11-09 08:45"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_draft_id": 11739652,
+    "date": "2026-11-09 17:30"
+   },
+   "roles_featured": [
+    "VP of Engineering",
+    "Senior Software Engineer, Frontend",
+    "Senior Security Engineer (Digital Banking)",
+    "Head of Growth"
+   ]
   },
   {
    "n": 13,
