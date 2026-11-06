@@ -1,0 +1,49 @@
+[
+ {
+  "id": "open-roles",
+  "theme": "terminal",
+  "slides": [
+   {
+    "type": "cover",
+    "eyebrow": "$ ls ./open-roles --salary",
+    "title": "Open roles.<br><span class='g'>Salary upfront.</span>",
+    "sub": "A few of the roles we're hiring for this week. Title, location and salary exactly as listed."
+   },
+   {
+    "type": "statement",
+    "eyebrow": "> AI infrastructure",
+    "title": "VP of <span class='g'>Engineering</span>",
+    "sub": "The first VP of Engineering at an AI infrastructure startup, building out infrastructure, platform and SRE.",
+    "chips": ["Onsite · San Francisco, US", "$300k – $350k"]
+   },
+   {
+    "type": "statement",
+    "eyebrow": "> Web3 infrastructure",
+    "title": "Senior Software Engineer, <span class='g'>Frontend</span>",
+    "sub": "Frontend engineering at a Web3 infrastructure company. Fully remote.",
+    "chips": ["Remote · Worldwide", "$150k – $205k"]
+   },
+   {
+    "type": "statement",
+    "eyebrow": "> Crypto meets banking",
+    "title": "Senior Security Engineer <span class='g'>(Digital Banking)</span>",
+    "sub": "A fast-growing fintech building consumer banking that bridges traditional finance and crypto.",
+    "chips": ["Remote · Europe only", "€90k – €115k"]
+   },
+   {
+    "type": "statement",
+    "eyebrow": "> Blockchain security",
+    "title": "Head of <span class='g'>Growth</span>",
+    "sub": "Lead growth at a fast-growing blockchain security startup with a browser-based product.",
+    "chips": ["Remote · Worldwide", "$150k – $250k"]
+   },
+   {
+    "type": "cta",
+    "eyebrow": "./apply",
+    "title": "One of these <span class='g'>yours?</span>",
+    "sub": "Full details on our jobs board. Not quite your lane? Send us your CV and tell us what you're looking for.",
+    "buttons": ["DM us your CV", "sociustalent.com/jobs"]
+   }
+  ]
+ }
+]
