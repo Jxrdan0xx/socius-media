@@ -449,6 +449,37 @@
    ]
   },
   {
+   "date": "2026-11-10",
+   "time": "18:00",
+   "status": "scheduled",
+   "theme": "white",
+   "pillar": "Live opportunities",
+   "topic": "Telegram jobs channel launch (t.me/sociustalentjobs), one-off requested by Jordan 7 Nov",
+   "folder": "posts/2026-11-10_telegram-channel",
+   "channels": [
+    "instagram",
+    "linkedin",
+    "x"
+   ],
+   "note": "Instagram only (no Facebook, Metricool budget). Also on Jordan's personal LinkedIn 12:30 and X 16:45 via Buffer, at his request (one-off exception to the personal-channel rule).",
+   "metricool_id": 419831220,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=7183155940020340719",
+   "linkedin": {
+    "status": "scheduled",
+    "buffer_id": "6aeefd43d6bbae6fa17d602f",
+    "date": "2026-11-10 13:30"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_id": 11762777,
+    "date": "2026-11-10 14:00"
+   },
+   "personal": {
+    "jordan_li": "6aeefd42d6bbae6fa17d5ffe",
+    "jordan_x": "6aeefd439214322f68e5134b"
+   }
+  },
+  {
    "n": 13,
    "date": "2026-11-11",
    "time": "18:00",
