@@ -1,0 +1,16 @@
+[
+ {
+  "id": "telegram-channel",
+  "theme": "white",
+  "slides": [
+   {
+    "type": "statement",
+    "eyebrow": "New: Socius Talent Jobs",
+    "title": "New roles hit <span class='g'>Telegram first.</span>",
+    "sub": "Web3, crypto and AI roles post the moment they go live, with location, salary and a direct link to apply.",
+    "chips": ["Engineering", "Product", "Growth", "Leadership"],
+    "rows": [["t.me/sociustalentjobs", "Join the channel"]]
+   }
+  ]
+ }
+]
