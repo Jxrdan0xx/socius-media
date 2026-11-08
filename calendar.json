@@ -488,8 +488,22 @@
    "topic": "Five questions to ask before joining a startup",
    "format": "carousel",
    "goal": "Candidate growth",
-   "status": "todo",
-   "note": "Review 1 Nov: no October post earned a single IG save or share. Build this as a keepable checklist (one question per slide, a summary slide before the cta) to test saves. LinkedIn as a document carousel."
+   "status": "scheduled",
+   "note": "Review 1 Nov: no October post earned a single IG save or share. Build this as a keepable checklist (one question per slide, a summary slide before the cta) to test saves. LinkedIn as a document carousel. Scheduled 8 Nov: Instagram only (no Facebook), keeping November within the Metricool budget as on 10 Nov.",
+   "folder": "posts/2026-11-11_startup-questions",
+   "metricool_id": 420572988,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-2650029238817239817",
+   "linkedin": {
+    "status": "scheduled",
+    "buffer_id": "6af0381a51492b796e288640",
+    "date": "2026-11-11 12:15"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_id": 11780309,
+    "date": "2026-11-11 17:30"
+   },
+   "slides": 7
   },
   {
    "n": 14,
