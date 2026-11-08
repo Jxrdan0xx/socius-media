@@ -1,0 +1,71 @@
+[
+ {
+  "id": "startup-questions",
+  "theme": "frame",
+  "slides": [
+   {
+    "type": "stat",
+    "eyebrow": "Candidate checklist",
+    "stat": "5",
+    "unit": "questions to ask before you join a startup",
+    "sub": "Ask them before you sign. Save this for your next final round."
+   },
+   {
+    "type": "statement",
+    "eyebrow": "Question 01",
+    "title": "How long is <span class='g'>your runway?</span>",
+    "sub": "Ask in months, not \"we're well funded\". Then ask what happens if the next raise slips. Good founders have already planned for it."
+   },
+   {
+    "type": "question",
+    "eyebrow": "Question 02",
+    "title": "Why is this role <span class='g'>open now?</span>",
+    "options": [
+     "It's new: what changed to create it?",
+     "It's a backfill: what happened last time?"
+    ],
+    "sub": "Either answer is fine. A vague one isn't."
+   },
+   {
+    "type": "stat",
+    "eyebrow": "Question 03",
+    "stat": "90",
+    "unit": "days",
+    "title": "What does success look like <span class='g'>by then?</span>",
+    "sub": "If nobody can describe it, the role isn't defined yet. That can be an opportunity, as long as you know it going in."
+   },
+   {
+    "type": "statement",
+    "eyebrow": "Question 04",
+    "title": "Who will I <span class='g'>work with most?</span>",
+    "sub": "Ask to meet them before you sign. The people beside you every day matter more than the pitch deck."
+   },
+   {
+    "type": "statement",
+    "eyebrow": "Question 05",
+    "title": "What is the equity <span class='g'>really worth?</span>",
+    "sub": "A percentage on its own tells you little. Ask for the detail in writing:",
+    "chips": [
+     "Number of options",
+     "Total shares",
+     "Strike price",
+     "Vesting and cliff",
+     "Exercise window"
+    ]
+   },
+   {
+    "type": "statement",
+    "eyebrow": "Save this checklist",
+    "title": "Ask all five <span class='g'>before you sign.</span>",
+    "chips": [
+     "Runway",
+     "Why it's open",
+     "90-day success",
+     "Your team",
+     "Equity terms"
+    ],
+    "sub": "Weighing up a startup offer and want a second opinion? DM us."
+   }
+  ]
+ }
+]
