@@ -14,7 +14,7 @@
    "delivery": "buffer",
    "delivery_note": "4 Nov 2026 (Jordan): Socius LinkedIn company page now posts via Buffer (free plan), replacing Metricool and the email hand-off. Use engine/buffer_post.py (channel socius_li) with BUFFER_API_KEY from the scheduled-task prompt (never commit the key). Carousels: --document <raw url of linkedin.pdf> --doc-title <title> --thumb <raw url of slide 01>. Single image: --image <raw url>. Buffer free has NO first comment, so the LinkedIn caption has no link and no 'link in the comments': end with a soft CTA such as 'Send us a message', 'DM us' or 'Find us at Socius Talent'. Never put a URL in the body. Free plan: max 10 scheduled posts per channel. Record under the post's linkedin key: status 'scheduled', buffer_id, date.",
    "rule": "Every calendar post goes to the Socius LinkedIn company page first, then Instagram (+Facebook) as a separate Metricool post. LinkedIn has budget priority.",
-   "times": "LinkedIn: weekdays only, 08:45 or 12:15 Europe/London, on the Instagram date or the next weekday.",
+   "times": "LinkedIn company page: weekdays 15:00-16:30 Europe/London (UK afternoon peak + US East morning), on the Instagram date or the next good weekday. Prefer Wed/Thu/Fri for the strongest posts (hiring-intelligence carousels); avoid Mondays. No morning slots. Nov 2026 test (Jordan, 9 Nov) based on Buffer's 2026 study of 4.8M posts: best 3-8pm local, top slots Wed 4pm and Fri 3-4pm, mornings and Mondays weakest. Oct used 08:45/12:15; the 1 Dec review compares the two.",
    "format": "Same images. Carousels: Buffer document (linkedin.pdf, swipeable). Single image: normal image post.",
    "caption": "Rewrite for LinkedIn: company voice ('we'), a little longer and more considered, max 3 hashtags. NO links anywhere (Buffer free has no first comment): end with a soft CTA like 'Send us a message'. Never 'link in bio'. Never mention how many roles we have.",
    "format_review": "Oct 2026 review (early read, 5 posts): document carousels (19 Oct, 22 Oct) got 54 and 75 clicks and ~21–22% engagement; single-image posts (20 Oct, 27 Oct) got more impressions but 2–5% engagement and 15–18 clicks. Default every LinkedIn version to a multi-slide document carousel; use a single image only for short holiday posts."
@@ -467,7 +467,8 @@
    "linkedin": {
     "status": "scheduled",
     "buffer_id": "6aeefd43d6bbae6fa17d602f",
-    "date": "2026-11-10 13:30"
+    "date": "2026-11-10 16:00",
+    "note": "9 Nov: moved from 13:30 to 16:00 (afternoon test)."
    },
    "x": {
     "status": "scheduled",
@@ -496,7 +497,8 @@
    "linkedin": {
     "status": "scheduled",
     "buffer_id": "6af0381a51492b796e288640",
-    "date": "2026-11-11 12:15"
+    "date": "2026-11-11 15:00",
+    "note": "9 Nov: moved from 12:15 to 15:00 (afternoon test)."
    },
    "x": {
     "status": "scheduled",
