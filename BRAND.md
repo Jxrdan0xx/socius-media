@@ -38,6 +38,7 @@ Never two posts of the same pillar back to back. Testimonials at most 1 in 6 pos
 Early reads, not laws. Update each month; the hard rules above always win.
 - **Oct 2026 (early read, ~6 posts per channel):** real photos beat graphics on Instagram by ~4x reach (Token2049 photo: 89 vs 16–24). On LinkedIn, document carousels (hiring intelligence) drove the clicks, comments and shares; single images got impressions but almost no interaction. No Instagram post has earned a save or share yet, and the A/B/C poll got no votes on any channel. Noon Instagram slots were weakest. Content mix percentages unchanged until there's more data.
 - **Nov 2026 timing test (Jordan, 9 Nov):** LinkedIn moved to afternoons (company page 15:00-16:30 UK; Jordan's Wanted Wednesday 16:00, Friday roles 15:00) after Buffer's 2026 study (4.8M posts: 3-8pm local best, Wed 4pm and Fri 3-4pm top, mornings and Mondays weakest). Compare against October's 08:45/12:15 results in the 1 Dec review.
+- **Buffer 2026 studies applied (9 Nov):** X moves to 14:00-15:30 UK (9-11am local is best, evenings worst); Instagram/Facebook feed on Tue-Thu (Fri/Sat weakest); LinkedIn carousels confirmed (21.8% vs 6.5% single image). Replying to comments lifts engagement most on LinkedIn (+30%).
 - Implications: LinkedIn versions default to document carousels; keep photo posts at least every 2 weeks; build candidate/tips carousels as keepable checklists; Instagram at 18:00 or 20:00.
 
 ## Design: variety is a rule

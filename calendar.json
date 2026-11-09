@@ -29,7 +29,7 @@
    "budget": "Typefully free plan: 10 published posts per calendar month. Use all 10 every month (see channel_strategy.x_credits). Check get_social_set_details publishing_quota before scheduling.",
    "format": "Adapt, don't copy. Carousels become a 3-6 post thread (hook first, one idea per post, CTA + https link last). Static posts become a single punchy post. Max ~260 chars per post. 0-2 hashtags. Crypto moments and conferences are X's strongest content.",
    "media": "Attach the cover slide to the first post of each thread (up to 4 images per post; for statics attach the image). Upload: create_media_upload, then `curl -T <file> '<upload_url>'` (no extra headers), then poll get_media_status until ready. Set alt_text. If upload fails, post text-only and say so.",
-   "times": "Same day as Instagram, 16:30 or 17:30 Europe/London (EU evening + US East morning). Use publish_at with an explicit datetime."
+   "times": "14:00-15:30 Europe/London (= 9-10:30am US East, Buffer's best X window is 9-11am local; evenings are worst). Prefer Tue-Thu; avoid Fri/Sat where possible. Changed 9 Nov 2026 (Jordan) from 16:30/17:30. Use publish_at with an explicit datetime."
   },
   "facebook": {
    "enabled": true,
@@ -65,7 +65,8 @@
    "what": "Buffer free plan, org 6aeae05bbc5e44aae22f8da8. Channels: socius_li (Socius LinkedIn page), jordan_li (Jordan Edwards personal LinkedIn), jordan_x (@jxrdan0x personal X). Script: engine/buffer_post.py. Key only in private scheduled-task prompts.",
    "limits": "Free plan: no LinkedIn first comment, 10 scheduled posts per channel, 1 scheduled X thread at a time.",
    "personal": "Jordan's personal LinkedIn + X posts (Wanted Wednesday candidate spotlight, Friday roles round-up) are run by their own scheduled tasks, not this runbook. Don't schedule anything else on jordan_li or jordan_x."
-  }
+  },
+  "instagram_days": "Instagram/Facebook feed posts on Tue-Thu where possible (Buffer 2026 study, 9.6M posts: Wed/Thu best, Fri/Sat weakest). Keep 18:00 or 20:00. Avoid Fri, Sat and Sun unless the date itself matters (a holiday or event day). Adopted 9 Nov 2026 (Jordan)."
  },
  "posts": [
   {
@@ -503,13 +504,14 @@
    "x": {
     "status": "scheduled",
     "typefully_id": 11780309,
-    "date": "2026-11-11 17:30"
+    "date": "2026-11-11 14:30",
+    "note": "9 Nov: moved from 17:30 to 14:30 (X timing change)."
    },
    "slides": 7
   },
   {
    "n": 14,
-   "date": "2026-11-13",
+   "date": "2026-11-12",
    "time": "18:00",
    "theme": "gradient",
    "pillar": "Culture & moments",
@@ -518,11 +520,11 @@
    "goal": "BD: in-person meetings",
    "status": "todo",
    "confirmed": "Jordan attending",
-   "note": "Review 1 Nov: changed static to carousel (4 slides: event card, why we meet in person, who we'd like to meet: Solana teams hiring and engineers exploring a move, cta) because LinkedIn document carousels clearly beat single images in October. Tier 1 touch 1, keep 18:00."
+   "note": "Review 1 Nov: changed static to carousel (4 slides: event card, why we meet in person, who we'd like to meet: Solana teams hiring and engineers exploring a move, cta) because LinkedIn document carousels clearly beat single images in October. Tier 1 touch 1, keep 18:00. 9 Nov: moved from 2026-11-13 to 2026-11-12 (Tue-Thu rule, Buffer timing study)."
   },
   {
    "n": 15,
-   "date": "2026-11-15",
+   "date": "2026-11-17",
    "time": "20:00",
    "pillar": "Socius brand and proof",
    "topic": "What hiring managers say: client testimonials carousel (Samuel Dare, Martin Hansen, Michael Brown from TESTIMONIALS.md) + CTA to sociustalent.com/talent",
@@ -530,7 +532,8 @@
    "goal": "Business leads",
    "status": "todo",
    "testimonial": "Samuel Dare; Martin Hansen; Michael Brown",
-   "theme": "midnight"
+   "theme": "midnight",
+   "note": "9 Nov: moved from 2026-11-15 to 2026-11-17 (Tue-Thu rule, Buffer timing study)."
   },
   {
    "n": 17,
@@ -546,7 +549,7 @@
   },
   {
    "n": 18,
-   "date": "2026-11-21",
+   "date": "2026-11-24",
    "time": "18:00",
    "pillar": "Socius brand and proof",
    "topic": "Meet Josh: client testimonial from Borja Moll Calvo (Josh's, in TESTIMONIALS.md). Credit Joshua Moore, Blockchain Recruiter at Socius",
@@ -555,7 +558,7 @@
    "status": "todo",
    "testimonial": "Borja Moll Calvo",
    "theme": "white",
-   "note": "Use photo theme instead if a photo of Josh is in posts/photos/. Review 1 Nov: moved from 12:00 to 18:00; both noon IG posts in October had the lowest reach (16 and 21)."
+   "note": "Use photo theme instead if a photo of Josh is in posts/photos/. Review 1 Nov: moved from 12:00 to 18:00; both noon IG posts in October had the lowest reach (16 and 21). 9 Nov: moved from 2026-11-21 to 2026-11-24 (Tue-Thu rule, Buffer timing study)."
   },
   {
    "n": 20,
@@ -582,7 +585,7 @@
   },
   {
    "n": 16,
-   "date": "2026-12-04",
+   "date": "2026-12-03",
    "time": "18:00",
    "theme": "frame",
    "pillar": "Candidate value",
@@ -590,11 +593,11 @@
    "format": "carousel",
    "goal": "Candidate growth",
    "status": "todo",
-   "note": "Moved to December to stay within the 20 posts/month budget"
+   "note": "Moved to December to stay within the 20 posts/month budget 9 Nov: moved from 2026-12-04 to 2026-12-03 (Tue-Thu rule, Buffer timing study)."
   },
   {
    "n": 19,
-   "date": "2026-12-07",
+   "date": "2026-12-08",
    "time": "20:00",
    "theme": "white",
    "pillar": "Hiring intelligence",
@@ -602,7 +605,7 @@
    "format": "carousel",
    "goal": "Business leads",
    "status": "todo",
-   "note": "Moved to December to stay within the 20 posts/month budget. Review 1 Nov: moved from 12:00 to 20:00 (noon IG slots weakest in October)."
+   "note": "Moved to December to stay within the 20 posts/month budget. Review 1 Nov: moved from 12:00 to 20:00 (noon IG slots weakest in October). 9 Nov: moved from 2026-12-07 to 2026-12-08 (Tue-Thu rule, Buffer timing study)."
   },
   {
    "n": 21,
@@ -618,7 +621,7 @@
   },
   {
    "n": 6,
-   "date": "2026-12-13",
+   "date": "2026-12-15",
    "time": "18:00",
    "theme": "midnight",
    "pillar": "Hiring intelligence",
@@ -626,7 +629,7 @@
    "format": "carousel",
    "goal": "Engagement",
    "status": "todo",
-   "note": "Moved to make room for real photo posts"
+   "note": "Moved to make room for real photo posts 9 Nov: moved from 2026-12-13 to 2026-12-15 (Tue-Thu rule, Buffer timing study)."
   },
   {
    "n": 9,
@@ -642,7 +645,7 @@
   },
   {
    "n": 24,
-   "date": "2026-12-19",
+   "date": "2026-12-22",
    "time": "20:00",
    "theme": "photo",
    "pillar": "Socius brand and proof",
@@ -651,7 +654,7 @@
    "goal": "Trust",
    "status": "todo",
    "photo": "team/*",
-   "note": "Review 1 Nov: moved from 12:00 to 20:00 (noon IG slots weakest in October)."
+   "note": "Review 1 Nov: moved from 12:00 to 20:00 (noon IG slots weakest in October). 9 Nov: moved from 2026-12-19 to 2026-12-22 (Tue-Thu rule, Buffer timing study)."
   }
  ],
  "pinned": [

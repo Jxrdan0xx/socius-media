@@ -185,6 +185,7 @@ h2{font-family:var(--hf);font-weight:var(--hw);font-size:82px;line-height:1.08;l
 .t-white .opt b{background:#0B0B14}.t-white .btn{background:#0B0B14;box-shadow:none;border-radius:10px}
 .t-white .btn.o{background:transparent;border-color:#0B0B14;color:#0B0B14}
 .t-white .stat{font-size:400px;letter-spacing:-.07em;-webkit-text-fill-color:#0B0B14}
+.s .stat.md{font-size:270px}.s .stat.sm{font-size:215px}.s .stat.xs{font-size:165px}
 .t-white .date{background:#0B0B14;border-radius:10px}.t-white .ghost{display:none}
 
 .t-frame{--bg:#3A2FE0;--fg:#0E1126;--mut:#4A4E66;--dim:rgba(255,255,255,.85);--line:rgba(14,17,38,.18);--eb:#5B3BE0;
@@ -241,7 +242,9 @@ def slide(s, i, n, theme, spec_dir):
               f'<div class="rl">{s.get("role", "")}</div></div></div>')
     else:
         if t == "stat":
-            h += f'<div class="stat">{s["stat"]}</div>'
+            L = len(str(s["stat"]))
+            sz = "" if L <= 3 else ("md" if L == 4 else ("sm" if L <= 6 else "xs"))
+            h += f'<div class="stat {sz}">{s["stat"]}</div>'
             if s.get("unit"): h += f'<div class="unit">{s["unit"]}</div>'
         if s.get("title"):
             tag = "h1" if t == "cover" else "h2"
