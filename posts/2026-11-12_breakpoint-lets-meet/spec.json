@@ -1,0 +1,24 @@
+[
+ {
+  "id": "breakpoint-lets-meet",
+  "theme": "gradient",
+  "slides": [
+   {"type": "event", "eyebrow": "See you in London", "day": "15–17", "month": "NOV 2026",
+    "title": "Solana Breakpoint. <span class='g'>Let's meet.</span>",
+    "place": "Olympia, London",
+    "sub": "Our founder Jordan will be at Breakpoint. If you're there too, let's grab a coffee."},
+   {"type": "statement", "eyebrow": "Why in person",
+    "title": "Some conversations are <span class='g'>better over coffee.</span>",
+    "sub": "Hiring plans, team gaps, your next move. A short chat face to face often says more than a week of messages.",
+    "chips": ["Hiring plans", "Team gaps", "Career moves", "Market chat"]},
+   {"type": "statement", "eyebrow": "Who we'd like to meet",
+    "title": "Two kinds of <span class='g'>coffee chat.</span>",
+    "rows": [["Solana teams hiring", "Founders, CTOs and talent leads building out engineering, product or growth."],
+             ["People exploring a move", "Engineers and operators curious about what's next in Web3, crypto and AI."]]},
+   {"type": "cta", "eyebrow": "Breakpoint · 15–17 Nov",
+    "title": "Grab a coffee <span class='g'>with us.</span>",
+    "sub": "Send us a message and we'll find a time while you're at Olympia.",
+    "buttons": ["DM us to meet"]}
+  ]
+ }
+]
