@@ -518,9 +518,24 @@
    "topic": "We'll be at Solana Breakpoint, London, 15–17 Nov 2026 (Olympia). Jordan is attending (confirmed). Event card + 'Hiring for your Solana team, or exploring your next move? Let's grab a coffee at Breakpoint. DM us.' During the event (15–17 Nov): if Jordan sends photos or notes, post short live X updates.",
    "format": "carousel",
    "goal": "BD: in-person meetings",
-   "status": "todo",
+   "status": "scheduled",
    "confirmed": "Jordan attending",
-   "note": "Review 1 Nov: changed static to carousel (4 slides: event card, why we meet in person, who we'd like to meet: Solana teams hiring and engineers exploring a move, cta) because LinkedIn document carousels clearly beat single images in October. Tier 1 touch 1, keep 18:00. 9 Nov: moved from 2026-11-13 to 2026-11-12 (Tue-Thu rule, Buffer timing study)."
+   "note": "Review 1 Nov: changed static to carousel (4 slides: event card, why we meet in person, who we'd like to meet: Solana teams hiring and engineers exploring a move, cta) because LinkedIn document carousels clearly beat single images in October. Tier 1 touch 1, keep 18:00. 9 Nov: moved from 2026-11-13 to 2026-11-12 (Tue-Thu rule, Buffer timing study). 10 Nov run: scheduled. 4 slides gradient: event card as cover (last gradient post 2 Nov opened with a cover slide and ran event/question/cta), statement with chips, statement with rows, cta. Variety: previous 3 posts terminal, white, frame; gradient is 1 of the last 5. Breakpoint dates/venue re-verified (solana.com). Instagram only (no Facebook), Metricool budget as on 10/11 Nov. LinkedIn Thu 15:30 via Buffer document carousel, no URL. X 4-post thread 14:00, cover on post 1, links in final post only; Typefully quota 5 used/5 remaining before this (10 and 11 Nov X posts still pending). Clean-up: Buffer socius_li 10 and 11 Nov posts checked, no URLs or role counts.",
+   "folder": "posts/2026-11-12_breakpoint-lets-meet",
+   "title": "Solana Breakpoint. Let's meet.",
+   "slides": 4,
+   "metricool_id": 422871331,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-373485341681105464",
+   "linkedin": {
+    "status": "scheduled",
+    "buffer_id": "6af2db0d69951ef15d5974fb",
+    "date": "2026-11-12 15:30"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_id": 11826864,
+    "date": "2026-11-12 14:00"
+   }
   },
   {
    "n": 15,
