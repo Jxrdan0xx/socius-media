@@ -1,0 +1,70 @@
+[
+ {
+  "id": "friday-roles",
+  "theme": "midnight",
+  "slides": [
+   {
+    "type": "cover",
+    "eyebrow": "Live on the desk · 13 Nov",
+    "title": "Fresh roles, <span class='g'>serious salaries.</span>",
+    "sub": "Machine learning, onchain credit and loan markets. Swipe for salaries and locations."
+   },
+   {
+    "type": "stat",
+    "eyebrow": "Staff Machine Learning Engineer",
+    "stat": "$350–500k",
+    "unit": "base salary",
+    "title": "Build <span class='g'>real-time ML</span> under constant load.",
+    "chips": [
+     "Consumer crypto",
+     "New York, onsite",
+     "Staff level"
+    ]
+   },
+   {
+    "type": "stat",
+    "eyebrow": "Head of Business Development",
+    "stat": "$220–300k",
+    "unit": "base salary",
+    "title": "Lead BD as an onchain credit leader <span class='g'>builds its NYC HQ.</span>",
+    "chips": [
+     "Onchain credit / RWA",
+     "New York, onsite",
+     "Leadership"
+    ]
+   },
+   {
+    "type": "stat",
+    "eyebrow": "Product Manager",
+    "stat": "$200–225k",
+    "unit": "base salary",
+    "title": "Take trillion-dollar loan markets <span class='g'>onchain.</span>",
+    "chips": [
+     "Onchain loan markets",
+     "NYC or Austin, hybrid",
+     "MVP live"
+    ]
+   },
+   {
+    "type": "cta",
+    "eyebrow": "Also on the desk",
+    "title": "More roles <span class='g'>live now.</span>",
+    "rows": [
+     [
+      "DevOps / SRE, Paris"
+     ],
+     [
+      "Staff Solana Program Engineer"
+     ],
+     [
+      "Senior Business Development"
+     ]
+    ],
+    "buttons": [
+     "sociustalent.com/jobs",
+     "Hiring? sociustalent.com/talent"
+    ]
+   }
+  ]
+ }
+]
