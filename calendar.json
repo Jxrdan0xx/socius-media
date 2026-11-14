@@ -545,10 +545,25 @@
    "topic": "What hiring managers say: client testimonials carousel (Samuel Dare, Martin Hansen, Michael Brown from TESTIMONIALS.md) + CTA to sociustalent.com/talent",
    "format": "carousel",
    "goal": "Business leads",
-   "status": "todo",
+   "status": "scheduled",
    "testimonial": "Samuel Dare; Martin Hansen; Michael Brown",
    "theme": "midnight",
-   "note": "9 Nov: moved from 2026-11-15 to 2026-11-17 (Tue-Thu rule, Buffer timing study)."
+   "note": "9 Nov: moved from 2026-11-15 to 2026-11-17 (Tue-Thu rule, Buffer timing study). 14 Nov run: scheduled. 6 slides midnight: statement opener (not a cover), 3 quotes (Michael Brown, Samuel Dare, Martin Hansen, verbatim with trims), statement with rows, cta. Last midnight post (3 Nov Kami) was cover/quote x3/cta. Variety: previous 3 feed posts white, frame, gradient; midnight is 2 of the last 6. Testimonial cadence: last testimonial post 3 Nov (6 posts ago). Instagram only (no Facebook), Metricool budget as on 10-12 Nov; Metricool showed nothing else scheduled 14-30 Nov. LinkedIn Tue 16:00 via Buffer document carousel, no URL, CTA 'Send us a message'. X 4-post thread 14:30, cover on post 1, link in final post only; Typefully quota 8 used/2 remaining before this, so 1 left for the rest of November. Clean-up: Buffer socius_li had nothing scheduled in the next 3 days, nothing to fix.",
+   "title": "Wary of recruitment agencies? We get it.",
+   "folder": "posts/2026-11-17_what-hiring-managers-say",
+   "slides": 6,
+   "metricool_id": 427838544,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-3975719253559656085",
+   "linkedin": {
+    "status": "scheduled",
+    "buffer_id": "6af8213cd16af15d4d025814",
+    "date": "2026-11-17 16:00"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_id": 11920253,
+    "date": "2026-11-17 14:30"
+   }
   },
   {
    "n": 17,
