@@ -538,6 +538,29 @@
    }
   },
   {
+   "n": "17a",
+   "date": "2026-11-16",
+   "time": "14:00",
+   "theme": null,
+   "status": "scheduled",
+   "channels": [
+    "x"
+   ],
+   "topic": "Breakpoint live, day 1 photos (Tier 1 touch 2)",
+   "x": {
+    "status": "scheduled",
+    "typefully_id": 11946007,
+    "date": "2026-11-16 14:00"
+   },
+   "photo": [
+    "posts/photos/breakpoint-2026/day1-badge-breakpoint-wall.jpg",
+    "posts/photos/breakpoint-2026/day1-hat-badge.jpg",
+    "posts/photos/breakpoint-2026/day1-bull.jpg",
+    "posts/photos/breakpoint-2026/day1-signpost.jpg"
+   ],
+   "note": "Jordan sent day-1 photos 15 Nov. Used the last Typefully credit for November, so the 19 Nov recap has no X version."
+  },
+  {
    "n": 15,
    "date": "2026-11-17",
    "time": "20:00",
@@ -575,7 +598,9 @@
    "format": "carousel",
    "goal": "Engagement / BD",
    "status": "todo",
-   "theme_fallback": "light"
+   "theme_fallback": "light",
+   "photo_folder": "posts/photos/breakpoint-2026/",
+   "note": "15 Nov: Jordan sent day-1 photos (in photo_folder; QR codes on the badge already blurred). Use raw photo slides, words in the caption. Only claim what Jordan has said: he attended; don't invent conversations or takeaways. A selfie with another attendee exists but is NOT in the repo: only use it if Jordan sends it again saying it's OK. Typefully X credits are used up for November: skip the X version."
   },
   {
    "n": 18,
