@@ -539,18 +539,19 @@
   },
   {
    "n": "17a",
-   "date": "2026-11-16",
-   "time": "14:00",
+   "date": "2026-11-15",
+   "time": "17:07",
    "theme": null,
-   "status": "scheduled",
+   "status": "published",
    "channels": [
     "x"
    ],
    "topic": "Breakpoint live, day 1 photos (Tier 1 touch 2)",
    "x": {
-    "status": "scheduled",
+    "status": "published",
     "typefully_id": 11946007,
-    "date": "2026-11-16 14:00"
+    "date": "2026-11-15 17:07",
+    "url": "https://x.com/socius_talent/status/2122013625292615808"
    },
    "photo": [
     "posts/photos/breakpoint-2026/day1-badge-breakpoint-wall.jpg",
@@ -558,7 +559,7 @@
     "posts/photos/breakpoint-2026/day1-bull.jpg",
     "posts/photos/breakpoint-2026/day1-signpost.jpg"
    ],
-   "note": "Jordan sent day-1 photos 15 Nov. Used the last Typefully credit for November, so the 19 Nov recap has no X version."
+   "note": "Jordan sent day-1 photos 15 Nov. Used the last Typefully credit for November, so the 19 Nov recap has no X version. Jordan asked for it live the same day, so it was published at 17:07 on 15 Nov instead of 14:00 on 16 Nov."
   },
   {
    "n": 15,
