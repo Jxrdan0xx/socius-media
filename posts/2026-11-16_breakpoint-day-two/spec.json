@@ -1,0 +1,44 @@
+[
+ {
+  "id": "breakpoint-recap",
+  "theme": "photo",
+  "slides": [
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/selfie-balcony-socius-tee.jpg",
+    "tag": "Solana Breakpoint · Day two"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/hall-from-balcony.jpg",
+    "tag": "Olympia, from the balcony"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/olympia-station-gates.jpg",
+    "tag": "Even the ticket gates got the memo"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/day1-badge-breakpoint-wall.jpg",
+    "tag": "Badge on since day one"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/day1-bull.jpg",
+    "tag": "The bull wore shades"
+   },
+   {
+    "type": "cta",
+    "theme": "gradient",
+    "eyebrow": "Still at Breakpoint?",
+    "title": "Let's grab a <span class='g'>coffee.</span>",
+    "sub": "Jordan is at Olympia until Tuesday. Hiring for your Solana team, or weighing up your next move? DM us.",
+    "buttons": [
+     "DM us",
+     "sociustalent.com"
+    ]
+   }
+  ]
+ }
+]
