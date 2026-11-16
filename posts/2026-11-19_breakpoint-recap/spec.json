@@ -1,0 +1,39 @@
+[
+ {
+  "id": "breakpoint-recap",
+  "theme": "photo",
+  "slides": [
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/day1-badge-breakpoint-wall.jpg",
+    "tag": "Solana Breakpoint · London"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/day1-bull.jpg",
+    "tag": "Olympia, day one"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/day1-hat-badge.jpg",
+    "tag": "Badge, lanyard, cap"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/day1-signpost.jpg",
+    "tag": "Which way to the coffee?"
+   },
+   {
+    "type": "cta",
+    "eyebrow": "After Breakpoint",
+    "title": "Crossed paths? <span class='g'>Let's keep talking.</span>",
+    "sub": "Hiring for your Solana team, or weighing up your next move? DM us.",
+    "buttons": [
+     "DM us",
+     "sociustalent.com"
+    ],
+    "theme": "gradient"
+   }
+  ]
+ }
+]
