@@ -3,37 +3,15 @@
   "id": "breakpoint-recap",
   "theme": "photo",
   "slides": [
-   {
-    "type": "raw",
-    "bg": "../photos/breakpoint-2026/day1-badge-breakpoint-wall.jpg",
-    "tag": "Solana Breakpoint · London"
-   },
-   {
-    "type": "raw",
-    "bg": "../photos/breakpoint-2026/day1-bull.jpg",
-    "tag": "Olympia, day one"
-   },
-   {
-    "type": "raw",
-    "bg": "../photos/breakpoint-2026/day1-hat-badge.jpg",
-    "tag": "Badge, lanyard, cap"
-   },
-   {
-    "type": "raw",
-    "bg": "../photos/breakpoint-2026/day1-signpost.jpg",
-    "tag": "Which way to the coffee?"
-   },
-   {
-    "type": "cta",
-    "eyebrow": "After Breakpoint",
+   {"type": "raw", "bg": "../photos/breakpoint-2026/selfie-balcony-socius-tee.jpg", "tag": "Solana Breakpoint · London"},
+   {"type": "raw", "bg": "../photos/breakpoint-2026/hall-from-balcony.jpg", "tag": "Olympia, from the balcony"},
+   {"type": "raw", "bg": "../photos/breakpoint-2026/olympia-station-gates.jpg", "tag": "Even the ticket gates got the memo"},
+   {"type": "raw", "bg": "../photos/breakpoint-2026/day1-badge-breakpoint-wall.jpg", "tag": "Badge on, day one"},
+   {"type": "raw", "bg": "../photos/breakpoint-2026/day1-bull.jpg", "tag": "The bull wore shades"},
+   {"type": "cta", "theme": "gradient", "eyebrow": "After Breakpoint",
     "title": "Crossed paths? <span class='g'>Let's keep talking.</span>",
     "sub": "Hiring for your Solana team, or weighing up your next move? DM us.",
-    "buttons": [
-     "DM us",
-     "sociustalent.com"
-    ],
-    "theme": "gradient"
-   }
+    "buttons": ["DM us", "sociustalent.com"]}
   ]
  }
 ]

@@ -4,7 +4,7 @@ Solana Breakpoint, London. 💜
 
 Breakpoint came to London this year, and our founder Jordan was there at Olympia, among the Solana builders, founders and teams shaping what comes next.
 
-A few snaps from day one: the badge, the bull in shades, the cap, and a signpost we were glad of more than once.
+A few snaps from Olympia: the view from the balcony, ticket gates in Breakpoint purple, and a bull in shades.
 
 If we crossed paths, thank you for your time. If we didn't, our DMs are open. Hiring for your Solana team, or weighing up your next move? We'd be glad to talk.
 
