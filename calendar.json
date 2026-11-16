@@ -598,10 +598,28 @@
    "topic": "Breakpoint London recap: what we heard from founders and builders. Use Jordan's Breakpoint photos from posts/photos/ if added; if none, use gradient theme and keep it to genuine, general takeaways (ask nothing invented). If Jordan hasn't shared anything about the event by 18 Nov, swap for a 'Thanks to everyone we met at Breakpoint' post without specifics.",
    "format": "carousel",
    "goal": "Engagement / BD",
-   "status": "todo",
+   "status": "scheduled",
    "theme_fallback": "light",
    "photo_folder": "posts/photos/breakpoint-2026/",
-   "note": "15 Nov: Jordan sent day-1 photos (in photo_folder; QR codes on the badge already blurred). Use raw photo slides, words in the caption. Only claim what Jordan has said: he attended; don't invent conversations or takeaways. A selfie with another attendee exists but is NOT in the repo: only use it if Jordan sends it again saying it's OK. Typefully X credits are used up for November: skip the X version."
+   "note": "15 Nov: Jordan sent day-1 photos (in photo_folder; QR codes on the badge already blurred). Use raw photo slides, words in the caption. Only claim what Jordan has said: he attended; don't invent conversations or takeaways. A selfie with another attendee exists but is NOT in the repo: only use it if Jordan sends it again saying it's OK. Typefully X credits are used up for November: skip the X version. 16 Nov run: scheduled with day-1 photos (no later photos in the repo yet). 5 slides photo: raw x4 (badge wall, bull, cap+badge, signpost) with tag pills, gradient cta. Last photo post (5 Nov) opened with a text cover and used white statement/cta, so this one opens raw and ends on gradient. Variety: previous 3 feed posts midnight, gradient, frame; photo is 2 of the last 6. Caption claims only that Jordan attended; no invented conversations or takeaways. Instagram + Facebook 18:00 (Metricool November: 15 posts counting each network before this, 17 after; 24 and 26 Nov IG-only keeps it at 19/20). LinkedIn Thu 15:30 via Buffer document carousel, no URL, CTA 'Send us a message'. X skipped (no credit). Clean-up: Buffer socius_li 17 Nov post checked, no URL or role count, nothing to fix.",
+   "folder": "posts/2026-11-19_breakpoint-recap",
+   "metricool_id": 429752184,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=7647816680405746531",
+   "photo": [
+    "posts/photos/breakpoint-2026/day1-badge-breakpoint-wall.jpg",
+    "posts/photos/breakpoint-2026/day1-bull.jpg",
+    "posts/photos/breakpoint-2026/day1-hat-badge.jpg",
+    "posts/photos/breakpoint-2026/day1-signpost.jpg"
+   ],
+   "linkedin": {
+    "status": "scheduled",
+    "buffer_id": "6afac417d7e5fee638b22961",
+    "date": "2026-11-19 15:30"
+   },
+   "x": {
+    "status": "skipped",
+    "note": "No Typefully credit: quota 9 used/1 remaining at scheduling, held by the pending 17 Nov thread."
+   }
   },
   {
    "n": 18,
