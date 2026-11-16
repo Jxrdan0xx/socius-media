@@ -40,10 +40,10 @@
   "photo_library": {
    "unused": [
     "coffee-linkedin-laptop.jpg (casual 'Monday coffee' / desk post)",
-    "breakpoint-2026/selfie-balcony-2.jpg (alt Breakpoint selfie)",
     "breakpoint-2026/collector-crypt-booth.jpg (identifiable attendees: avoid as a feature image)",
     "breakpoint-2026/day1-hat-badge.jpg",
-    "breakpoint-2026/day1-signpost.jpg"
+    "breakpoint-2026/day1-signpost.jpg",
+    "breakpoint-2026/selfie-balcony-socius-tee.jpg (alt Breakpoint selfie, Socius tee visible)"
    ],
    "used_or_planned": [
     "token2049-dubai-immunefi-vip-mixer-jordan.jpg",
@@ -578,12 +578,12 @@
    "status": "scheduled",
    "theme_fallback": "light",
    "photo_folder": "posts/photos/breakpoint-2026/",
-   "note": "15 Nov: Jordan sent day-1 photos (in photo_folder; QR codes on the badge already blurred). Use raw photo slides, words in the caption. Only claim what Jordan has said: he attended; don't invent conversations or takeaways. A selfie with another attendee exists but is NOT in the repo: only use it if Jordan sends it again saying it's OK. Typefully X credits are used up for November: skip the X version. 16 Nov run: scheduled with day-1 photos (no later photos in the repo yet). 5 slides photo: raw x4 (badge wall, bull, cap+badge, signpost) with tag pills, gradient cta. Last photo post (5 Nov) opened with a text cover and used white statement/cta, so this one opens raw and ends on gradient. Variety: previous 3 feed posts midnight, gradient, frame; photo is 2 of the last 6. Caption claims only that Jordan attended; no invented conversations or takeaways. Instagram + Facebook 18:00 (Metricool November: 15 posts counting each network before this, 17 after; 24 and 26 Nov IG-only keeps it at 19/20). LinkedIn Thu 15:30 via Buffer document carousel, no URL, CTA 'Send us a message'. X skipped (no credit). Clean-up: Buffer socius_li 17 Nov post checked, no URL or role count, nothing to fix. 16 Nov (later): Jordan sent 6 more photos. Rebuilt as 6 slides: raw selfie cover (Socius tee, balcony over the main hall), hall from balcony, Breakpoint-branded station gates, badge wall, bull, gradient cta. Metricool post updated in place (same time, IG+FB), Buffer LinkedIn deleted and recreated at the same time with the new PDF. Unused from this batch: selfie-balcony-2 (near-duplicate) and collector-crypt-booth (strangers' faces and a third-party brand). 16 Nov 17:24: Jordan asked to post it today as day two. Moved from 19 Nov to Mon 16 Nov (IG+FB 18:00, LinkedIn 17:45 via Buffer, outside the usual Tue-Thu/15:00-16:30 slots at his request). Folder renamed to posts/2026-11-16_breakpoint-day-two, captions and cta slide reworded to live ('Still at Breakpoint? Let's grab a coffee', Jordan there until Tue 17 Nov). X skipped: 1 Typefully credit left, held by the 17 Nov thread. The 19 Nov slot is now free.",
+   "note": "15 Nov: Jordan sent day-1 photos (in photo_folder; QR codes on the badge already blurred). Use raw photo slides, words in the caption. Only claim what Jordan has said: he attended; don't invent conversations or takeaways. A selfie with another attendee exists but is NOT in the repo: only use it if Jordan sends it again saying it's OK. Typefully X credits are used up for November: skip the X version. 16 Nov run: scheduled with day-1 photos (no later photos in the repo yet). 5 slides photo: raw x4 (badge wall, bull, cap+badge, signpost) with tag pills, gradient cta. Last photo post (5 Nov) opened with a text cover and used white statement/cta, so this one opens raw and ends on gradient. Variety: previous 3 feed posts midnight, gradient, frame; photo is 2 of the last 6. Caption claims only that Jordan attended; no invented conversations or takeaways. Instagram + Facebook 18:00 (Metricool November: 15 posts counting each network before this, 17 after; 24 and 26 Nov IG-only keeps it at 19/20). LinkedIn Thu 15:30 via Buffer document carousel, no URL, CTA 'Send us a message'. X skipped (no credit). Clean-up: Buffer socius_li 17 Nov post checked, no URL or role count, nothing to fix. 16 Nov (later): Jordan sent 6 more photos. Rebuilt as 6 slides: raw selfie cover (Socius tee, balcony over the main hall), hall from balcony, Breakpoint-branded station gates, badge wall, bull, gradient cta. Metricool post updated in place (same time, IG+FB), Buffer LinkedIn deleted and recreated at the same time with the new PDF. Unused from this batch: selfie-balcony-2 (near-duplicate) and collector-crypt-booth (strangers' faces and a third-party brand). 16 Nov 17:24: Jordan asked to post it today as day two. Moved from 19 Nov to Mon 16 Nov (IG+FB 18:00, LinkedIn 17:45 via Buffer, outside the usual Tue-Thu/15:00-16:30 slots at his request). Folder renamed to posts/2026-11-16_breakpoint-day-two, captions and cta slide reworded to live ('Still at Breakpoint? Let's grab a coffee', Jordan there until Tue 17 Nov). X skipped: 1 Typefully credit left, held by the 17 Nov thread. The 19 Nov slot is now free. 16 Nov 17:29: Jordan swapped the cover to IMG_4561 (selfie-balcony-2.jpg). Uploaded as cover-v2.jpg / linkedin-v2.pdf (new filenames to dodge the raw.githubusercontent cache). Metricool updated, Buffer recreated at 17:45.",
    "folder": "posts/2026-11-16_breakpoint-day-two",
-   "metricool_id": 430401290,
+   "metricool_id": 430407852,
    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=7647816680405746531",
    "photo": [
-    "posts/photos/breakpoint-2026/selfie-balcony-socius-tee.jpg",
+    "posts/photos/breakpoint-2026/selfie-balcony-2.jpg",
     "posts/photos/breakpoint-2026/hall-from-balcony.jpg",
     "posts/photos/breakpoint-2026/olympia-station-gates.jpg",
     "posts/photos/breakpoint-2026/day1-badge-breakpoint-wall.jpg",
@@ -591,7 +591,7 @@
    ],
    "linkedin": {
     "status": "scheduled",
-    "buffer_id": "6afb3c52b2b7b6e97b96dbfb",
+    "buffer_id": "6afb3d872cc5e64ffc7e54c8",
     "date": "2026-11-16 17:45"
    },
    "x": {
