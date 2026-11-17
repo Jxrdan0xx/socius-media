@@ -628,6 +628,30 @@
    }
   },
   {
+   "n": "17c",
+   "date": "2026-11-19",
+   "time": "18:00",
+   "theme": "photo",
+   "pillar": "Culture & moments",
+   "topic": "Breakpoint London wrap-up (Tier 1 touch 3): Jordan's day-three photos. 'That's a wrap', Breakpoint 15-17 Nov, Olympia London. DMs open to Solana founders hiring and builders open to a move.",
+   "format": "carousel",
+   "goal": "Engagement / BD",
+   "status": "todo",
+   "theme_fallback": "light",
+   "photos": [
+    "posts/photos/breakpoint-2026/day3-jordan-breakpoint-entrance.jpg",
+    "posts/photos/breakpoint-2026/day3-main-stage.jpg",
+    "posts/photos/breakpoint-2026/day3-bp26-portrait-thames.jpg",
+    "posts/photos/breakpoint-2026/day3-bp26-portrait-underground.jpg"
+   ],
+   "channels": [
+    "instagram",
+    "facebook",
+    "linkedin"
+   ],
+   "note": "17 Nov: Jordan sent day-three photos and said 'Run it Thursday'. VARIETY EXCEPTION APPROVED BY JORDAN: this photo post may follow the 16 Nov photo post; keep the theme 'photo', do not swap it. Make it look different from 16 Nov: lead with the entrance shot (Jordan in the reflective jacket under the Breakpoint sign) as a raw cover, then main stage, then the two BP26 portraits, then a cta slide in a different colour/type from 16 Nov's gradient cta. Use the raw slide type so no text covers faces. Caption: wrap-up only. Jordan attended all three days; don't invent conversations, takeaways or quotes, and don't name or imply any link to the speaker or company shown on the stage screens. Don't use day3-sponsor-wall.jpg (third-party logos). LinkedIn company page via Buffer, Thu 19 Nov 15:30, document carousel, no URL, CTA 'Send us a message'. X skipped (no Typefully credits left in November)."
+  },
+  {
    "n": 18,
    "date": "2026-11-24",
    "time": "18:00",
