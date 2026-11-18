@@ -56,6 +56,7 @@ Rendered by `engine/build.py` (1080×1350 JPEG). Write a spec JSON; don't hand-d
 
 ## Team
 - Jordan Edwards, Founder. Joshua Moore, Recruiter (DeFi, NFT, infrastructure). Tegan, Researcher (behind-the-scenes talent research). Illustrated portraits in posts/photos/team/.
+- Event photos with other people (18 Nov 2026, Jordan): fine to post; at crypto events everyone consents to photos. Still never name or tag someone unless Jordan gives the name.
 - Real photos of people: use the `raw` slide type so no text covers faces; put the words in the caption.
 
 ## Testimonial cadence
