@@ -1,0 +1,47 @@
+[
+ {
+  "id": "breakpoint-wrap",
+  "theme": "photo",
+  "slides": [
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/day3-jordan-breakpoint-entrance.jpg",
+    "tag": "Solana Breakpoint · That's a wrap"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/day3-booth-mirror-selfie.jpg",
+    "tag": "Mirror booth, day three"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/day3-main-stage.jpg",
+    "tag": "A full house at the main stage"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/day3-panel-stage.jpg"
+   },
+   {
+    "type": "raw",
+    "bg": "../photos/breakpoint-2026/day3-solana-sculpture.jpg",
+    "tag": "The Solana mark, life-size"
+   },
+   {
+    "type": "raw",
+    "bg": "portrait-thames-4x5.jpg"
+   },
+   {
+    "type": "cta",
+    "theme": "light",
+    "eyebrow": "Breakpoint 2026 · 15–17 Nov · Olympia",
+    "title": "Three days. Now the <span class='g'>follow-ups.</span>",
+    "sub": "Missed us at Olympia? Hiring for your Solana team, or open to your next move? Our DMs are open.",
+    "buttons": [
+     "DM us",
+     "sociustalent.com"
+    ]
+   }
+  ]
+ }
+]
