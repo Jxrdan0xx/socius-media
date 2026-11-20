@@ -1,0 +1,23 @@
+[
+ {
+  "id": "friday-roles",
+  "theme": "midnight",
+  "slides": [
+   {"type": "cover", "eyebrow": "Live on the desk · 20 Nov",
+    "title": "Founding seats, <span class='g'>serious upside.</span>",
+    "sub": "Exchange leadership, perps BD and payments compliance. Swipe for salaries and locations."},
+   {"type": "stat", "eyebrow": "Founder", "stat": "$300–400k", "unit": "base salary",
+    "title": "Build a <span class='g'>regulated exchange</span> from day one.",
+    "chips": ["US regulated exchange", "NYC pref, US remote", "Founder level"]},
+   {"type": "stat", "eyebrow": "Founding BD Lead", "stat": "$100–120k", "unit": "base salary",
+    "title": "Own BD <span class='g'>before launch.</span>",
+    "chips": ["Perps venue", "Remote, worldwide", "Founding team"]},
+   {"type": "stat", "eyebrow": "Senior Manager, Compliance", "stat": "$180–210k", "unit": "base salary",
+    "title": "Run the <span class='g'>compliance programme</span> at a scaling payments firm.",
+    "chips": ["Crypto payments", "Chicago, 4 days onsite", "Programme owner"]},
+   {"type": "cta", "eyebrow": "Also on the desk", "title": "More roles <span class='g'>live now.</span>",
+    "rows": [["Founding Exchange Engineer"], ["ML Ops Engineer, Chicago"], ["Data Scientist, Fraud"]],
+    "buttons": ["sociustalent.com/jobs", "Hiring? sociustalent.com/talent"]}
+  ]
+ }
+]
