@@ -671,14 +671,28 @@
   {
    "date": "2026-11-24",
    "time": "18:00",
-   "status": "todo",
+   "status": "scheduled",
    "theme": "white",
    "n": 19,
    "pillar": "Hiring intelligence",
    "topic": "When should a startup bring in a recruiter?",
    "format": "carousel",
    "goal": "Business leads",
-   "note": "Moved to December to stay within the 20 posts/month budget. Review 1 Nov: moved from 12:00 to 20:00 (noon IG slots weakest in October). 9 Nov: moved from 2026-12-07 to 2026-12-08 (Tue-Thu rule, Buffer timing study)."
+   "note": "Moved to December to stay within the 20 posts/month budget. Review 1 Nov: moved from 12:00 to 20:00 (noon IG slots weakest in October). 9 Nov: moved from 2026-12-07 to 2026-12-08 (Tue-Thu rule, Buffer timing study). 21 Nov run: swapped in from 8 Dec (the planned Josh testimonial would have come two posts after the 17 Nov testimonial; it moved to 8 Dec). Scheduled. 6 slides white: cover opener (last white post, 10 Nov, was a single statement), statement with sub, statement rows, statement chips, statement rows, cta. Variety: previous 3 feed posts photo (19 Nov), midnight (17 Nov), photo (16 Nov); white is 1 of the last 6. Instagram only (no Facebook), keeping November within the Metricool budget (~18 counted before, 19 after; 26 Nov IG-only = 20). LinkedIn Wed 25 Nov 15:30 via Buffer document carousel, no URL, CTA 'Send us a message'. X skipped (quota). Clean-up: Buffer socius_li had nothing scheduled before this run, nothing to fix.",
+   "title": "When should a startup bring in a recruiter?",
+   "folder": "posts/2026-11-24_when-to-bring-in-a-recruiter",
+   "slides": 6,
+   "metricool_id": 436493454,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=6443136929972242564",
+   "linkedin": {
+    "status": "scheduled",
+    "buffer_id": "6b015ba420a2d09a0ae6f5c4",
+    "date": "2026-11-25 15:30"
+   },
+   "x": {
+    "status": "skipped",
+    "note": "Typefully quota 10/10 used for November (resets 1 Dec)."
+   }
   },
   {
    "n": 20,
