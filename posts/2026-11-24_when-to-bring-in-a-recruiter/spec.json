@@ -1,0 +1,80 @@
+[
+ {
+  "id": "when-to-bring-in-a-recruiter",
+  "theme": "white",
+  "slides": [
+   {
+    "type": "cover",
+    "eyebrow": "For founders",
+    "title": "When should a startup bring in <span class='g'>a recruiter?</span>",
+    "sub": "Not always, and not on day one. Here's how we'd call it."
+   },
+   {
+    "type": "statement",
+    "eyebrow": "Not yet",
+    "title": "Your first hires often come from <span class='g'>your network.</span>",
+    "sub": "If the founding team can fill the first seats with people they've already built with, do that. Trust is already there, and it costs you nothing."
+   },
+   {
+    "type": "statement",
+    "eyebrow": "When it's time",
+    "title": "Signs the network has <span class='g'>run dry.</span>",
+    "rows": [
+     [
+      "A role you can't assess",
+      "Your first security, protocol or AI hire"
+     ],
+     [
+      "Founders are screening CVs",
+      "Instead of building and selling"
+     ],
+     [
+      "You need people who aren't looking",
+      "The best rarely apply to job ads"
+     ]
+    ]
+   },
+   {
+    "type": "statement",
+    "eyebrow": "Before you call one",
+    "title": "Come with a <span class='g'>clear brief.</span>",
+    "sub": "A recruiter is only as good as the brief. Have these ready, or work them out together.",
+    "chips": [
+     "Salary range",
+     "Equity terms",
+     "90-day outcomes",
+     "Interview loop",
+     "Who decides"
+    ]
+   },
+   {
+    "type": "statement",
+    "eyebrow": "What good looks like",
+    "title": "What a good one <span class='g'>does.</span>",
+    "rows": [
+     [
+      "Knows the market",
+      "Who's strong, and who's open to a move"
+     ],
+     [
+      "Pushes back on the brief",
+      "When the spec won't land the person you need"
+     ],
+     [
+      "Keeps you informed",
+      "Without you having to chase"
+     ]
+    ]
+   },
+   {
+    "type": "cta",
+    "title": "Not sure you're <span class='g'>there yet?</span>",
+    "sub": "Send us your brief. If we think your network will get you there faster, we'll say so.",
+    "buttons": [
+     "DM us your brief",
+     "sociustalent.com"
+    ]
+   }
+  ]
+ }
+]

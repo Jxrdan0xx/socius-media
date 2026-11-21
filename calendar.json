@@ -669,17 +669,16 @@
    }
   },
   {
-   "n": 18,
    "date": "2026-11-24",
    "time": "18:00",
-   "pillar": "Socius brand and proof",
-   "topic": "Meet Josh: client testimonial from Borja Moll Calvo (Josh's, in TESTIMONIALS.md). Credit Joshua Moore, Blockchain Recruiter at Socius",
+   "status": "todo",
+   "theme": "white",
+   "n": 19,
+   "pillar": "Hiring intelligence",
+   "topic": "When should a startup bring in a recruiter?",
    "format": "carousel",
    "goal": "Business leads",
-   "status": "todo",
-   "testimonial": "Borja Moll Calvo",
-   "theme": "white",
-   "note": "Use photo theme instead if a photo of Josh is in posts/photos/. Review 1 Nov: moved from 12:00 to 18:00; both noon IG posts in October had the lowest reach (16 and 21). 9 Nov: moved from 2026-11-21 to 2026-11-24 (Tue-Thu rule, Buffer timing study)."
+   "note": "Moved to December to stay within the 20 posts/month budget. Review 1 Nov: moved from 12:00 to 20:00 (noon IG slots weakest in October). 9 Nov: moved from 2026-12-07 to 2026-12-08 (Tue-Thu rule, Buffer timing study)."
   },
   {
    "n": 20,
@@ -717,16 +716,17 @@
    "note": "Moved to December to stay within the 20 posts/month budget 9 Nov: moved from 2026-12-04 to 2026-12-03 (Tue-Thu rule, Buffer timing study)."
   },
   {
-   "n": 19,
    "date": "2026-12-08",
    "time": "20:00",
    "theme": "white",
-   "pillar": "Hiring intelligence",
-   "topic": "When should a startup bring in a recruiter?",
+   "status": "todo",
+   "n": 18,
+   "pillar": "Socius brand and proof",
+   "topic": "Meet Josh: client testimonial from Borja Moll Calvo (Josh's, in TESTIMONIALS.md). Credit Joshua Moore, Blockchain Recruiter at Socius",
    "format": "carousel",
    "goal": "Business leads",
-   "status": "todo",
-   "note": "Moved to December to stay within the 20 posts/month budget. Review 1 Nov: moved from 12:00 to 20:00 (noon IG slots weakest in October). 9 Nov: moved from 2026-12-07 to 2026-12-08 (Tue-Thu rule, Buffer timing study)."
+   "testimonial": "Borja Moll Calvo",
+   "note": "Use photo theme instead if a photo of Josh is in posts/photos/. Review 1 Nov: moved from 12:00 to 18:00; both noon IG posts in October had the lowest reach (16 and 21). 9 Nov: moved from 2026-11-21 to 2026-11-24 (Tue-Thu rule, Buffer timing study). 21 Nov run: swapped with the 24 Nov slot ('When should a startup bring in a recruiter?') because 24 Nov would have been a testimonial only two feed posts after the 17 Nov testimonial carousel (BRAND: testimonials at most 1 in 6 posts). 8 Dec is the 6th feed post after 17 Nov. Theme stays white; the next run should re-check the variety rule (16 Dec is also white)."
   },
   {
    "n": 21,
