@@ -703,7 +703,22 @@
    "topic": "Happy Thanksgiving to our US network (clients, candidates, partners). Warm, short, on-brand palette, no stock harvest art",
    "format": "static",
    "goal": "Community",
-   "status": "todo"
+   "status": "scheduled",
+   "title": "Happy Thanksgiving to our US network",
+   "folder": "posts/2026-11-26_thanksgiving",
+   "slides": 1,
+   "metricool_id": 438458748,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=6192489429658323230",
+   "linkedin": {
+    "status": "scheduled",
+    "buffer_id": "6b03fe789c207fed95896320",
+    "date": "2026-11-26 15:30"
+   },
+   "x": {
+    "status": "skipped",
+    "note": "Typefully quota 10/10 used for November (resets 1 Dec)."
+   },
+   "note": "23 Nov run: scheduled. Static, gradient, single statement slide (last gradient post, 12 Nov, opened with an event card). Variety: previous 3 feed posts white (24 Nov), photo (19 Nov), midnight (17 Nov); gradient is 2 of the last 6. Instagram only (no Facebook): Metricool November had 19 network-posts before this (incl. 3 errored LinkedIn), 20 after. LinkedIn Thu 26 Nov 15:30 via Buffer single image (holiday), no URL, CTA 'send us a message'. X skipped (quota). Clean-up: Buffer socius_li 25 Nov post checked, no URL or role count, nothing to fix."
   },
   {
    "n": 11,
