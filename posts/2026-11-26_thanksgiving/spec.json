@@ -1,0 +1,14 @@
+[
+ {
+  "id": "thanksgiving",
+  "theme": "gradient",
+  "slides": [
+   {
+    "type": "statement",
+    "eyebrow": "Happy Thanksgiving",
+    "title": "Thank you for building <span class='g'>with us.</span>",
+    "sub": "To the founders who trust us with their teams, the people who trust us with their careers, and the partners who make it work. Have a great Thanksgiving."
+   }
+  ]
+ }
+]
