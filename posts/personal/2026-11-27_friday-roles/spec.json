@@ -1,0 +1,23 @@
+[
+ {
+  "id": "friday-roles",
+  "theme": "midnight",
+  "slides": [
+   {"type": "cover", "eyebrow": "Live on the desk · 27 Nov",
+    "title": "Senior seats in <span class='g'>trading, fintech and AI.</span>",
+    "sub": "Trading infra, backend and applied AI. Swipe for salaries and locations."},
+   {"type": "stat", "eyebrow": "Head of Trading Desk Platform", "stat": "$200–250k", "unit": "base salary",
+    "title": "Lead the <span class='g'>C++ trading platform</span> at a crypto fund.",
+    "chips": ["Crypto trading", "Remote: Europe / US", "Head of"]},
+   {"type": "stat", "eyebrow": "Senior Backend Engineer", "stat": "$210–300k", "unit": "base salary",
+    "title": "Top-end base for a <span class='g'>senior IC</span> in New York.",
+    "chips": ["Fintech", "New York, 3 days onsite"]},
+   {"type": "stat", "eyebrow": "Solutions Architect, AI", "stat": "$150–185k", "unit": "base salary",
+    "title": "Put a <span class='g'>new enterprise AI platform</span> in front of customers.",
+    "chips": ["Enterprise AI", "Remote: EU / US / ME"]},
+   {"type": "cta", "eyebrow": "Also on the desk", "title": "More roles <span class='g'>live now.</span>",
+    "rows": [["HFT Architecture Lead"], ["Senior Mobile Engineer (React Native)"], ["Senior Security Operations Engineer"]],
+    "buttons": ["sociustalent.com/jobs", "Hiring? sociustalent.com/talent"]}
+  ]
+ }
+]
