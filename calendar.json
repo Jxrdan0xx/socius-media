@@ -729,8 +729,23 @@
    "topic": "Web3 infrastructure vs product engineering: what's the difference?",
    "format": "carousel",
    "goal": "Authority",
-   "status": "todo",
-   "note": "Moved to December to stay within the 20 posts/month budget. Review 1 Nov: moved from 12:00 to 18:00 (noon IG slots weakest in October)."
+   "status": "scheduled",
+   "note": "Moved to December to stay within the 20 posts/month budget. Review 1 Nov: moved from 12:00 to 18:00 (noon IG slots weakest in October). 28 Nov run: scheduled. 6 slides terminal: question opener (A/B, not a cover; last terminal post 9 Nov was cover + statement chips x4 + cta), statement rows (infra), statement rows (product), statement chips, statement, cta. Variety: previous 3 feed posts gradient (26 Nov), white (24 Nov), photo (19 Nov); terminal is 0 of the last 6. Instagram + Facebook (new month, Metricool December empty before this, 2 network-posts after). LinkedIn Wed 2 Dec 16:00 via Buffer document carousel, no URL, CTA 'Send us a message'. X 5-post thread Tue 1 Dec 14:30, cover on post 1, link only in the final post; scheduled while quota showed 10/10 used (resets 1 Dec 00:00 UTC), so check it published. Clean-up: Buffer socius_li had nothing scheduled, nothing to fix.",
+   "title": "Infra or product: who are you hiring?",
+   "folder": "posts/2026-12-01_infra-vs-product",
+   "slides": 6,
+   "metricool_id": 445256011,
+   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7429706&openWithPostUuid=-7107175743366934782",
+   "linkedin": {
+    "status": "scheduled",
+    "buffer_id": "6b0a9610c84d4c572b4a77c3",
+    "date": "2026-12-02 16:00"
+   },
+   "x": {
+    "status": "scheduled",
+    "typefully_id": 12252359,
+    "date": "2026-12-01 14:30"
+   }
   },
   {
    "n": 16,
