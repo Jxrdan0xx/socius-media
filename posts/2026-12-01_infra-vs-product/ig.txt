@@ -1,0 +1,15 @@
+Infra or product: which Web3 engineer are you actually hiring? 🛠️
+
+Both write code. Both ship. They solve very different problems.
+
+Infrastructure engineers build the layer everything runs on: nodes, RPC, indexers, validators, networking. They think in systems, uptime and failure modes.
+
+Product engineers build what users touch: wallets, dApps, dashboards, and the wiring between the frontend and on-chain logic. They think in users and speed of iteration.
+
+The easiest way to tell which you need? Ask what's actually breaking. Downtime and slow calls point one way. Users dropping off points the other.
+
+The costly mistake is one job spec for both. Write it around the problem, not the buzzwords. Save this for your next hire. 📌
+
+Not sure which you need? DM us your brief, or find us via the link in bio.
+
+#Web3Hiring #BlockchainEngineering #StartupHiring #CryptoJobs #TechRecruitment

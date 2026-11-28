@@ -1,0 +1,86 @@
+[
+ {
+  "id": "infra-vs-product",
+  "theme": "terminal",
+  "slides": [
+   {
+    "type": "question",
+    "eyebrow": "$ diff ./infra ./product",
+    "title": "Infra or product: <span class='g'>who are you hiring?</span>",
+    "options": [
+     "Infrastructure: keeps the chain running",
+     "Product: turns it into something people use"
+    ],
+    "sub": "Both are Web3 engineers. They are not the same hire. Swipe for the difference."
+   },
+   {
+    "type": "statement",
+    "eyebrow": "> infrastructure",
+    "title": "The layer <span class='g'>it all</span> runs on.",
+    "rows": [
+     [
+      "Nodes, RPC and indexers",
+      "Getting data on and off chain, fast"
+     ],
+     [
+      "Validators and networking",
+      "Consensus, peers, client software"
+     ],
+     [
+      "Reliability",
+      "Uptime, latency, monitoring, incidents"
+     ]
+    ],
+    "sub": "Often Rust, Go or C++. Thinks in systems and failure modes."
+   },
+   {
+    "type": "statement",
+    "eyebrow": "> product",
+    "title": "Builds what <span class='g'>users touch.</span>",
+    "rows": [
+     [
+      "Wallets, dApps, dashboards",
+      "The surface people see"
+     ],
+     [
+      "Contract integration",
+      "Wiring the frontend to on-chain logic"
+     ],
+     [
+      "Speed of iteration",
+      "Ship, measure, change, ship again"
+     ]
+    ],
+    "sub": "Often TypeScript and React, sometimes Solidity. Thinks in users and outcomes."
+   },
+   {
+    "type": "statement",
+    "eyebrow": "> how to tell",
+    "title": "Ask what is <span class='g'>actually breaking.</span>",
+    "sub": "Downtime, slow calls, data you can't trust: that's an infrastructure problem. Users dropping off, features stuck in the backlog: that's a product problem.",
+    "chips": [
+     "uptime → infra",
+     "latency → infra",
+     "onboarding → product",
+     "shipping speed → product"
+    ]
+   },
+   {
+    "type": "statement",
+    "eyebrow": "! common mistake",
+    "title": "One job spec <span class='g'>for both.</span>",
+    "sub": "A protocol engineer screened on React questions. A frontend lead grilled on consensus theory. Write the spec around the problem, not the buzzwords, and the right people apply."
+   },
+   {
+    "type": "cta",
+    "eyebrow": "./scope-the-role",
+    "title": "Not sure which <span class='g'>you need?</span>",
+    "sub": "We help Web3, crypto and AI teams scope the role before the search starts. Send us your brief and we'll talk it through.",
+    "buttons": [
+     "Send us your brief",
+     "Socius Talent"
+    ]
+   }
+  ]
+ }
+]

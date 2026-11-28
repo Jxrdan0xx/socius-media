@@ -1,0 +1,20 @@
+Infra or product: which Web3 engineer are you actually hiring?
+
+Both write code. Both ship. They solve very different problems, and mixing them up is one of the most common hiring mistakes we see. 🧵
+---
+Infrastructure builds the layer everything runs on: nodes, RPC, indexers, validators, networking.
+
+Usually Rust, Go or C++. Thinks in systems, uptime and failure modes.
+---
+Product builds what users touch: wallets, dApps, dashboards, the wiring to on-chain logic.
+
+Usually TypeScript and React, sometimes Solidity. Thinks in users and shipping speed.
+---
+Quick test: ask what's actually breaking.
+
+Downtime, slow calls, bad data → infra.
+Users dropping off, features stuck in the backlog → product.
+
+Then write the spec around that problem, not the buzzwords.
+---
+Not sure which your next hire should be? Send us your brief: https://sociustalent.com/talent

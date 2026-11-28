@@ -1,0 +1,15 @@
+Infrastructure or product: which Web3 engineer are you actually hiring?
+
+It sounds obvious, but we see the two blurred all the time. Both write code, both ship, and both sit under "blockchain engineer" on a job board. They solve very different problems.
+
+Infrastructure engineers build the layer everything else runs on: nodes, RPC and indexers, validators, networking, reliability. Often Rust, Go or C++. They think in systems and failure modes.
+
+Product engineers build what users touch: wallets, dApps, dashboards, and the integration between the frontend and on-chain logic. Often TypeScript and React, sometimes Solidity. They think in users, outcomes and speed of iteration.
+
+The simplest test is to ask what is actually breaking. Downtime, slow calls and data you can't trust are infrastructure problems. Users dropping off and features stuck in the backlog are product problems.
+
+The expensive mistake is one job spec for both: a protocol engineer screened on React questions, or a frontend lead grilled on consensus theory. Write the spec around the problem, not the buzzwords, and the right people apply.
+
+Not sure which one your next hire should be? Send us a message and we'll talk it through.
+
+#Web3 #Hiring #BlockchainEngineering
